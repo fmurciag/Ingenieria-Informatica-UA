@@ -1,0 +1,64 @@
+Nombre de host:                            LAPTOP-IAN5A80B
+Nombre del sistema operativo:              Microsoft Windows 10 Home
+Versión del sistema operativo:             10.0.18362 N/D Compilación 18362
+Fabricante del sistema operativo:          Microsoft Corporation
+Configuración del sistema operativo:       Estación de trabajo independiente
+Tipo de compilación del sistema operativo: Multiprocessor Free
+Propiedad de:                              iana070300@hotmail.com
+Organización registrada:                   HP
+Id. del producto:                          00325-80136-82119-AAOEM
+Fecha de instalación original:             03/10/2019, 22:24:01
+Tiempo de arranque del sistema:            14/03/2020, 10:43:29
+Fabricante del sistema:                    HP
+Modelo el sistema:                         HP Laptop 15-da0xxx
+Tipo de sistema:                           x64-based PC
+Procesador(es):                            1 Procesadores instalados.
+                                           [01]: Intel64 Family 6 Model 142 Stepping 10 GenuineIntel ~1801 Mhz
+Versión del BIOS:                          Insyde F.01, 16/03/2018
+Directorio de Windows:                     C:\WINDOWS
+Directorio de sistema:                     C:\WINDOWS\system32
+Dispositivo de arranque:                   \Device\HarddiskVolume1
+Configuración regional del sistema:        es;Español (internacional)
+Idioma de entrada:                         es;Español (tradicional)
+Zona horaria:                              (UTC+01:00) Bruselas, Copenhague, Madrid, París
+Cantidad total de memoria física:          8.107 MB
+Memoria física disponible:                 3.082 MB
+Memoria virtual: tamaño máximo:            9.846 MB
+Memoria virtual: disponible:               3.170 MB
+Memoria virtual: en uso:                   6.676 MB
+Ubicación(es) de archivo de paginación:    C:\pagefile.sys
+Dominio:                                   WORKGROUP
+Servidor de inicio de sesión:              \\LAPTOP-IAN5A80B
+Revisión(es):                              11 revisión(es) instaladas.
+                                           [01]: KB4534132
+                                           [02]: KB4515383
+                                           [03]: KB4516115
+                                           [04]: KB4521863
+                                           [05]: KB4524569
+                                           [06]: KB4528759
+                                           [07]: KB4537759
+                                           [08]: KB4538674
+                                           [09]: KB4541338
+                                           [10]: KB4501374
+                                           [11]: KB4551762
+Tarjeta(s) de red:                         3 Tarjetas de interfaz de red instaladas.
+                                           [01]: Realtek RTL8822BE 802.11ac PCIe Adapter
+                                                 Nombre de conexión: Wi-Fi
+                                                 DHCP habilitado:    Sí
+                                                 Servidor DHCP:      192.168.1.1
+                                                 Direcciones IP
+                                                 [01]: 192.168.1.39
+                                                 [02]: fe80::38fb:50df:244c:80a1
+                                           [02]: Realtek PCIe GBE Family Controller
+                                                 Nombre de conexión: Ethernet
+                                                 Estado:             Medios desconectados
+                                           [03]: VirtualBox Host-Only Ethernet Adapter
+                                                 Nombre de conexión: VirtualBox Host-Only Network
+                                                 DHCP habilitado:    No
+                                                 Direcciones IP
+                                                 [01]: 192.168.56.1
+                                                 [02]: fe80::c0c8:8ee9:779c:1465
+Requisitos Hyper-V:                        Extensiones de modo de monitor de VM: Sí
+                                           Se habilitó la virtualización en el firmware: Sí
+                                           Traducción de direcciones de segundo nivel: Sí
+                                           La prevención de ejecución de datos está disponible: Sí

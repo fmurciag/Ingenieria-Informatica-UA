@@ -1,0 +1,61 @@
+Nombre de host:                            DESKTOP-9D73JO1
+Nombre del sistema operativo:              Microsoft Windows 10 Pro
+Versión del sistema operativo:             10.0.18362 N/D Compilación 18362
+Fabricante del sistema operativo:          Microsoft Corporation
+Configuración del sistema operativo:       Estación de trabajo independiente
+Tipo de compilación del sistema operativo: Multiprocessor Free
+Propiedad de:                              alifranjesu@hotmail.es
+Organización registrada:
+Id. del producto:                          00330-80122-46977-AA770
+Fecha de instalación original:             16/07/2019, 17:46:09
+Tiempo de arranque del sistema:            31/03/2020, 15:20:16
+Fabricante del sistema:                    Gigabyte Technology Co., Ltd.
+Modelo el sistema:                         X470 AORUS ULTRA GAMING
+Tipo de sistema:                           x64-based PC
+Procesador(es):                            1 Procesadores instalados.
+                                           [01]: AMD64 Family 23 Model 8 Stepping 2 AuthenticAMD ~3700 Mhz
+Versión del BIOS:                          American Megatrends Inc. F42a, 31/07/2019
+Directorio de Windows:                     C:\WINDOWS
+Directorio de sistema:                     C:\WINDOWS\system32
+Dispositivo de arranque:                   \Device\HarddiskVolume2
+Configuración regional del sistema:        es;Español (internacional)
+Idioma de entrada:                         es;Español (tradicional)
+Zona horaria:                              (UTC+01:00) Bruselas, Copenhague, Madrid, París
+Cantidad total de memoria física:          16.331 MB
+Memoria física disponible:                 11.454 MB
+Memoria virtual: tamaño máximo:            23.499 MB
+Memoria virtual: disponible:               16.445 MB
+Memoria virtual: en uso:                   7.054 MB
+Ubicación(es) de archivo de paginación:    C:\pagefile.sys
+Dominio:                                   WORKGROUP
+Servidor de inicio de sesión:              \\DESKTOP-9D73JO1
+Revisión(es):                              17 revisión(es) instaladas.
+                                           [01]: KB4537572
+                                           [02]: KB4497165
+                                           [03]: KB4498523
+                                           [04]: KB4503308
+                                           [05]: KB4508433
+                                           [06]: KB4509096
+                                           [07]: KB4515383
+                                           [08]: KB4516115
+                                           [09]: KB4520390
+                                           [10]: KB4521863
+                                           [11]: KB4524569
+                                           [12]: KB4528759
+                                           [13]: KB4537759
+                                           [14]: KB4538674
+                                           [15]: KB4541302
+                                           [16]: KB4541338
+                                           [17]: KB4551762
+Tarjeta(s) de red:                         1 Tarjetas de interfaz de red instaladas.
+                                           [01]: Intel(R) I211 Gigabit Network Connection
+                                                 Nombre de conexión: Ethernet
+                                                 DHCP habilitado:    Sí
+                                                 Servidor DHCP:      192.168.100.1
+                                                 Direcciones IP
+                                                 [01]: 192.168.100.98
+                                                 [02]: fe80::6dee:c33f:7527:925e
+Requisitos Hyper-V:                        Extensiones de modo de monitor de VM: Sí
+                                           Se habilitó la virtualización en el firmware: No
+                                           Traducción de direcciones de segundo nivel: Sí
+                                           La prevención de ejecución de datos está disponible: Sí

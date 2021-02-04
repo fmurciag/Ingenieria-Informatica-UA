@@ -1,0 +1,9 @@
+8 99
+11 13 19 23 29 31 41 43
+
+** A continuación una posible solución de vuelta atrás **
+Backtracking: 98
+Selection: 43 23 19 13 
+Expanded nodes: 69
+Discarded nodes: 53
+CPU time (ms): 0.032
