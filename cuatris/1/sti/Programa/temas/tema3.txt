@@ -1,0 +1,80 @@
+1.- ¿Qué modelo de gestión permite agrupar las actividades de una empresav según la secuencia lógica en la cual se ejecutan?:
+A. Gestión por departamentos
+B. Gestión por producción.
+*C. Gestión por procesos.
+D. Ninguna de las anteriores.
+2.- La acción que se realiza en una empresa y se responsabiliza un empleado es:
+A. El Proceso
+B. La Actividad
+C. La Secuencia
+*D. La Tarea
+3.- Cual no es un objetivo de la gestión por procesos:
+*A. Controlar el trabajo de los departamentos.
+B. Comprender como las entradas se transforman en salidas y como la información une a las diferentes actividades
+C. Obtener una orientación del negocio hacia el cliente y sus necesidades
+D. Dar una visión sistemática del negocio.
+4.- Cual no es un componte básico en un proceso:
+A. Inputs.
+B. Outputs.
+*C. Programación.
+D. Sistema de control.
+5.- En un diagrama de Flujo de datos, los datos intermedios los guardamos en:
+A. El Diccionario de Datos
+*B. Los Almacenes de Datos
+C. Los Procesos.
+D. Ninguna de las anteriores.
+6.- En una gestión por procesos el sistema de valor:
+A. Son todas las actividades de la empresa
+*B. Es todo el conjunto de procesos de la empresa
+C. Son solamente las actividades que reportan beneficios a la empresa
+D. Ninguna de las anteriores
+7.- Los problemas en una organización funcional surgen debido a que:
+A. La información de un área puede no ser trasladable a otra
+B. Las actividades se pueden realizar de forma fragmentada
+C. Los departamentos pueden tener visiones distintas de una misma actividad
+*D. Todas son ciertas
+8.- El análisis estructurado:
+A. Define el software y hardware necesario para modelar los procesos de la empresa
+B. Utiliza técnicas orientadas a objetos para definir los procesos
+C. Asegura que cada empleado realice sus tareas de forma correcta
+*D. Determina la secuencia y los procedimientos de trabajo para un proceso
+9.- En el análisis estructurado utilizando diagramas de flujos de datos el diseño es:
+A. Ascendente
+*B. Descendente
+C. En ambas direcciones
+D. Indistinto.
+10.- ¿Cúal no es un elemento básico de un proceso?
+A. Sistema de control
+*B. Programación
+C. Entradas
+D. Salidas
+11.- Los componentes de un SI son:
+A.- Entrada, Transformación y Salida
+B.- Objetivos, Datos y Procesos
+C.- Personas, Datos y Procesos
+*D.-Personas, Datos, Procesos y Tecnología
+12.- Cual de estos principios no corresponde al desarrollo de un SI:
+A.- Implicar a los usuarios del sistema
+B.- Documentar
+C.- Dividir los problemas y resolverlos uno a uno
+*D.- Ninguno de los anteriores
+13.- ¿Cual de estas no es una ventaja de la Gestión por Procesos?
+A.- Eliminar actividades sin valor añadido
+B.- Reducir los costes
+*C.- Definir con precisión la cadena de mando
+D.- Mejorar la calidad
+14.- El análisis estructurado no asegura que las actividades de un proceso se realicen:
+A.- Lo más rápidamente posible
+*B.- De la forma correcta
+C.- Por las personas adecuadas
+D.- En el orden correcto
+15.- A la hora de realizar la mejora de procesos, la Reingeniería (BPI)
+A.- Realiza pequeñas modificaciones procesos
+B.- Realiza una mejora gradual de los procesos
+*C.- Realiza modificaciones profundas y los procesos ya definidos se tiran a la basura
+D.- Ninguna de las anteriores
+16.- En BPM se establece:
+A. Como funciona la información
+*B. Qué es lo que se hace en la empresa
+C. Lo que genera beneficio en el negocio
+D. Lo que deben de hacer los gestores del negocio

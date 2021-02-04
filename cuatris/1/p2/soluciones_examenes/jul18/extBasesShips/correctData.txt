@@ -1,0 +1,6 @@
+base:"B1" pos:0
+  ship :"GR-75 12:3:7"   pos  : 4
+ base:  "B2 main base" pos :7
+base:"D'Qar"  pos: 15
+ship : "Cr. Dantooine" pos:143
+base: "Tierfon 2:3" pos: 253
