@@ -1,0 +1,216 @@
+En cuanto a la visión 3D, indica cual es la afirmación correcta {
+~ El láser 3D proporciona información de color utilizando un láser 2D con basculante
+~ Kinect no tiene pérdida en zonas homogéneas gracias a la imagen RGB que proporciona la cámara CMOS
+= Las cámaras de infrarrojos usan el tiempo de vuelo para determinar la profundidad.
+}
+¿En qué consiste la disparidad en la visión estereo?:{
+~ Son los puntos inusuales en una imagen.
+= Es el desplazamiento relativo de los objetos en las dos imágenes.
+~ Ninguna de las anteriores.
+}
+¿Cuál de las siguientes afirmaciones sobre la visión estereo falsa?:{
+~ Usamos dos cámaras, usualmente izquierda y derecha
+= Cuanto más lejos estén los objetos de la cámara, mayor será su cambio relativo
+~ Los objetos en la imagen aparecerán en distinta posición en una imagen y en la otra
+}
+¿Cuál es uno de los principales inconvenientes de la Kinect?:{
+~ No funciona correctamente a oscuras.
+~ No consigue un framerate constante de, al menos, 30 fps.
+= Suele fallar en los bordes de los objetos.
+}
+Con referencia al hardware del Kinect, encontramos: {
+~ Una cámara CMOS convencional nos da una imagen HSL.
+=Un laser infrarrojo proyecta un patrón de puntos y
+una cámara infrarroja capta este patrón. Por hardware se
+calcula la profundidad de cada punto.
+~ Una cámara CCD convencional nos da una imagen HSL.
+}
+En la visión estéreo, ¿Cuál de las siguientes afirmaciones sobre la correlación de puntos en imágenes es correcta?:{
+~ Se basa en usar una zona alrededor de un punto para compararla con otros puntos de la imagen.
+= Es un proceso que consiste en sumar el resultado de multiplicar píxel a píxel una vecindad en dos imagenes.
+~ No es usada para encontrar la correspondencia de puntos en imágenes.
+}
+Acerca de la "Imagen de disparidad", ¿Cuál de las siguientes afirmaciones es CORRECTA?:
+{
+~ La imagen de disparidad aporta información relativa a la semejanza entre los píxeles.
+~ Para calcular las coordenadas tridimensionales (X,Y,Z), se debe realizar un proceso de centralizado de la cámara para conocer los parámetros de distancia focal y entre cámaras de entre otros.
+= La imagen de disparidad ofrece información realiva acerca de la distancia entre los píxeles y calcula las coordenadas X,Y,Z mediante un proceso de calibrado de la cámara.
+}
+Cuanto más lejos estén los objetos de la cámara, la discrepancia será{
+~ Mayor
+= Menor
+~ No afecta
+} 
+Cual de las siguientes afirmaciones es incorrecta: {
+~ La correlación es un proceso que consiste en sumar el resultado de multiplicar píxel a píxel una cierta vecindad en las dos imágenes.
+~ La imagen de disparidad nos da información relativa a la distancia entre los píxeles.
+= Las dos respuestas anteriores son incorrectas.
+}
+
+En visión estéreo:{
+~ No existe relacion entre la profundidad y la disparidad. 
+~ Existe una relación inversa entre la profundidad y la disparidad.
+= Existe una relación directa entre la profundidad y la disparidad.
+}
+En cuanto a los problemas del estéreo,  indica cual es la afirmación correcta {
+~  No tiene ningún tipo de problema.
+~  El estéreo no es capaz de encontrar emparejamientos en zonas heterogéneas.
+=  El estéreo no es capaz de encontrar emparejamientos en zonas homogéneas.
+} 
+
+Haciendo referencia a la visión en 3D, ¿qué es la correlación? {
+~ La correlación es un proceso que consiste en multiplicar el resultado de sumar píxel a píxel una cierta vecindad en las dos imágenes.
+= La correlación es un proceso que consiste en sumar el resultado de multiplicar píxel a píxel una cierta vecindad en las dos imágenes.
+~ La correlación es un proceso que consiste en obtener el resultado de sumar píxel a píxel una cierta vecindad en las dos imágenes.
+}
+Otros sistemas que nos proporcionan datos de profundidad son :{
+~ Láser 2D, Cámaras de infrarrojos y Kinect.
+~ Láser infrarrojo, Cámaras de infrarrojos y Kinect.
+= Láser 3D, Cámaras de infrarrojos y Kinect.
+}
+¿Para que queremos la información en 3D? :{
+~ Es una información que no necesitamos para nada, nosotros solo vemos en 2D.
+~ Solo necesitamos información en 3D para poder calcular distancias.
+= Para reconocer objetos, y otras tareas.
+}
+Sobre la correspondencia de puntos en imágenes, los metodos que utliza. Selecciona la respuesta correcta:{
+~ No se usa ningún metodo.
+~ Características (esquinas, aristas, etc.): en zonas uniformes  se pueden encontrar correspondencias.
+= Correlación: se basa en usar una zona alrededor de un punto para compararla” con puntos de la otra imagen.
+}
+Respecto a las capacidades de la Kinect observamos los siguientes inconvenientes: {
+= Alcance limitado, puede fallar en zonas que reflejen mal la luz infrarroja, suele fallar en los bordes de los objetos.
+~ Alcance limitado, puede fallar en zonas que tengan una claridad extrema, suele fallar en objetos con más de un color.
+~ Alcance limitado, puede fallar en zonas con colores no primarios, suele fallar en los ángulos de habitaciones con colores degradados.
+}
+
+Cuál de las siguientes repuestas puede ser una ventaja de las capacidades de la Kinect:{
+= Funciona totalmente a oscuras.
+~ No capta profundidad en zonas sin textura.
+~ Alcance limitado.
+}
+Haciendo referencia a la correspondencia de puntos en imágenes, la correlación se basa en: { 
+= Usar una zona alrededor de un punto para “compararla” con puntos de la otra imagen.
+~ proyectar un patrón para evitar la pérdida en zonas homogéneas.
+~ Ninguna de las anteriores.
+}
+
+Indica la respuesta incorrecta respecto a la disparidad: {
+~ Nos permite saber cual es la distancia en la que se encuentra un punto en dos imágenes.
+= Cuanto mayor sea la profundidad en la imágen la disparidad será menor.
+~ Se define como el desplazamiento relativo de los objetos dado un par de imágenes.
+}
+En la visión estéreo, tenemos que hallar la correspondencia de puntos entre ímágenes. Para ello se suelen usar dos métodos:
+{
+~   Comparación y zonas uniformes.
+=   Correlación y características.
+~   Ninguna de las dos es correcta.
+}
+En la visión estéreo, ¿para qué sirven los mapas de disparidad? {
+~ Para calcular la profundidad de cada punto.
+= Para crear o realizar rápidamente estructuras de espacios tridimensionales.
+~ Ninguna de las anteriores.
+}
+En la visión estereo (cuando usamos dos cámaras, usualmente izquierda y derecha), cuanto más cerca estén los objetos de la cámara......{
+~Es indiferente la distancia del objeto a la cámara, cuando se utiliza este tipo de cámaras.
+~Habrá más igualdad, las imágenes captadas por las dos cámaras serán más parecidas.
+=Habrá más disparidad,  las imágenes captadas por las dos cámaras serán más distintas.
+}
+
+En el cálculo de la distancia a la que se encuentra un punto mediante su disparidad, dada la siguiente fórmula:
+Nos encontramos que el denominador de la ecuación es igual a 0, ¿qué podemos determinar? {
+~ No puede darse tal caso.
+= El objeto está infinitamente lejos.
+~ Es un objeto cercano.
+}
+ndica la opción correcta sobre la profundidad de Kinect: {
+~ Proyecta patrones de puntos al azar y al ponerse un objeto delante se observa que el patrón de puntos se hacen más grandes. Así podrá calcular la profundidad.
+= Tiene un patron de puntos memorizado y al proyectar los puntos y ponerse un objeto delante de estos se observa que el patrón de puntos se desplazada. Así podrá calcular la profundidad.
+~ Ninguna de las respuestas es la correcta.
+}
+En la visión 3D Estéreo: {
+= La modificación de la distancia entre las lentes obliga a recalibrar el sistema.
+~La modificación de la distancia entre las lentes no modifica el sistema de percepción.
+~La distancia entre las lentes es un estándar. Todos los sistemas usan la misma distancia entre las lentes.
+}
+
+¿Cuál de las siguientes afirmaciones sobre Kinect es falsa?: {
+~ Alcance limitado (50cm - 4m).
+~ Funciona totalmente a oscuras.
+= Proporciona 30fps a alta resolución (1280 x 720).
+}
+
+Con dos parejas de cámaras de visión estéreo tomamos una imagen de la misma escena. En dichas imágenes localizamos un punto 'P'. Sabiendo que los ejes de las cámaras están en paralelo, que están bien calibradas y  teniendo en cuenta los siguientes datos:
+Pareja A:
+Diferencia relativa de la coordenada 'x' entre las dos imágenes del punto 'P':  35 pixeles
+Distancia entre los ejes de las cámaras: 15 mm
+Pareja B:
+Diferencia relativa de la coordenada 'x' entre las dos imágenes del punto 'P':  50 pixeles
+Distancia entre los ejes de las cámaras: 12 mm
+¿Podríamos determinar qué pareja de cámaras está más cerca del punto 'P'?
+{
+~Si. La pareja A.
+~Si. La pareja B.
+= No. Deberíamos conocer también la distancia focal de las cámaras.
+}
+¿Qué afirmación acerca de la visión 3D es incorrecta? {
+~ Una de las ventajas de Kinect es que funciona totalmente a oscuras.
+~ La información 3D se puede obtener de diferentes formas, una de ellas es utilizando cámaras especiales equipadas de infrarrojos.
+= Usando una sola cámara convencional podemos obtener información 3D
+}
+¿Qué componentes del hardware de Kinect permiten captar la información 3D del entorno? {
+~ La cámara CMOS y el láser infrarrojo.
+~ La cámara CMOS y la cámara infrarroja.
+= El láser infrarrojo y la cámara infrarroja.
+}
+En la visión estéreo es cierto que: {
+~ No existe ninguna relación entre la profundidad y disparidad.
+= A cuanto mayor distancia el objeto a la cámara, menor disparidad.
+~ Se tiene una cámara central obligatoriamente, siendo opcional una derecha o izquierda.
+}
+
+En la visión estéreo cual es la respuesta INCORRECTA: {
+= No existe una relación directa entre la profundidad y la
+disparidad
+~ Usamos dos cámaras, usualmente izquierda y derecha
+~ Cuanto más cerca estén los objetos de la cámara,
+mayor será su cambio relativo
+}
+
+Una de las capacidades que tiene la kinect es:{
+~ Capta profundidad en zonas sin textura, al igual que el estéreo.
+= Capta profundidad en zonas sin textura, cosa que el estéreo no puede hacer.
+~ Capta profundidad en zonas con textura, cosa que el estéreo no puede hacer.
+}
+Uno de los inconvenientes de Kinect es ... {
+~ No funciona a oscuras
+~ Trabaja en blanco y negro
+= Alcance limitado (50 cm - 4 m)
+}
+Decimos que un punto P en el espacio (Geometria de una cámara estéreo) (Señala la correcta):{
+~ se proyectará en un único punto para las dos cámaras, dependiendo de su profundidad
+= se proyectará en puntos distintos de las dos cámaras, dependiendo de su profundidad
+~ no se proyectará en ninguna de las dos cámaras ya que nos basta para calcular la disparidad del mismo en ambas imagenes.
+}
+Debido a que el Kinect sólo tiene dos cámaras?{
+~ Porque no hay diferencias significativas en el rendimiento utilizando tres cámaras.
+= Para hacer el producto más barato.
+~ Ninguma de las anteriores.
+}
+De las siguientes afirmaciones, señala la respuesta correcta:{
+~ Utilizando cámaras estéreo, se define la disparidad como el desplazamiento absoluto de los objetos en ambas imágenes.
+~ Utilizando cámaras estéreo, existe una relación indirecta entre la profundidad y la disparidad.
+=  Ninguna de las anteriores es correcta.
+}
+
+Referente a la visión artificial y en relación con las cámaras estéreo. En la correspondencia de puntos en imágenes se suelen usar dos métodos. Señala la respuesta correcta:{
+~ Correlación (que se basa en usar una zona alrededor de un punto para "compararla" con puntos de la otra imagen. Consiste en multiplicar el resultado de sumar píxel a píxel una cierta vecindad en las dos imágenes) y Características (donde se usan discontinuidades)
+~ Correlación (que se basa en usar una zona alrededor de un punto para "compararla" con puntos de la otra imagen, consiste en sumar el resultado de multiplicar píxel a píxel una cierta vecindad en las dos imágenes) y Características (donde se usan continuidades)
+= Correlación (que se basa en usar una zona alrededor de un punto para "compararla" con puntos de la otra imagen, consiste en sumar el resultado de multiplicar píxel a píxel una cierta vecindad en las dos imágenes) y Características (donde se usan discontinuidades)
+}
+Acerca de las fuentes de datos 3D, no es corecto:{
+= Láser 3D: láser 2D con basculante. Proporciona información de color.
+~ Cámaras de infrarrojos: usa el tiempo de vuelo para determinar la profundidad
+~ Kinect: proyecta un patrón para evitar la pérdida en zonas homogéneas.
+}
+
