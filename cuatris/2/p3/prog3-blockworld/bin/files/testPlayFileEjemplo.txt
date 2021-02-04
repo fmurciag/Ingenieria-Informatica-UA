@@ -1,0 +1,15 @@
+2019 101 Steve Mundo de las tinieblas
+shou
+show
+move 0 0 1
+mova 0 0 1
+move -1 0 1
+show
+orientate 1 0 0
+orientato 0 0 1
+selectItem 2
+selectItom 1
+useItem 0
+useItem 1
+usaItem 5
+show

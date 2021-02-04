@@ -1,0 +1,38 @@
+5 75 Barbara World 5x5
+show
+move 0 0 1
+move 1 0 1
+move 1 0 1
+move 1 0 1
+move 1 0 0
+orientate 1 0 0
+useItem 5
+useItem 5
+useItem 5
+show
+move 1 0 0
+move 1 0 0
+move 1 0 0
+useItem 1
+orientate 0 0 1
+useItem 1
+move -1 0 1
+show
+selectItem 0
+useItem 3
+selectItem 0
+useItem 2
+move 0 0 1
+orientate 1 0 1
+useItem 1
+move 1 0 1
+orientate 0 0 1
+useItem 1
+move 0 0 1
+orientate -1 0 1
+useItem 1
+move -1 0 1
+orientate 1 0 1
+useItem 1
+orientate 1 0 1
+show
