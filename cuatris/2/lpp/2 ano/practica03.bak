@@ -1,0 +1,42 @@
+#lang racket
+(require rackunit)
+
+;;
+;;Ejercicio 1
+;;
+;;A
+(define (es-prefijo? pal1 pal2)
+  (cond 
+        ((> (string-length pal1) (string-length pal2)) #f)
+        (else (equal? pal1 (substring pal2 0 (string-length pal1))))))
+(check-equal? (es-prefijo? "ante" "anterior") #t) 
+(check-equal? (es-prefijo? "ante" "an") #f)
+
+(define (contiene-prefijo prefijo lista-pal)
+  (if (null? (cdr lista-pal))
+      (list (es-prefijo? prefijo (car lista-pal)))
+      (cons (es-prefijo? prefijo (car lista-pal)) (contiene-prefijo prefijo (cdr lista-pal)))))
+
+(check-equal? (contiene-prefijo "ante" '("anterior" "antígona" "antena" "anatema")) (list #t #f #t #f))
+
+;;B
+(define (inserta-pos dato pos lista)
+  (if (= pos 0)
+      (cons dato lista)
+      (cons (car lista) (inserta-pos dato (- pos 1) (cdr lista)))))
+
+(check-equal? (inserta-pos 'b 2 '(a a a a)) '(a a b a a))
+(check-equal? (inserta-pos 'b 0 '(a a a a)) '(b a a a a))
+
+;;C
+(define (inserta-ordenada n lista-ordenada)
+  
+
+
+
+
+
+
+
+
+

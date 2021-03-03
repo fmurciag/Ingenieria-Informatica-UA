@@ -1,0 +1,25 @@
+Proteccion de datos
+-------------------
+
+Acceder a la Agencia Española de Proteccion de Datos.
+Acudir a sede electronica e inscripcion de ficheros.
+Nueva notificacion y sin certificado.
+Rellenar los datos: 
+Persona que lo rellena + siguiente
+Presidente/Administrador + datos de comunidad
+Alta de fichero
+
+NORMAL
+-------
+
+Añadir y configurar paso a paso para que se adapte a nuestra comunidad de vecinos
+
+Tipo
+----
+
+añadir: Otras finalidades
+añadir: empleados, provedores y personas de contacto
+nivel de seguridad basico
+finalizamos y poderiamos ver la notificacion completa.
+
+

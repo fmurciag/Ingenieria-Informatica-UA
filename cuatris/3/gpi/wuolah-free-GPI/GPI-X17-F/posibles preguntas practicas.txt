@@ -1,0 +1,33 @@
+martes 29 - 12.00 a 15.00
+total de 4 preguntas
+
+
+- Plan
+- Planificación y Seguimiento en Project
+-> pensar los pasos:
+--> crear tareas
+--> duraciones, dependencias
+--> asignar recursos
+--> fecha inicio proyecto
+--> Gantt seguimiento
+--> incorporar a la tabla las columnas que no están por defecto:
+----->holguras(totales, libres)
+----->EVA (BCWS, BCWP, ACWP, BAC)
+--> fecha estado, linea base
+--> porcentaje de completitud (se actualiza solo)
+
+- Niveles (3 y 4):
+--> Fase Iteracion Actividad (verbo+sustantivo)
+--> Fase Iteracion Disciplina Actividad (la fase de disciplina porque le resta visibilidad)
+
+
+- Tema 7 
+-> algo "fácil", muy por encima
+-> la inscripción de ficheros (ya no es obligatorio, ahora se registra actividades)
+-> ¿quién puede inscribir un fichero? podría cualquiera
+--> si es un modelo de licencias la inscripción la hace el cliente y el responsable será cualquiera
+--> si es un modelo por suscripciones la inscripción la hacemos nosotros como propietarios del hosting
+
+- Tema 8
+
+- Tema 9 -> igual a junio 2017

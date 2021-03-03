@@ -1,0 +1,9 @@
+#lang racket
+(require rackunit)
+(define (minimo lista)
+  (if (equal? (cdr lista) '())
+      (car lista)
+      (min (car lista) (minimo (cdr lista)))))
+
+(minimo '(1 8 6 4 3)) ; ⇒ 1
+(minimo '(1 -1 3 -6 4)) ; ⇒ -6
