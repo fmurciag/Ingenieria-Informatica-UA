@@ -1,0 +1,34 @@
+#lang r6rs
+(import (rnrs)
+        (schemeunit))
+
+;LISTAS PLANAS Y LISTAS ESTRUCTURADAS
+
+;hoja
+(define (hoja? lista)
+  (not (list? dato)))
+
+;lista plana, solo contiene hojas
+
+(define (plana? lista)
+  (if (null? lista)
+      #t
+      (and (hoja? (car lista)) (plana? (cdr lista)))))
+
+;lsita estructurada, contiene alguna lsita
+
+(define (estructurada? lsita)
+  (if (null? lista)
+      #f
+      (or (list? (car lista)) (estructurada? (cdr lista)))))
+
+(define (hojas lista)
+  (if (hoja? lista)
+      (+ (hojas (car lista)) (hojas (cdr lista)))))
+
+(define (hojas2 lista)
+  (if (null? lista)
+      0
+      (if (hoja?? (car lista))
+          (+1 (hojas2 (cdr lista)))
+          (hojas2 (cdr lista)))))

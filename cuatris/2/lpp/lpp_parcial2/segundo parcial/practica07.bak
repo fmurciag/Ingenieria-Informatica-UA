@@ -1,0 +1,81 @@
+#lang r6rs
+(import (rnrs)
+        (schemeunit))
+;;Abstraccion
+(define (dato-arbol arbol) 
+    (car arbol))
+
+(define (hijos-arbol arbol) 
+    (cdr arbol))
+
+(define (hoja-arbol? arbol) 
+   (null? (hijos-arbol arbol)))
+
+;;Barrera Arbol Binario
+(define (dato-arbolb arbol)
+   (car arbol))
+
+(define (hijo-izq-arbolb arbol)
+   (cadr arbol))
+
+(define (hijo-der-arbolb arbol)
+   (caddr arbol))
+
+(define (vacio-arbolb? arbol)
+   (null? arbol))
+
+(define (hoja-arbolb? arbol)
+   (and (vacio-arbolb? (hijo-izq-arbolb arbol))
+        (vacio-arbolb? (hijo-der-arbolb arbol))))
+
+(define arbolb-vacio '())
+
+;
+;Ejercicio 1
+;
+
+(define arbol '(15 (4 (2) (3)) (8 (6)) (12 (9) (10) (11))))
+
+;
+;;a2
+;
+
+
+;1 devolvería el primer arbol que es hijo del nodo raiz 15 (4 (2) (3))
+
+;2devuelve la suma de todos los hijos del nodo raiz 15, es decir 65
+
+
+;
+;;a3
+;
+
+
+;1 te devuelve la suma de todos los hijos del arbol -> 65
+
+
+;b1
+
+(define arbolb  '(40 (23 (5 () ()) (32 (29 () ()) ())) (45 () (56 () ()))))
+
+;(dato-arbolb(hijo-izq-arbolb(hijo-der-arbolb(hijo-izq-arbolb arbolb))))
+
+;
+;;Ejercicio 2
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

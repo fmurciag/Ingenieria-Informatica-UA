@@ -1,0 +1,13 @@
+#lang r6rs
+(import (rnrs)
+        (schemeunit))
+;;Antero Guarinos Caballero 45928934G
+
+;;
+;;Ejercicio 1
+;;
+
+
+
+
+
