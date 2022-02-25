@@ -1,0 +1,1451 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U pkg_graficos%b	pkg_graficos.adb	8b574bef OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W double_buffer%s	double_buffer.adb	double_buffer.ali  AD
+W gdk%s			gdk.ads			gdk.ali
+W gdk.color%s		gdk-color.adb		gdk-color.ali
+W gdk.pixbuf%s		gdk-pixbuf.adb		gdk-pixbuf.ali
+W gdk.window%s		gdk-window.adb		gdk-window.ali
+Z glib.main%s		glib-main.adb		glib-main.ali  ED
+W gnat%s		gnat.ads		gnat.ali
+W gnat.os_lib%s		g-os_lib.ads		g-os_lib.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.alignment%s	gtk-alignment.adb	gtk-alignment.ali  AD
+W gtk.box%s		gtk-box.adb		gtk-box.ali  AD
+W gtk.button%s		gtk-button.adb		gtk-button.ali  AD
+W gtk.enums%s		gtk-enums.adb		gtk-enums.ali
+W gtk.grid%s		gtk-grid.adb		gtk-grid.ali
+W gtk.widget%s		gtk-widget.adb		gtk-widget.ali
+Z gtk.window%s		gtk-window.adb		gtk-window.ali  AD
+Z gtkada.style%s	gtkada-style.adb	gtkada-style.ali  AD
+W pango%s		pango.ads		pango.ali
+W pango.font%s		pango-font.adb		pango-font.ali
+W pango.layout%s	pango-layout.adb	pango-layout.ali
+Z pkg_buffergenerico%s	pkg_buffergenerico.adb	pkg_buffergenerico.ali  ED
+W pkg_debug%s		pkg_debug.adb		pkg_debug.ali  AD
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U pkg_graficos%s	pkg_graficos.ads	915bf367 EE OO PF PK KU
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W cairo%s		cairo.adb		cairo.ali
+W gdk%s			gdk.ads			gdk.ali
+W gdk.cairo%s		gdk-cairo.adb		gdk-cairo.ali
+W gdk.rgba%s		gdk-rgba.adb		gdk-rgba.ali
+W gdk.types%s		gdk-types.ads		gdk-types.ali
+W glib%s		glib.adb		glib.ali
+W glib.main%s		glib-main.adb		glib-main.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.drawing_area%s	gtk-drawing_area.adb	gtk-drawing_area.ali
+W gtk.handlers%s	gtk-handlers.adb	gtk-handlers.ali  EA
+W gtk.main%s		gtk-main.adb		gtk-main.ali  EA
+W gtk.window%s		gtk-window.adb		gtk-window.ali
+W gtkada%s		gtkada.ads		gtkada.ali
+W gtkada.style%s	gtkada-style.adb	gtkada-style.ali
+W pango%s		pango.ads		pango.ali
+W pango.font%s		pango-font.adb		pango-font.ali
+W pango.layout%s	pango-layout.adb	pango-layout.ali
+W pkg_buffergenerico%s	pkg_buffergenerico.adb	pkg_buffergenerico.ali
+W pkg_tipos%s		pkg_tipos.ads		pkg_tipos.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-assert.ads		20210520051127 a718b65c ada.assertions%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051127 bf4f806b ada.finalization%s
+D a-flteio.ads		20210520051127 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051129 fcca4daa ada.text_io.float_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210520051129 c3a8ac65 ada.unchecked_deallocation%s
+D cairo.ads		20210519053508 925d4aaa cairo%s
+D cairo-region.ads	20210519053508 b7133728 cairo.region%s
+D double_buffer.ads	20210912175227 fb4ed6fc double_buffer%s
+D gdk.ads		20210519053508 96d821f3 gdk%s
+D gdk-cairo.ads		20210519053508 750fb209 gdk.cairo%s
+D gdk-color.ads		20210519053508 ef57bc34 gdk.color%s
+D gdk-device.ads	20210519053508 04c1ecbd gdk.device%s
+D gdk-display.ads	20210519053508 d91ec37e gdk.display%s
+D gdk-drag_contexts.ads	20210519053508 11b1346e gdk.drag_contexts%s
+D gdk-event.ads		20210519053508 1bda38e2 gdk.event%s
+D gdk-frame_clock.ads	20210519053508 dadfbe52 gdk.frame_clock%s
+D gdk-frame_timings.ads	20210519053508 98b5e7d1 gdk.frame_timings%s
+D gdk-pixbuf.ads	20210519053508 499fe1c7 gdk.pixbuf%s
+D gdk-rectangle.ads	20210519053508 7b900608 gdk.rectangle%s
+D gdk-rgba.ads		20210519053508 2609514a gdk.rgba%s
+D gdk-screen.ads	20210519053508 9fe578a4 gdk.screen%s
+D gdk-types.ads		20210519053508 921dc8b2 gdk.types%s
+D gdk-visual.ads	20210519053508 615e934c gdk.visual%s
+D gdk-window.ads	20210519053508 aa508024 gdk.window%s
+D glib.ads		20210519053508 7d107887 glib%s
+D glib-error.ads	20210519053508 e055fabe glib.error%s
+D glib-g_icon.ads	20210519053508 099367ad glib.g_icon%s
+D glib-generic_properties.ads  20210519053508 f3dc70df glib.generic_properties%s
+D glib-glist.ads	20210519053508 65a6e1be glib.glist%s
+D glib-gslist.ads	20210519053508 953541be glib.gslist%s
+D glib-main.ads		20210519053508 aec03ed0 glib.main%s
+D glib-main.adb		20210519053508 57fde77b glib.main%b
+D glib-object.ads	20210519053508 fb5efa0e glib.object%s
+D glib-poll.ads		20210519053508 e1a8ea35 glib.poll%s
+D glib-properties.ads	20210519053508 4118b916 glib.properties%s
+D glib-spawn.ads	20210519053508 68be6b4c glib.spawn%s
+D glib-string.ads	20210519053508 deea1b42 glib.string%s
+D glib-types.ads	20210519053508 86ac71ae glib.types%s
+D glib-values.ads	20210519053508 5ef3ad24 glib.values%s
+D glib-variant.ads	20210519053508 aee5d7d3 glib.variant%s
+D gnat.ads		20210520051131 b5988c27 gnat%s
+D g-os_lib.ads		20210520051130 0db74523 gnat.os_lib%s
+D g-string.ads		20210520051130 c6abc540 gnat.strings%s
+D gtk.ads		20210519053508 cfdeaf1c gtk%s
+D gtk-accel_group.ads	20210519053508 a14a159a gtk.accel_group%s
+D gtk-action.ads	20210519053508 98120d78 gtk.action%s
+D gtk-actionable.ads	20210519053508 35cd241d gtk.actionable%s
+D gtk-activatable.ads	20210519053508 873be5b9 gtk.activatable%s
+D gtk-adjustment.ads	20210519053508 bbcb1fda gtk.adjustment%s
+D gtk-alignment.ads	20210519053508 ec60e561 gtk.alignment%s
+D gtk-bin.ads		20210519053508 4e8a2236 gtk.bin%s
+D gtk-box.ads		20210519053508 28f6f090 gtk.box%s
+D gtk-buildable.ads	20210519053508 e8198b57 gtk.buildable%s
+D gtk-builder.ads	20210519053508 35d802c2 gtk.builder%s
+D gtk-button.ads	20210519053508 bc9a559f gtk.button%s
+D gtk-cell_area.ads	20210519053508 309571a8 gtk.cell_area%s
+D gtk-cell_area_context.ads  20210519053508 5d63dcf9 gtk.cell_area_context%s
+D gtk-cell_editable.ads	20210519053508 a955a31f gtk.cell_editable%s
+D gtk-cell_layout.ads	20210519053508 ceee6a6f gtk.cell_layout%s
+D gtk-cell_renderer.ads	20210519053508 8a8076e8 gtk.cell_renderer%s
+D gtk-container.ads	20210519053508 dc3d0898 gtk.container%s
+D gtk-drawing_area.ads	20210519053508 6fdc9064 gtk.drawing_area%s
+D gtk-enums.ads		20210519053508 e3f2f3ba gtk.enums%s
+D gtk-grid.ads		20210519053508 b314585d gtk.grid%s
+D gtk-handlers.ads	20210519053508 313b6eab gtk.handlers%s
+D gtk-handlers.adb	20210519053508 bd3515fb gtk.handlers%b
+D gtk-main.ads		20210519053508 e684a528 gtk.main%s
+D gtk-marshallers.ads	20210519053508 6c3cad4d gtk.marshallers%s
+D gtk-marshallers.adb	20210519053508 3763b331 gtk.marshallers%b
+D gtk-orientable.ads	20210519053508 673b3a02 gtk.orientable%s
+D gtk-selection_data.ads  20210519053508 061b2148 gtk.selection_data%s
+D gtk-style.ads		20210519053508 3c4cbc07 gtk.style%s
+D gtk-style_provider.ads  20210519053508 e396c135 gtk.style_provider%s
+D gtk-target_entry.ads	20210519053508 02690213 gtk.target_entry%s
+D gtk-target_list.ads	20210519053508 a9d79eb7 gtk.target_list%s
+D gtk-tree_model.ads	20210519053508 e664b639 gtk.tree_model%s
+D gtk-tree_view_column.ads  20210519053508 54737275 gtk.tree_view_column%s
+D gtk-widget.ads	20210519053508 07bd7883 gtk.widget%s
+D gtk-window.ads	20210519053508 e91a448d gtk.window%s
+D gtkada.ads		20210519053508 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20210519053508 fc9825de gtkada.bindings%s
+D gtkada-c.ads		20210519053508 0f5973e3 gtkada.c%s
+D gtkada-style.ads	20210519053508 026aa25d gtkada.style%s
+D gtkada-types.ads	20210519053508 471f54b5 gtkada.types%s
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-c.ads		20210520051131 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051131 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D pango.ads		20210519053508 e51ea573 pango%s
+D pango-attributes.ads	20210519053508 b2832a43 pango.attributes%s
+D pango-context.ads	20210519053508 5a6f0fe6 pango.context%s
+D pango-enums.ads	20210519053508 eff085ce pango.enums%s
+D pango-font.ads	20210519053508 71042db5 pango.font%s
+D pango-font_face.ads	20210519053508 c62e6ce5 pango.font_face%s
+D pango-font_family.ads	20210519053508 1fdea8b4 pango.font_family%s
+D pango-font_metrics.ads  20210519053508 25e6f301 pango.font_metrics%s
+D pango-fontset.ads	20210519053508 af4fe708 pango.fontset%s
+D pango-language.ads	20210519053508 e96cb8f4 pango.language%s
+D pango-layout.ads	20210519053508 d240b716 pango.layout%s
+D pango-matrix.ads	20210519053508 309f74b5 pango.matrix%s
+D pango-tabs.ads	20210519053508 0c575925 pango.tabs%s
+D pkg_buffergenerico.ads  20210912175227 ded36223 pkg_buffergenerico%s
+D pkg_buffergenerico.adb  20210912175227 7a055005 pkg_buffergenerico%b
+D pkg_debug.ads		20210912175227 edd8aa0d pkg_debug%s
+D pkg_graficos.ads	20210912175227 5c93c877 pkg_graficos%s
+D pkg_graficos.adb	20210912175227 af533873 pkg_graficos%b
+D pkg_tipos.ads		20210912175227 63da59ab pkg_tipos%s
+D system.ads		20210520051134 a2da961d system%s
+D s-assert.ads		20210520051131 6a49a4e4 system.assertions%s
+D s-conca2.ads		20210520051131 02a0d7d0 system.concat_2%s
+D s-conca4.ads		20210520051131 7e642b20 system.concat_4%s
+D s-conca5.ads		20210520051131 875e432e system.concat_5%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-finmas.ads		20210520051131 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210520051131 4ff27390 system.finalization_root%s
+D s-memory.ads		20210520051132 597d6634 system.memory%s
+D s-os_lib.ads		20210520051132 93b69309 system.os_lib%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-pooglo.ads		20210520051133 ede33ef8 system.pool_global%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stalib.adb		20210520051133 977290bf system.standard_library%b
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210520051133 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20210520051133 7bdda3fa system.stream_attributes%s
+D s-string.ads		20210520051133 8fe54fb7 system.strings%s
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20210520051134 214516a4 unchecked_deallocation%s
+G a e
+G c b b b [b pkg_graficos 23 1 none]
+G c s s s [s pkg_graficos 24 1 none]
+G c Z s b [simular_sistema pkg_graficos 32 14 none]
+G c Z s b [posicion_stop_semaforo pkg_graficos 35 13 none]
+G c Z s b [posicion_stop_semaforo pkg_graficos 36 13 none]
+G c Z s b [aparece pkg_graficos 39 14 none]
+G c Z s b [aparece pkg_graficos 40 14 none]
+G c Z s b [aparece pkg_graficos 41 14 none]
+G c Z s b [aparece pkg_graficos 42 14 none]
+G c Z s b [desaparece pkg_graficos 45 14 none]
+G c Z s b [desaparece pkg_graficos 46 14 none]
+G c Z s b [desaparece pkg_graficos 47 14 none]
+G c Z s b [desaparece pkg_graficos 48 14 none]
+G c Z s b [pos_final pkg_graficos 51 13 none]
+G c Z s b [pos_final pkg_graficos 52 13 none]
+G c Z s b [pos_final pkg_graficos 53 13 none]
+G c Z s b [pos_inicio pkg_graficos 56 13 none]
+G c Z s b [pos_inicio pkg_graficos 57 13 none]
+G c Z s b [pos_inicio pkg_graficos 58 13 none]
+G c Z s b [pos_inicio pkg_graficos 59 13 none]
+G c Z s b [actualiza_movimiento pkg_graficos 62 14 none]
+G c Z s b [actualiza_movimiento pkg_graficos 63 14 none]
+G c Z s b [actualiza_movimiento pkg_graficos 64 14 none]
+G c Z s b [actualiza_atributo pkg_graficos 67 14 none]
+G c Z s b [actualiza_atributo pkg_graficos 69 14 none]
+G c Z s b [actualiza_atributo pkg_graficos 71 14 none]
+G c Z s b [actualiza_atributo pkg_graficos 73 14 none]
+G c Z s b [actualiza_atributo pkg_graficos 75 14 none]
+G c Z s b [actualiza_atributo pkg_graficos 77 14 none]
+G c Z s b [actualiza_atributo pkg_graficos 79 14 none]
+G c Z s b [actualiza_atributo pkg_graficos 81 14 none]
+G c Z s b [actualiza_atributo pkg_graficos 83 14 none]
+G c Z s b [actualiza_atributo pkg_graficos 85 14 none]
+G c Z s b [actualiza_atributo pkg_graficos 87 14 none]
+G c Z s b [actualiza_atributo pkg_graficos 89 14 none]
+G c Z s b [actualiza_atributo pkg_graficos 91 14 none]
+G c Z s b [actualiza_atributo pkg_graficos 93 14 none]
+G c Z s b [coche_parado pkg_graficos 97 13 none]
+G c Z s b [hay_tren pkg_graficos 100 13 none]
+G c Z s b [dentro_zona_cruce pkg_graficos 104 13 none]
+G c Z s b [actualiza_color_semaforo pkg_graficos 107 14 none]
+G c Z s b [hay_taxi pkg_graficos 110 13 none]
+G c Z s b [pos_parada_taxi pkg_graficos 113 13 none]
+G c Z s b [parada_taxi_vacia pkg_graficos 116 13 none]
+G c Z s b [actualiza_indicador_taxi pkg_graficos 119 14 none]
+G c Z s b [actualiza_cronometro pkg_graficos 122 14 none]
+G c Z s b [actualiza_color_peaton pkg_graficos 125 14 none]
+G c Z s s [Tt_flechasBIP pkg_graficos 174 7 none]
+G c Z s s [to_marshaller pkg_graficos__void_cb__marshallers__void_marshaller 461 19 828_7_201_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__marshallers__void_marshaller 463 20 828_7_201_7]
+G c Z s s [call pkg_graficos__void_cb__marshallers__void_marshaller 468 20 828_7_201_7]
+G c Z s s [to_handler pkg_graficos__void_cb__marshallers__void_marshaller 769 19 828_7_201_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__marshallers__void_marshaller 771 19 828_7_201_7]
+G c Z s s [marshallerIP pkg_graficos__void_cb__marshallers 344 12 828_7_201_7]
+G c Z s s [connect pkg_graficos__void_cb 833 17 201_7]
+G c Z s s [object_connect pkg_graficos__void_cb 838 17 201_7]
+G c Z s s [connect pkg_graficos__void_cb 845 17 201_7]
+G c Z s s [object_connect pkg_graficos__void_cb 850 17 201_7]
+G c Z s s [connect pkg_graficos__void_cb 857 17 201_7]
+G c Z s s [object_connect pkg_graficos__void_cb 862 17 201_7]
+G c Z s s [connect pkg_graficos__void_cb 872 16 201_7]
+G c Z s s [object_connect pkg_graficos__void_cb 878 16 201_7]
+G c Z s s [connect pkg_graficos__void_cb 885 16 201_7]
+G c Z s s [object_connect pkg_graficos__void_cb 891 16 201_7]
+G c Z s s [to_marshaller pkg_graficos__void_cb__gint_marshaller 360 19 900_7_201_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__gint_marshaller 362 20 900_7_201_7]
+G c Z s s [call pkg_graficos__void_cb__gint_marshaller 378 20 900_7_201_7]
+G c Z s s [to_handler pkg_graficos__void_cb__gint_marshaller 515 19 900_7_201_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__gint_marshaller 517 19 900_7_201_7]
+G c Z s s [to_marshaller pkg_graficos__void_cb__guint_marshaller 360 19 902_7_201_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__guint_marshaller 362 20 902_7_201_7]
+G c Z s s [call pkg_graficos__void_cb__guint_marshaller 378 20 902_7_201_7]
+G c Z s s [to_handler pkg_graficos__void_cb__guint_marshaller 515 19 902_7_201_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__guint_marshaller 517 19 902_7_201_7]
+G c Z s s [to_marshaller pkg_graficos__void_cb__event_marshaller 360 19 904_7_201_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__event_marshaller 362 20 904_7_201_7]
+G c Z s s [call pkg_graficos__void_cb__event_marshaller 378 20 904_7_201_7]
+G c Z s s [to_handler pkg_graficos__void_cb__event_marshaller 515 19 904_7_201_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__event_marshaller 517 19 904_7_201_7]
+G c Z s s [to_marshaller pkg_graficos__void_cb__widget_marshaller 440 19 906_7_201_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__widget_marshaller 442 20 906_7_201_7]
+G c Z s s [call pkg_graficos__void_cb__widget_marshaller 448 20 906_7_201_7]
+G c Z s s [to_handler pkg_graficos__void_cb__widget_marshaller 700 19 906_7_201_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__widget_marshaller 702 19 906_7_201_7]
+G c Z s s [to_marshaller pkg_graficos__void_cb__tree_path_marshaller 360 19 908_7_201_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__tree_path_marshaller 362 20 908_7_201_7]
+G c Z s s [call pkg_graficos__void_cb__tree_path_marshaller 378 20 908_7_201_7]
+G c Z s s [to_handler pkg_graficos__void_cb__tree_path_marshaller 515 19 908_7_201_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__tree_path_marshaller 517 19 908_7_201_7]
+G c Z s s [to_marshaller pkg_graficos__void_cb__tree_iter_tree_path_marshaller 400 19 910_7_201_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__tree_iter_tree_path_marshaller 402 20 910_7_201_7]
+G c Z s s [call pkg_graficos__void_cb__tree_iter_tree_path_marshaller 423 20 910_7_201_7]
+G c Z s s [to_handler pkg_graficos__void_cb__tree_iter_tree_path_marshaller 600 19 910_7_201_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__tree_iter_tree_path_marshaller 602 19 910_7_201_7]
+G c Z s s [to_marshaller pkg_graficos__void_cb__tree_path_tree_iter_marshaller 400 19 914_7_201_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__tree_path_tree_iter_marshaller 402 20 914_7_201_7]
+G c Z s s [call pkg_graficos__void_cb__tree_path_tree_iter_marshaller 423 20 914_7_201_7]
+G c Z s s [to_handler pkg_graficos__void_cb__tree_path_tree_iter_marshaller 600 19 914_7_201_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__tree_path_tree_iter_marshaller 602 19 914_7_201_7]
+G c Z s s [to_marshaller pkg_graficos__void_cb__tree_path_tree_column_marshaller 400 19 918_7_201_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__tree_path_tree_column_marshaller 402 20 918_7_201_7]
+G c Z s s [call pkg_graficos__void_cb__tree_path_tree_column_marshaller 423 20 918_7_201_7]
+G c Z s s [to_handler pkg_graficos__void_cb__tree_path_tree_column_marshaller 600 19 918_7_201_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__tree_path_tree_column_marshaller 602 19 918_7_201_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb 976 17 201_7]
+G c Z s s [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40121 992 17 201_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb 992 17 201_7]
+G c Z s s [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40236 996 17 201_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb 996 17 201_7]
+G c Z s s [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40403 1001 17 201_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb 1001 17 201_7]
+G c Z s s [convert pkg_graficos__void_cb 1022 16 201_7]
+G c Z s s [convert pkg_graficos__void_cb 1024 16 201_7]
+G c Z s s [free_data pkg_graficos__void_cb 1027 17 201_7]
+G c Z s s [first_marshaller pkg_graficos__void_cb 1031 17 201_7]
+G c Z s s [data_type_recordIP pkg_graficos__void_cb 1013 12 201_7]
+G c Z s s [to_handler pkg_graficos__void_cb 867 16 201_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb 869 16 201_7]
+G c Z s s [to_address pkg_graficos__void_cb 871 16 201_7]
+G c Z s s [to_address pkg_graficos__void_cb 873 16 201_7]
+G c Z s s [idle_add pkg_graficos__main_context_sources 406 16 202_7]
+G c Z s s [timeout_add pkg_graficos__main_context_sources 414 16 202_7]
+G c Z s s [set_callback pkg_graficos__main_context_sources 422 17 202_7]
+G c Z s s [free_data pkg_graficos__main_context_sources 437 17 202_7]
+G c Z s s [general_cb pkg_graficos__main_context_sources 440 16 202_7]
+G c Z s s [convert pkg_graficos__main_context_sources 116 16 202_7]
+G c Z s s [convert pkg_graficos__main_context_sources 119 16 202_7]
+G c Z s s [cb_recordIP pkg_graficos__main_context_sources 109 12 202_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__marshallers__void_marshaller 461 19 828_7_204_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__marshallers__void_marshaller 463 20 828_7_204_7]
+G c Z s s [call pkg_graficos__destroyed__marshallers__void_marshaller 468 20 828_7_204_7]
+G c Z s s [to_handler pkg_graficos__destroyed__marshallers__void_marshaller 769 19 828_7_204_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__marshallers__void_marshaller 771 19 828_7_204_7]
+G c Z s s [marshallerIP pkg_graficos__destroyed__marshallers 344 12 828_7_204_7]
+G c Z s s [connect pkg_graficos__destroyed 833 17 204_7]
+G c Z s s [object_connect pkg_graficos__destroyed 838 17 204_7]
+G c Z s s [connect pkg_graficos__destroyed 845 17 204_7]
+G c Z s s [object_connect pkg_graficos__destroyed 850 17 204_7]
+G c Z s s [connect pkg_graficos__destroyed 857 17 204_7]
+G c Z s s [object_connect pkg_graficos__destroyed 862 17 204_7]
+G c Z s s [connect pkg_graficos__destroyed 872 16 204_7]
+G c Z s s [object_connect pkg_graficos__destroyed 878 16 204_7]
+G c Z s s [connect pkg_graficos__destroyed 885 16 204_7]
+G c Z s s [object_connect pkg_graficos__destroyed 891 16 204_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__gint_marshaller 360 19 900_7_204_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__gint_marshaller 362 20 900_7_204_7]
+G c Z s s [call pkg_graficos__destroyed__gint_marshaller 378 20 900_7_204_7]
+G c Z s s [to_handler pkg_graficos__destroyed__gint_marshaller 515 19 900_7_204_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__gint_marshaller 517 19 900_7_204_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__guint_marshaller 360 19 902_7_204_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__guint_marshaller 362 20 902_7_204_7]
+G c Z s s [call pkg_graficos__destroyed__guint_marshaller 378 20 902_7_204_7]
+G c Z s s [to_handler pkg_graficos__destroyed__guint_marshaller 515 19 902_7_204_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__guint_marshaller 517 19 902_7_204_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__event_marshaller 360 19 904_7_204_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__event_marshaller 362 20 904_7_204_7]
+G c Z s s [call pkg_graficos__destroyed__event_marshaller 378 20 904_7_204_7]
+G c Z s s [to_handler pkg_graficos__destroyed__event_marshaller 515 19 904_7_204_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__event_marshaller 517 19 904_7_204_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__widget_marshaller 440 19 906_7_204_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__widget_marshaller 442 20 906_7_204_7]
+G c Z s s [call pkg_graficos__destroyed__widget_marshaller 448 20 906_7_204_7]
+G c Z s s [to_handler pkg_graficos__destroyed__widget_marshaller 700 19 906_7_204_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__widget_marshaller 702 19 906_7_204_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__tree_path_marshaller 360 19 908_7_204_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__tree_path_marshaller 362 20 908_7_204_7]
+G c Z s s [call pkg_graficos__destroyed__tree_path_marshaller 378 20 908_7_204_7]
+G c Z s s [to_handler pkg_graficos__destroyed__tree_path_marshaller 515 19 908_7_204_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__tree_path_marshaller 517 19 908_7_204_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__tree_iter_tree_path_marshaller 400 19 910_7_204_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__tree_iter_tree_path_marshaller 402 20 910_7_204_7]
+G c Z s s [call pkg_graficos__destroyed__tree_iter_tree_path_marshaller 423 20 910_7_204_7]
+G c Z s s [to_handler pkg_graficos__destroyed__tree_iter_tree_path_marshaller 600 19 910_7_204_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__tree_iter_tree_path_marshaller 602 19 910_7_204_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__tree_path_tree_iter_marshaller 400 19 914_7_204_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__tree_path_tree_iter_marshaller 402 20 914_7_204_7]
+G c Z s s [call pkg_graficos__destroyed__tree_path_tree_iter_marshaller 423 20 914_7_204_7]
+G c Z s s [to_handler pkg_graficos__destroyed__tree_path_tree_iter_marshaller 600 19 914_7_204_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__tree_path_tree_iter_marshaller 602 19 914_7_204_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__tree_path_tree_column_marshaller 400 19 918_7_204_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__tree_path_tree_column_marshaller 402 20 918_7_204_7]
+G c Z s s [call pkg_graficos__destroyed__tree_path_tree_column_marshaller 423 20 918_7_204_7]
+G c Z s s [to_handler pkg_graficos__destroyed__tree_path_tree_column_marshaller 600 19 918_7_204_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__tree_path_tree_column_marshaller 602 19 918_7_204_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed 976 17 204_7]
+G c Z s s [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40121 992 17 204_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed 992 17 204_7]
+G c Z s s [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40236 996 17 204_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed 996 17 204_7]
+G c Z s s [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40403 1001 17 204_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed 1001 17 204_7]
+G c Z s s [convert pkg_graficos__destroyed 1022 16 204_7]
+G c Z s s [convert pkg_graficos__destroyed 1024 16 204_7]
+G c Z s s [free_data pkg_graficos__destroyed 1027 17 204_7]
+G c Z s s [first_marshaller pkg_graficos__destroyed 1031 17 204_7]
+G c Z s s [data_type_recordIP pkg_graficos__destroyed 1013 12 204_7]
+G c Z s s [to_handler pkg_graficos__destroyed 867 16 204_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed 869 16 204_7]
+G c Z s s [to_address pkg_graficos__destroyed 871 16 204_7]
+G c Z s s [to_address pkg_graficos__destroyed 873 16 204_7]
+G c Z s b [draw_complex pkg_graficos 206 17 none]
+G c Z s b [draw_complex_buffer pkg_graficos 208 16 none]
+G c Z s b [quit pkg_graficos 210 17 none]
+G c Z s s [insertar_ultimo_item pkg_graficos__pkg_buffer_coches 11 14 214_7]
+G c Z s s [extraer_primer_item pkg_graficos__pkg_buffer_coches 12 14 214_7]
+G c Z s s [actualiza_item pkg_graficos__pkg_buffer_coches 13 14 214_7]
+G c Z s s [posicion_primer_item pkg_graficos__pkg_buffer_coches 14 13 214_7]
+G c Z s s [posicion_ultimo_item pkg_graficos__pkg_buffer_coches 15 13 214_7]
+G c Z s s [consulta_item pkg_graficos__pkg_buffer_coches 16 13 214_7]
+G c Z s s [vacio pkg_graficos__pkg_buffer_coches 17 13 214_7]
+G c Z s s [lleno pkg_graficos__pkg_buffer_coches 18 13 214_7]
+G c Z s s [extraer_posicion_item pkg_graficos__pkg_buffer_coches 19 14 214_7]
+G c Z s s [Tt_vectorBIP pkg_graficos__pkg_buffer_coches 22 7 214_7]
+G c Z s s [t_bufferIP pkg_graficos__pkg_buffer_coches 24 12 214_7]
+G c Z s s [Tbuffer_cochesBIP pkg_graficos 215 7 none]
+G c Z s s [insertar_ultimo_item pkg_graficos__pkg_buffer_accidentes 11 14 217_7]
+G c Z s s [extraer_primer_item pkg_graficos__pkg_buffer_accidentes 12 14 217_7]
+G c Z s s [actualiza_item pkg_graficos__pkg_buffer_accidentes 13 14 217_7]
+G c Z s s [posicion_primer_item pkg_graficos__pkg_buffer_accidentes 14 13 217_7]
+G c Z s s [posicion_ultimo_item pkg_graficos__pkg_buffer_accidentes 15 13 217_7]
+G c Z s s [consulta_item pkg_graficos__pkg_buffer_accidentes 16 13 217_7]
+G c Z s s [vacio pkg_graficos__pkg_buffer_accidentes 17 13 217_7]
+G c Z s s [lleno pkg_graficos__pkg_buffer_accidentes 18 13 217_7]
+G c Z s s [extraer_posicion_item pkg_graficos__pkg_buffer_accidentes 19 14 217_7]
+G c Z s s [Tt_vectorBIP pkg_graficos__pkg_buffer_accidentes 22 7 217_7]
+G c Z s s [t_bufferIP pkg_graficos__pkg_buffer_accidentes 24 12 217_7]
+G c Z s s [Tbuffer_accidentesBIP pkg_graficos 218 7 none]
+G c Z s s [insertar_ultimo_item pkg_graficos__pkg_buffer_peatones 11 14 220_7]
+G c Z s s [extraer_primer_item pkg_graficos__pkg_buffer_peatones 12 14 220_7]
+G c Z s s [actualiza_item pkg_graficos__pkg_buffer_peatones 13 14 220_7]
+G c Z s s [posicion_primer_item pkg_graficos__pkg_buffer_peatones 14 13 220_7]
+G c Z s s [posicion_ultimo_item pkg_graficos__pkg_buffer_peatones 15 13 220_7]
+G c Z s s [consulta_item pkg_graficos__pkg_buffer_peatones 16 13 220_7]
+G c Z s s [vacio pkg_graficos__pkg_buffer_peatones 17 13 220_7]
+G c Z s s [lleno pkg_graficos__pkg_buffer_peatones 18 13 220_7]
+G c Z s s [extraer_posicion_item pkg_graficos__pkg_buffer_peatones 19 14 220_7]
+G c Z s s [Tt_vectorBIP pkg_graficos__pkg_buffer_peatones 22 7 220_7]
+G c Z s s [t_bufferIP pkg_graficos__pkg_buffer_peatones 24 12 220_7]
+G c Z s b [inicializar_interfaz_grafica pkg_graficos 227 17 none]
+G c Z s b [inicializar_buffer_coches pkg_graficos 230 17 none]
+G c Z s b [posicion_buffer pkg_graficos 234 16 none]
+G c Z s b [posicion_buffer pkg_graficos 239 16 none]
+G c Z s b [detectar_coche_delante pkg_graficos 243 17 none]
+G c Z s b [coche_accidentado pkg_graficos 248 17 none]
+G c Z s b [tiene_sif pkg_graficos 251 16 none]
+G c Z s b [consulta_coche_delante pkg_graficos 254 16 none]
+G c Z s b [dibujar_canvas_calle pkg_graficos 259 17 none]
+G c Z s b [dibujar_canvas_semaforo pkg_graficos 262 17 none]
+G c Z s b [dibujar_canvas_peaton pkg_graficos 266 17 none]
+G c Z s b [dibujar_canvas_coche pkg_graficos 272 17 none]
+G c Z s b [dibujar_canvas_tren pkg_graficos 277 17 none]
+G c Z s b [dibujar_canvas_taxi pkg_graficos 280 17 none]
+G c Z s b [dibujar_canvas_cronometro pkg_graficos 283 17 none]
+G c Z s b [convertir_color_gc pkg_graficos 287 16 none]
+G c Z s b [crear_flechas pkg_graficos 290 16 none]
+G c Z s b [dibujar_lineas pkg_graficos 293 17 none]
+G c Z s b [dibujar_rueda pkg_graficos 296 17 none]
+G c Z s b [dibujar_chasis pkg_graficos 301 17 none]
+G c Z s b [dibujar_ventanas_coche pkg_graficos 305 17 none]
+G r c none [b pkg_graficos 23 1 none] [escribir pkg_debug 18 14 none]
+G r c none [b pkg_graficos 23 1 none] [init gtk__main 62 14 none]
+G r c none [b pkg_graficos 23 1 none] [gtk_new gtk__window 83 14 none]
+G r c none [b pkg_graficos 23 1 none] [set_title gtk__window 787 14 none]
+G r c none [b pkg_graficos 23 1 none] [set_default_size gtk__window 322 14 none]
+G r s handler_id [b pkg_graficos 23 1 none] [handler_idIP gtk__handlers 189 9 none]
+G r c none [b pkg_graficos 23 1 none] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [b pkg_graficos 23 1 none] [gtk_new gtk__button 119 14 none]
+G r c none [b pkg_graficos 23 1 none] [get_object glib__object 135 13 none]
+G r c none [b pkg_graficos 23 1 none] [set_size_request gtk__widget 1927 14 none]
+G r c none [b pkg_graficos 23 1 none] [gtk_new gtk__alignment 63 14 none]
+G r c none [b pkg_graficos 23 1 none] [add gtk__container 216 14 none]
+G r c none [b pkg_graficos 23 1 none] [gtk_new double_buffer 96 14 none]
+G r c none [b pkg_graficos 23 1 none] [gtk_new_hbox gtk__box 129 14 none]
+G r c none [b pkg_graficos 23 1 none] [gtk_new_vbox gtk__box 155 14 none]
+G r c none [b pkg_graficos 23 1 none] [pack_start gtk__box 264 14 none]
+G r c none [b pkg_graficos 23 1 none] [show_all gtk__widget 2970 14 none]
+G r c none [b pkg_graficos 23 1 none] [get_pango_context gtk__widget 1638 13 none]
+G r c none [b pkg_graficos 23 1 none] [gdk_new pango__layout 107 14 none]
+G r c none [b pkg_graficos 23 1 none] [from_string pango__font 394 13 none]
+G r c none [b pkg_graficos 23 1 none] [set_font_description pango__layout 294 14 none]
+G r c none [s pkg_graficos 24 1 none] [to_cairo gtkada__style 90 13 none]
+G r i none [s pkg_graficos 24 1 none] [void_marshallers gtk__marshallers 337 12 none]
+G r i none [s pkg_graficos 24 1 none] [callback gtk__handlers 820 12 none]
+G r i none [s pkg_graficos 24 1 none] [generic_sources glib__main 395 12 none]
+G r i none [s pkg_graficos 24 1 none] [pkg_buffergenerico standard 9 9 none]
+G r c none [simular_sistema pkg_graficos 32 14 none] [main gtk__main 197 14 none]
+G r c none [desaparece pkg_graficos 46 14 none] [escribir pkg_debug 18 14 none]
+G r c none [desaparece pkg_graficos 48 14 none] [escribir pkg_debug 18 14 none]
+G r c none [actualiza_movimiento pkg_graficos 64 14 none] [escribir pkg_debug 18 14 none]
+G r c none [actualiza_color_peaton pkg_graficos 125 14 none] [escribir pkg_debug 18 14 none]
+G r c none [emit_by_name pkg_graficos__void_cb__marshallers__void_marshaller 463 20 828_7_201_7] [get_object glib__object 135 13 none]
+G r s handler_id [connect pkg_graficos__void_cb 833 17 201_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect pkg_graficos__void_cb 833 17 201_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect pkg_graficos__void_cb 838 17 201_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect pkg_graficos__void_cb 838 17 201_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__void_cb 838 17 201_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [connect pkg_graficos__void_cb 845 17 201_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect pkg_graficos__void_cb 845 17 201_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect pkg_graficos__void_cb 850 17 201_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect pkg_graficos__void_cb 850 17 201_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__void_cb 850 17 201_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [connect pkg_graficos__void_cb 857 17 201_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect pkg_graficos__void_cb 857 17 201_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect pkg_graficos__void_cb 862 17 201_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect pkg_graficos__void_cb 862 17 201_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__void_cb 862 17 201_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [connect pkg_graficos__void_cb 872 16 201_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [object_connect pkg_graficos__void_cb 878 16 201_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__void_cb 878 16 201_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [connect pkg_graficos__void_cb 885 16 201_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [object_connect pkg_graficos__void_cb 891 16 201_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__void_cb 891 16 201_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [emit_by_name pkg_graficos__void_cb__gint_marshaller 362 20 900_7_201_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__void_cb__gint_marshaller 378 20 900_7_201_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__void_cb__gint_marshaller 378 20 900_7_201_7] [get_int glib__values 141 14 none]
+G r c none [emit_by_name pkg_graficos__void_cb__guint_marshaller 362 20 902_7_201_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__void_cb__guint_marshaller 378 20 902_7_201_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__void_cb__guint_marshaller 378 20 902_7_201_7] [get_uint glib__values 147 14 none]
+G r c none [emit_by_name pkg_graficos__void_cb__event_marshaller 362 20 904_7_201_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__void_cb__event_marshaller 378 20 904_7_201_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__void_cb__event_marshaller 378 20 904_7_201_7] [get_event gdk__event 1039 13 none]
+G r c none [emit_by_name pkg_graficos__void_cb__widget_marshaller 442 20 906_7_201_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__void_cb__widget_marshaller 448 20 906_7_201_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__void_cb__widget_marshaller 448 20 906_7_201_7] [get_address glib__values 172 14 none]
+G r c none [call pkg_graficos__void_cb__widget_marshaller 448 20 906_7_201_7] [convert gtk__widget 432 13 none]
+G r s gtk_widget_record [call pkg_graficos__void_cb__widget_marshaller 448 20 906_7_201_7] [gtk_widget_recordIP gtk__widget 343 9 none]
+G r c none [emit_by_name pkg_graficos__void_cb__tree_path_marshaller 362 20 908_7_201_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__void_cb__tree_path_marshaller 378 20 908_7_201_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__void_cb__tree_path_marshaller 378 20 908_7_201_7] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [emit_by_name pkg_graficos__void_cb__tree_iter_tree_path_marshaller 402 20 910_7_201_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__void_cb__tree_iter_tree_path_marshaller 423 20 910_7_201_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__void_cb__tree_iter_tree_path_marshaller 423 20 910_7_201_7] [get_tree_iter gtk__tree_model 788 13 none]
+G r c none [call pkg_graficos__void_cb__tree_iter_tree_path_marshaller 423 20 910_7_201_7] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [emit_by_name pkg_graficos__void_cb__tree_path_tree_iter_marshaller 402 20 914_7_201_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__void_cb__tree_path_tree_iter_marshaller 423 20 914_7_201_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__void_cb__tree_path_tree_iter_marshaller 423 20 914_7_201_7] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [call pkg_graficos__void_cb__tree_path_tree_iter_marshaller 423 20 914_7_201_7] [get_tree_iter gtk__tree_model 788 13 none]
+G r c none [emit_by_name pkg_graficos__void_cb__tree_path_tree_column_marshaller 402 20 918_7_201_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__void_cb__tree_path_tree_column_marshaller 423 20 918_7_201_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__void_cb__tree_path_tree_column_marshaller 423 20 918_7_201_7] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [call pkg_graficos__void_cb__tree_path_tree_column_marshaller 423 20 918_7_201_7] [get_tree_view_column gtk__handlers 199 13 none]
+G r c none [emit_by_name pkg_graficos__void_cb 976 17 201_7] [get_object glib__object 135 13 none]
+G r c none [emit_by_name pkg_graficos__void_cb 976 17 201_7] [to_address gdk__event 1036 13 none]
+G r c none [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40121 992 17 201_7] [get_object glib__object 135 13 none]
+G r c none [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40121 992 17 201_7] [to_address gtk__handlers 196 13 none]
+G r c none [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40236 996 17 201_7] [get_object glib__object 135 13 none]
+G r c none [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40236 996 17 201_7] [to_address gtk__tree_model 791 13 none]
+G r c none [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40236 996 17 201_7] [to_address gtk__handlers 196 13 none]
+G r c none [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40403 1001 17 201_7] [get_object glib__object 135 13 none]
+G r c none [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40403 1001 17 201_7] [to_address gtk__handlers 196 13 none]
+G r c none [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40403 1001 17 201_7] [to_address gtk__tree_model 791 13 none]
+G r c none [first_marshaller pkg_graficos__void_cb 1031 17 201_7] [get_data gtkada__bindings 174 13 none]
+G r s gtk_window_record [first_marshaller pkg_graficos__void_cb 1031 17 201_7] [gtk_window_recordIP gtk__window 73 9 none]
+G r c none [first_marshaller pkg_graficos__void_cb 1031 17 201_7] [make_values glib__values 63 13 none]
+G r c none [first_marshaller pkg_graficos__void_cb 1031 17 201_7] [nth glib__values 70 13 none]
+G r c none [first_marshaller pkg_graficos__void_cb 1031 17 201_7] [get_address glib__values 172 14 none]
+G r c none [first_marshaller pkg_graficos__void_cb 1031 17 201_7] [get_user_data glib__object 147 13 none]
+G r c none [first_marshaller pkg_graficos__void_cb 1031 17 201_7] [process_exception gtkada__bindings 220 14 none]
+G r c none [general_cb pkg_graficos__main_context_sources 440 16 202_7] [process_exception gtkada__bindings 220 14 none]
+G r c none [emit_by_name pkg_graficos__destroyed__marshallers__void_marshaller 463 20 828_7_204_7] [get_object glib__object 135 13 none]
+G r s handler_id [connect pkg_graficos__destroyed 833 17 204_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect pkg_graficos__destroyed 833 17 204_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect pkg_graficos__destroyed 838 17 204_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect pkg_graficos__destroyed 838 17 204_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__destroyed 838 17 204_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [connect pkg_graficos__destroyed 845 17 204_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect pkg_graficos__destroyed 845 17 204_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect pkg_graficos__destroyed 850 17 204_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect pkg_graficos__destroyed 850 17 204_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__destroyed 850 17 204_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [connect pkg_graficos__destroyed 857 17 204_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect pkg_graficos__destroyed 857 17 204_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect pkg_graficos__destroyed 862 17 204_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect pkg_graficos__destroyed 862 17 204_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__destroyed 862 17 204_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [connect pkg_graficos__destroyed 872 16 204_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [object_connect pkg_graficos__destroyed 878 16 204_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__destroyed 878 16 204_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [connect pkg_graficos__destroyed 885 16 204_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [object_connect pkg_graficos__destroyed 891 16 204_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__destroyed 891 16 204_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [emit_by_name pkg_graficos__destroyed__gint_marshaller 362 20 900_7_204_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__destroyed__gint_marshaller 378 20 900_7_204_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__destroyed__gint_marshaller 378 20 900_7_204_7] [get_int glib__values 141 14 none]
+G r c none [emit_by_name pkg_graficos__destroyed__guint_marshaller 362 20 902_7_204_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__destroyed__guint_marshaller 378 20 902_7_204_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__destroyed__guint_marshaller 378 20 902_7_204_7] [get_uint glib__values 147 14 none]
+G r c none [emit_by_name pkg_graficos__destroyed__event_marshaller 362 20 904_7_204_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__destroyed__event_marshaller 378 20 904_7_204_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__destroyed__event_marshaller 378 20 904_7_204_7] [get_event gdk__event 1039 13 none]
+G r c none [emit_by_name pkg_graficos__destroyed__widget_marshaller 442 20 906_7_204_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__destroyed__widget_marshaller 448 20 906_7_204_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__destroyed__widget_marshaller 448 20 906_7_204_7] [get_address glib__values 172 14 none]
+G r c none [call pkg_graficos__destroyed__widget_marshaller 448 20 906_7_204_7] [convert gtk__widget 432 13 none]
+G r s gtk_widget_record [call pkg_graficos__destroyed__widget_marshaller 448 20 906_7_204_7] [gtk_widget_recordIP gtk__widget 343 9 none]
+G r c none [emit_by_name pkg_graficos__destroyed__tree_path_marshaller 362 20 908_7_204_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__destroyed__tree_path_marshaller 378 20 908_7_204_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__destroyed__tree_path_marshaller 378 20 908_7_204_7] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [emit_by_name pkg_graficos__destroyed__tree_iter_tree_path_marshaller 402 20 910_7_204_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__destroyed__tree_iter_tree_path_marshaller 423 20 910_7_204_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__destroyed__tree_iter_tree_path_marshaller 423 20 910_7_204_7] [get_tree_iter gtk__tree_model 788 13 none]
+G r c none [call pkg_graficos__destroyed__tree_iter_tree_path_marshaller 423 20 910_7_204_7] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [emit_by_name pkg_graficos__destroyed__tree_path_tree_iter_marshaller 402 20 914_7_204_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__destroyed__tree_path_tree_iter_marshaller 423 20 914_7_204_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__destroyed__tree_path_tree_iter_marshaller 423 20 914_7_204_7] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [call pkg_graficos__destroyed__tree_path_tree_iter_marshaller 423 20 914_7_204_7] [get_tree_iter gtk__tree_model 788 13 none]
+G r c none [emit_by_name pkg_graficos__destroyed__tree_path_tree_column_marshaller 402 20 918_7_204_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__destroyed__tree_path_tree_column_marshaller 423 20 918_7_204_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__destroyed__tree_path_tree_column_marshaller 423 20 918_7_204_7] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [call pkg_graficos__destroyed__tree_path_tree_column_marshaller 423 20 918_7_204_7] [get_tree_view_column gtk__handlers 199 13 none]
+G r c none [emit_by_name pkg_graficos__destroyed 976 17 204_7] [get_object glib__object 135 13 none]
+G r c none [emit_by_name pkg_graficos__destroyed 976 17 204_7] [to_address gdk__event 1036 13 none]
+G r c none [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40121 992 17 204_7] [get_object glib__object 135 13 none]
+G r c none [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40121 992 17 204_7] [to_address gtk__handlers 196 13 none]
+G r c none [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40236 996 17 204_7] [get_object glib__object 135 13 none]
+G r c none [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40236 996 17 204_7] [to_address gtk__tree_model 791 13 none]
+G r c none [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40236 996 17 204_7] [to_address gtk__handlers 196 13 none]
+G r c none [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40403 1001 17 204_7] [get_object glib__object 135 13 none]
+G r c none [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40403 1001 17 204_7] [to_address gtk__handlers 196 13 none]
+G r c none [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40403 1001 17 204_7] [to_address gtk__tree_model 791 13 none]
+G r c none [first_marshaller pkg_graficos__destroyed 1031 17 204_7] [get_data gtkada__bindings 174 13 none]
+G r s gtk_window_record [first_marshaller pkg_graficos__destroyed 1031 17 204_7] [gtk_window_recordIP gtk__window 73 9 none]
+G r c none [first_marshaller pkg_graficos__destroyed 1031 17 204_7] [make_values glib__values 63 13 none]
+G r c none [first_marshaller pkg_graficos__destroyed 1031 17 204_7] [nth glib__values 70 13 none]
+G r c none [first_marshaller pkg_graficos__destroyed 1031 17 204_7] [get_address glib__values 172 14 none]
+G r c none [first_marshaller pkg_graficos__destroyed 1031 17 204_7] [get_user_data glib__object 147 13 none]
+G r c none [first_marshaller pkg_graficos__destroyed 1031 17 204_7] [process_exception gtkada__bindings 220 14 none]
+G r c none [draw_complex pkg_graficos 206 17 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [draw_complex pkg_graficos 206 17 none] [set_line_width cairo 843 14 none]
+G r c none [draw_complex pkg_graficos 206 17 none] [draw_line gtkada__style 190 14 none]
+G r c none [draw_complex pkg_graficos 206 17 none] [move_to cairo 1108 14 none]
+G r c none [draw_complex pkg_graficos 206 17 none] [line_to cairo 1132 14 none]
+G r c none [draw_complex pkg_graficos 206 17 none] [close_path cairo 1327 14 none]
+G r c none [draw_complex pkg_graficos 206 17 none] [set_source_rgb cairo 686 14 none]
+G r c none [draw_complex pkg_graficos 206 17 none] [fill cairo 1469 14 none]
+G r c none [draw_complex pkg_graficos 206 17 none] [set_text pango__layout 506 14 none]
+G r c none [draw_complex pkg_graficos 206 17 none] [draw_layout gtkada__style 203 14 none]
+G r c none [draw_complex_buffer pkg_graficos 208 16 none] [get_pixmap double_buffer 107 13 none]
+G r c none [draw_complex_buffer pkg_graficos 208 16 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [draw_complex_buffer pkg_graficos 208 16 none] [set_line_width cairo 843 14 none]
+G r c none [draw_complex_buffer pkg_graficos 208 16 none] [draw_line gtkada__style 190 14 none]
+G r c none [draw_complex_buffer pkg_graficos 208 16 none] [move_to cairo 1108 14 none]
+G r c none [draw_complex_buffer pkg_graficos 208 16 none] [line_to cairo 1132 14 none]
+G r c none [draw_complex_buffer pkg_graficos 208 16 none] [close_path cairo 1327 14 none]
+G r c none [draw_complex_buffer pkg_graficos 208 16 none] [set_source_rgb cairo 686 14 none]
+G r c none [draw_complex_buffer pkg_graficos 208 16 none] [fill cairo 1469 14 none]
+G r c none [draw_complex_buffer pkg_graficos 208 16 none] [set_text pango__layout 506 14 none]
+G r c none [draw_complex_buffer pkg_graficos 208 16 none] [draw_layout gtkada__style 203 14 none]
+G r c none [draw_complex_buffer pkg_graficos 208 16 none] [thaw double_buffer 102 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [gtk_new gtk__window 83 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [set_title gtk__window 787 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [set_default_size gtk__window 322 14 none]
+G r s handler_id [inicializar_interfaz_grafica pkg_graficos 227 17 none] [handler_idIP gtk__handlers 189 9 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [gtk_new gtk__button 119 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [get_object glib__object 135 13 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [set_size_request gtk__widget 1927 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [gtk_new gtk__alignment 63 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [add gtk__container 216 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [gtk_new double_buffer 96 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [gtk_new_hbox gtk__box 129 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [gtk_new_vbox gtk__box 155 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [pack_start gtk__box 264 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [show_all gtk__widget 2970 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [get_pango_context gtk__widget 1638 13 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [gdk_new pango__layout 107 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [from_string pango__font 394 13 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [set_font_description pango__layout 294 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 227 17 none] [escribir pkg_debug 18 14 none]
+G r c none [inicializar_buffer_coches pkg_graficos 230 17 none] [escribir pkg_debug 18 14 none]
+G r c none [posicion_buffer pkg_graficos 234 16 none] [escribir pkg_debug 18 14 none]
+G r c none [posicion_buffer pkg_graficos 239 16 none] [escribir pkg_debug 18 14 none]
+G r c none [detectar_coche_delante pkg_graficos 243 17 none] [escribir pkg_debug 18 14 none]
+G r c none [consulta_coche_delante pkg_graficos 254 16 none] [escribir pkg_debug 18 14 none]
+G r c none [dibujar_canvas_calle pkg_graficos 259 17 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [dibujar_canvas_calle pkg_graficos 259 17 none] [set_line_width cairo 843 14 none]
+G r c none [dibujar_canvas_calle pkg_graficos 259 17 none] [draw_line gtkada__style 190 14 none]
+G r c none [dibujar_canvas_calle pkg_graficos 259 17 none] [move_to cairo 1108 14 none]
+G r c none [dibujar_canvas_calle pkg_graficos 259 17 none] [line_to cairo 1132 14 none]
+G r c none [dibujar_canvas_calle pkg_graficos 259 17 none] [close_path cairo 1327 14 none]
+G r c none [dibujar_canvas_calle pkg_graficos 259 17 none] [set_source_rgb cairo 686 14 none]
+G r c none [dibujar_canvas_calle pkg_graficos 259 17 none] [fill cairo 1469 14 none]
+G r c none [dibujar_canvas_calle pkg_graficos 259 17 none] [set_text pango__layout 506 14 none]
+G r c none [dibujar_canvas_calle pkg_graficos 259 17 none] [draw_layout gtkada__style 203 14 none]
+G r c none [dibujar_canvas_semaforo pkg_graficos 262 17 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [dibujar_canvas_peaton pkg_graficos 266 17 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [dibujar_canvas_peaton pkg_graficos 266 17 none] [draw_line gtkada__style 190 14 none]
+G r c none [dibujar_canvas_coche pkg_graficos 272 17 none] [draw_line gtkada__style 190 14 none]
+G r c none [dibujar_canvas_coche pkg_graficos 272 17 none] [move_to cairo 1108 14 none]
+G r c none [dibujar_canvas_coche pkg_graficos 272 17 none] [line_to cairo 1132 14 none]
+G r c none [dibujar_canvas_coche pkg_graficos 272 17 none] [close_path cairo 1327 14 none]
+G r c none [dibujar_canvas_coche pkg_graficos 272 17 none] [set_source_rgb cairo 686 14 none]
+G r c none [dibujar_canvas_coche pkg_graficos 272 17 none] [fill cairo 1469 14 none]
+G r c none [dibujar_canvas_coche pkg_graficos 272 17 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [dibujar_canvas_tren pkg_graficos 277 17 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [dibujar_canvas_taxi pkg_graficos 280 17 none] [move_to cairo 1108 14 none]
+G r c none [dibujar_canvas_taxi pkg_graficos 280 17 none] [line_to cairo 1132 14 none]
+G r c none [dibujar_canvas_taxi pkg_graficos 280 17 none] [close_path cairo 1327 14 none]
+G r c none [dibujar_canvas_taxi pkg_graficos 280 17 none] [set_source_rgb cairo 686 14 none]
+G r c none [dibujar_canvas_taxi pkg_graficos 280 17 none] [fill cairo 1469 14 none]
+G r c none [dibujar_canvas_taxi pkg_graficos 280 17 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [dibujar_canvas_cronometro pkg_graficos 283 17 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [dibujar_canvas_cronometro pkg_graficos 283 17 none] [set_text pango__layout 506 14 none]
+G r c none [dibujar_canvas_cronometro pkg_graficos 283 17 none] [draw_layout gtkada__style 203 14 none]
+G r c none [dibujar_lineas pkg_graficos 293 17 none] [draw_line gtkada__style 190 14 none]
+G r c none [dibujar_rueda pkg_graficos 296 17 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [dibujar_chasis pkg_graficos 301 17 none] [move_to cairo 1108 14 none]
+G r c none [dibujar_chasis pkg_graficos 301 17 none] [line_to cairo 1132 14 none]
+G r c none [dibujar_chasis pkg_graficos 301 17 none] [close_path cairo 1327 14 none]
+G r c none [dibujar_chasis pkg_graficos 301 17 none] [set_source_rgb cairo 686 14 none]
+G r c none [dibujar_chasis pkg_graficos 301 17 none] [fill cairo 1469 14 none]
+G r c none [dibujar_ventanas_coche pkg_graficos 305 17 none] [move_to cairo 1108 14 none]
+G r c none [dibujar_ventanas_coche pkg_graficos 305 17 none] [line_to cairo 1132 14 none]
+G r c none [dibujar_ventanas_coche pkg_graficos 305 17 none] [close_path cairo 1327 14 none]
+G r c none [dibujar_ventanas_coche pkg_graficos 305 17 none] [set_source_rgb cairo 686 14 none]
+G r c none [dibujar_ventanas_coche pkg_graficos 305 17 none] [fill cairo 1469 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 116|11r6 15r6 15r26 598r7
+X 3 a-except.ads
+44K13*Exceptions 289e19 116|15w10 15r30
+48P9*Exception_Id<136|84P9>
+60V13*Exception_Name{string} 116|179s69 202s63 276s61 289s60 414s76 615s66
+. 642s63 672s66 701s66
+92V13*Exception_Identity{48P9} 116|179s84 202s78 276s76 289s75 414s91 615s81
+. 642s78 672s81 701s81
+X 5 a-flteio.ads
+20K13*Float_Text_IO[13|46] 116|11w10 598r11
+X 11 a-tags.ads
+652V13 CW_Membership{boolean} 116|129s37
+X 13 a-tiflio.ads
+100U14*Put 116|598s25[5|20]
+X 16 cairo.ads
+75K9*Cairo 2893e10 115|9w6 9r29 116|755r7 761r7 1153r7 1154r7 1155r7 1156r7
+. 1157r7 1158r7 1159r7 1160r7 1161r7 1162r7 1173r7 1174r7 1175r7 1176r7 1177r7
+. 1178r7 1179r7 1182r7 1183r7 1184r7 1185r7 1186r7 1187r7
+77M9*Cairo_Context<118|67M9> 115|206r40 259r47 262r50 266r48 272r47 277r46
+. 280r46 283r52 293r41 296r39 301r40 305r48 116|111r37 735r44 880r47 899r45
+. 923r44 964r43 1025r43 1067r49 1123r38 1134r36 1150r37 1169r45
+686U14*Set_Source_Rgb 116|1161s13 1178s13
+843U14*Set_Line_Width 116|755s13 761s13
+1108U14*Move_To 116|1153s13 1173s13 1182s13
+1132U14*Line_To 116|1154s13 1155s13 1156s13 1157s13 1158s13 1159s13 1174s13
+. 1175s13 1176s13 1183s13 1184s13 1185s13
+1327U14*Close_Path 116|1160s13 1177s13 1186s13
+1469U14*Fill 116|1162s13 1179s13 1187s13
+X 18 double_buffer.ads
+90K9*Double_Buffer 148e18 116|5w6 5r29 69r7 134r7
+94P9*Gtk_Double_Buffer(92R9) 116|40r20 129r16 129r37
+96U14*Gtk_New 116|69s21
+102U14*Thaw 116|134R21
+107V13*Get_Pixmap{16|77M9} 116|132R21
+X 19 gdk.ads
+38K9*Gdk 48e8 115|7r6 7r29 8r6 20r6 183r29 184r29 185r29 186r29 187r29 188r30
+. 189r28 116|6r6 6r29 16r6 17r6 17r22 18w6 18r15
+43P9*Gdk_Window<35|153P9>
+46P9*Gdk_Visual<35|153P9>
+X 20 gdk-cairo.ads
+37K13*Cairo 85e14 115|8w10
+X 21 gdk-color.ads
+44K13*Color 196e14 116|6w10 6r33
+X 22 gdk-device.ads
+49P9*Gdk_Device(48R9)
+59V13*Convert{118|67M9} 39|58i21
+60V13*Convert{49P9} 39|59i21
+X 28 gdk-pixbuf.ads
+51K13*Pixbuf 624e15 116|16w10
+X 30 gdk-rgba.ads
+35K13*RGBA 145e13 115|20w10 183r33 184r33 185r33 186r33 187r33 188r34 189r32
+37R9*Gdk_RGBA 42e14 115|183r38 184r38 185r38 186r38 187r38 188r39 189r37
+38f7*Red{35|59F9} 116|1161r42 1178r42
+39f7*Green{35|59F9} 116|1161r53 1178r53
+40f7*Blue{35|59F9} 116|1161r66 1178r66
+X 32 gdk-types.ads
+31K13*Types 297e14 115|7w10 7r33
+37i7*X{35|49I9} 116|927m45 1027m48 1126r45 1126r73
+38i7*Y{35|49I9} 116|927m52 1027m55 1126r58 1126r88
+42A9*Gdk_Points_Array(36R9)<integer> 115|174r51 293r99 116|927r18 1027r21
+. 1103r16 1123r96
+X 33 gdk-visual.ads
+78V13*Convert[146|20]{118|67M9} 39|58i21
+79V13*Convert[146|20]{19|46P9} 39|59i21
+X 34 gdk-window.ads
+45K13*Window 2193e15 116|17w10 17r26
+280V13*Convert{118|67M9} 39|58i21
+281V13*Convert{19|43P9} 39|59i21
+X 35 glib.ads
+38K9*Glib 429e9 115|17r6 17r29 21w6 21r29 133r54 143r23 202r43
+49I9*Gint<96|35I9> 115|297r74 297r83 298r50 298r73 302r38 302r50 306r45 306r57
+. 116|758r41 758r84 784r50 784r79 888r67 905r21 905r40 909r39 909r51 909r65
+. 909r77 910r39 910r53 910r65 910r79 913r39 913r51 913r65 913r79 914r39 914r51
+. 914r65 914r79 937r25 937r44 938r25 938r44 939r25 939r44 940r25 940r44 941r25
+. 941r44 942r25 942r44 947r43 947r55 950r47 950r59 953r48 953r64 956r48 956r63
+. 973r28 973r49 976r28 976r46 981r28 981r48 986r28 986r48 991r51 991r67 998r31
+. 998r52 1002r31 1002r49 1008r34 1008r54 1014r54 1014r70 1036r37 1036r49
+. 1040r28 1040r49 1050r28 1050r48 1054r47 1054r59 1057r48 1057r64 1060r48
+. 1060r63 1071r28 1071r54 1076r37 1076r57 1108r24 1108r36 1109r25 1109r34
+. 1110r24 1110r35 1111r24 1111r33 1112r24 1112r35 1135r71 1135r80 1136r47
+. 1136r70 1151r36 1151r48 1170r42 1170r54
+55M9*Guint<96|44M9> 115|133r59
+59F9*Gdouble<96|72F9> 116|1140r42 1143r42 1153r29 1153r47 1154r29 1154r47
+. 1155r29 1155r47 1156r29 1156r46 1157r29 1157r47 1158r29 1158r47 1159r29
+. 1159r47 1173r29 1173r46 1174r29 1174r46 1175r29 1175r46 1176r29 1176r46
+. 1182r29 1182r46 1183r29 1183r47 1184r29 1184r47 1185r29 1185r46
+79A12*UTF8_String{string}<integer> 115|143r28
+153P9*C_Proxy(150R9)
+X 41 glib-main.ads
+86K14*Main 523e14 115|17w11 17r34 202r48
+153M9*G_Source_Id<35|55M9> 116|42r20
+395k12*Generic_Sources 442e23 115|202r53
+414V16*Timeout_Add{153M9} 116|92s34[115|202]
+X 43 glib-object.ads
+41P9*GObject(40R9)
+675V13*Convert{118|67M9} 39|58i21 40|49i21
+676V13*Convert{41P9} 39|59i21 40|50i21
+X 51 gnat.ads
+34K9*GNAT 57e9 116|21r6 149r7
+X 52 g-os_lib.ads
+51K14*OS_Lib=51:36 116|21w11 149r12
+X 54 gtk.ads
+41K9*Gtk 79e8 115|12r6 12r29 13r6 13r29 14r6 14r29 16r6 16r29 201r30 204r32
+. 116|7r6 7r29 8r6 8r29 9r6 9r29 10r6 10r29 19r6 20r6 31r7 47r23 50r7 64r7
+. 1199r4
+X 60 gtk-alignment.ads
+54K13*Alignment 235e18 116|20w10 47r27 64r11
+57P9*Gtk_Alignment(56R9) 116|47r37
+63U14*Gtk_New 116|64s21
+X 62 gtk-box.ads
+87K13*Box 402e12 116|8w10 8r33
+90P9*Gtk_Box(89R9) 116|41r20
+129U14*Gtk_New_Hbox 116|74s7
+131b8 Homogeneous{boolean} 116|74r27
+132i8 Spacing{35|49I9} 116|74r49
+155U14*Gtk_New_Vbox 116|75s7
+157b8 Homogeneous{boolean} 116|75r27
+158i8 Spacing{35|49I9} 116|75r49
+264U14*Pack_Start 116|77R7 79R7 81R7
+X 65 gtk-button.ads
+53K13*Button 595e15 116|9w10 9r33
+56P9*Gtk_Button(55R9) 116|43r20
+119U14*Gtk_New 116|57s7
+X 70 gtk-cell_renderer.ads
+83P9*Gtk_Cell_Renderer(82R9)
+104V13*Convert{118|67M9} 39|58i21
+105V13*Convert{83P9} 39|59i21
+X 71 gtk-container.ads
+216U14*Add 116|65R21 84R11
+X 72 gtk-drawing_area.ads
+101K13*Drawing_Area 141e21 115|13w10 13r33
+104P9*Gtk_Drawing_Area(103R9) 115|202r69 208r44 116|94r47 128r41
+X 73 gtk-enums.ads
+30K13*Enums 878e14 116|7w10 7r33
+608n7*Window_Toplevel{607E9} 116|50r32
+865V13*Convert{118|67M9} 39|58i21 40|49i21
+866V13*Convert{string} 39|59i21 40|50i21
+X 74 gtk-grid.ads
+54K13*Grid 326e13 116|19w10
+X 75 gtk-handlers.ads
+181K13*Handlers 1531e17 115|14w10 14r33 15r27 201r34 204r36
+819R12 Widget_Type<43|40R9> 115|204r55
+820k12*Callback 1044e16 115|201r43 204r45
+833U17*Connect 116|53s15[115|201]
+838U17*Object_Connect 116|58s17[115|204]
+842p10 Slot_Object(89|73R9) 116|61r33[115|204]
+939V16*To_Marshaller=942:46{78|344R12[828[115|201]]} 116|53s48[115|201] 60s43[115|204]
+X 77 gtk-main.ads
+33K13*Main 327e13 115|16w10 16r33 18r27 116|31r11 1199r8
+62U14*Init 116|1199s13
+197U14*Main 116|31s16
+X 78 gtk-marshallers.ads
+344R12*Marshaller
+X 86 gtk-tree_model.ads
+808V13*Convert{118|67M9} 39|58i21
+809V13*Convert{221R9} 39|59i21
+X 87 gtk-tree_view_column.ads
+55P9*Gtk_Tree_View_Column(54R9)
+66V13*Convert{118|67M9} 39|58i21
+67V13*Convert{55P9} 39|59i21
+X 88 gtk-widget.ads
+341K13*Widget 5431e15 116|10w10 10r33
+344P9*Gtk_Widget(343R9)
+431V13*Convert{118|67M9} 39|58i21 40|49i21
+432V13*Convert{344P9} 39|59i21 40|50i21
+1638V13*Get_Pango_Context{101|44P9} 116|97R28
+1927U14*Set_Size_Request 116|63R14 70R14
+2970U14*Show_All 116|86R7
+X 89 gtk-window.ads
+71K13*Window 1676e15 115|12w10 12r33 116|50r11
+73R9*Gtk_Window_Record<61|45R9> 73e65 115|201r53 204r70 210r36 116|146r33
+74P9*Gtk_Window(73R9) 116|39r20
+83U14*Gtk_New 116|50s18
+322U14*Set_Default_Size 116|52R11
+787U14*Set_Title 116|51R7
+X 90 gtkada.ads
+30K9*Gtkada 34e11 115|11r6 11r29 191r30 191r58 192r30 192r58 193r30 193r58
+. 194r30 194r58 195r30 195r58 196r30 196r58 197r30 197r58 268r56 274r54 287r59
+. 293r64 296r71 297r45 301r62 305r70 116|901r53 925r52 966r15 1029r21 1030r25
+. 1084r56 1123r61 1134r68 1135r42 1150r59 1169r67
+X 93 gtkada-style.ads
+46K16*Style 591e17 115|11w13 11r36 191r37 191r65 192r37 192r65 193r37 193r65
+. 194r37 194r65 195r37 195r65 196r37 196r65 197r37 197r65 268r63 274r61 287r66
+. 293r71 296r78 297r52 301r69 305r77 116|901r60 925r59 966r22 1029r28 1030r32
+. 1084r63 1123r68 1134r75 1135r49 1150r66 1169r74
+55R12*Cairo_Color{30|37R9} 115|191r43 192r43 193r43 194r43 195r43 196r43
+. 197r43 268r69 274r67 287r72 293r77 296r84 297r58 301r75 305r83 116|901r66
+. 925r65 966r28 1029r34 1030r38 1084r69 1123r74 1134r81 1135r55 1150r72 1169r80
+90V13*To_Cairo{30|37R9} 115|191s71 192s71 193s71 194s71 195s71 196s71 197s71
+170U14*Draw_Rectangle 116|114s7 750s7 779s7 845s7 883s7 887s10 904s7 972s7
+. 975s7 980s7 985s7 997s10 1001s10 1007s13 1039s7 1049s7 1070s7 1138s10 1141s10
+173b7 Filled{boolean} 116|114r41 750r40 779r41 845r40 883r40 887r72 904r44
+. 972r38 975r38 980r39 985r40 997r41 1001r41 1007r46 1039r41 1049r48 1070r41
+. 1138r50 1141r47
+174i7 X{35|49I9} 116|115r23 751r23 780r23 846r23 884r23 888r19 905r16 973r23
+. 976r23 981r23 986r23 998r26 1002r26 1008r29 1040r23 1050r23 1071r23 1139r16
+. 1142r16
+174i10 Y{35|49I9} 116|115r37 751r36 780r44 846r51 884r40 888r36 905r35 973r44
+. 976r41 981r43 986r43 998r47 1002r44 1008r49 1040r44 1050r43 1071r49 1139r24
+. 1142r26
+174i13 Width{35|49I9} 116|116r23 752r23 781r23 847r23 885r23 889r19 905r54
+. 974r23 977r23 982r23 987r23 999r26 1003r26 1009r16 1041r23 1051r23 1072r23
+. 1139r32 1142r36
+174i20 Height{35|49I9} 116|116r46 752r46 781r36 847r54 885r36 889r32 905r66
+. 974r36 977r36 982r35 987r35 999r38 1003r39 1009r28 1041r36 1051r35 1072r36
+. 1139r61 1142r62
+175f7 Corner_Radius{35|59F9} 116|890r19 906r16 1140r25 1143r25
+190U14*Draw_Line 116|758s13 764s7 784s10 848s7 849s7 850s7 909s7 910s7 913s7
+. 914s7 1126s10
+203U14*Draw_Layout 116|853s7 1076s7
+X 96 i-c.ads
+35I9*int<integer>
+44M9*unsigned
+72F9*double<long_float>
+X 99 pango.ads
+35K9*Pango 45e10 115|10r6 10r29 19r6 19r30 116|12r6 12r24 13r6 44r22 98r23
+. 99r7
+X 101 pango-context.ads
+44P9*Pango_Context(43R9)
+X 103 pango-font.ads
+46K15*Font 409e15 115|10w12 10r35 116|13w12 44r28 98r29
+49P9*Pango_Font(48R9) 115|180r22
+51P9*Pango_Font_Description<35|153P9> 116|44r33
+394V13*From_String{51P9} 116|98s34
+X 109 pango-layout.ads
+59K15*Layout 812e17 115|19w12 19r36 116|12w12 12r30 99r13
+62P9*Pango_Layout(61R9) 115|199r20
+107U14*Gdk_New 116|97s7
+294U14*Set_Font_Description 116|99R20
+506U14*Set_Text 116|852R7 1075R7
+X 112 pkg_buffergenerico.ads
+6+9 Tipo_Dato 115|214r59 217r63 220r61
+7M9 tam 115|214r85 217r89 220r88
+9k9*PKG_bufferGenerico 32e23 115|6w6 214r40 217r44 220r42
+10R9*T_Buffer 115|215r60[214] 218r68[217] 221r44[220] 235r58[214] 240r60[220]
+. 116|189r55[115|214] 629r57[115|220]
+11U14*Insertar_Ultimo_Item 116|244s27[115|220] 250s25[115|214] 715s29[115|217]
+13U14*Actualiza_Item 116|170s31[115|214] 173s35[115|217] 403s25[115|214]
+. 612s27[115|220]
+14V13*Posicion_Primer_Item{117|62M9} 116|194s36[115|214] 634s38[115|220]
+. 692s38[115|214] 791s51[115|214] 809s55[115|217] 857s49[115|220]
+15V13*Posicion_Ultimo_Item{117|62M9} 116|792s51[115|214] 810s55[115|217]
+. 858s49[115|220]
+16V13*Consulta_Item{117|213R9} 116|195s42[115|214] 198s45[115|214] 635s45[115|220]
+. 638s48[115|220] 698s46[115|214] 795s48[115|214] 813s52[115|217] 861s47[115|220]
+17V13*Vacio{boolean} 116|589s34[115|220] 790s35[115|214] 808s39[115|217]
+. 856s34[115|220]
+19U14*Extraer_Posicion_Item 116|273s27[115|220] 286s25[115|214]
+X 114 pkg_debug.ads
+8K9*PKG_debug 38e14 116|14w6 179r9 202r13 276r9 289r9 414r9 615r9 642r13
+. 672r9 701r9 1195r4 1203r4
+18U14*Escribir 116|179s19 202s23 276s19 289s19 414s19 615s19 642s23 672s19
+. 701s19 1195s14 1203s14
+X 115 pkg_graficos.ads
+24K9*PKG_graficos 133E7 307l5 307e17 116|23b14 382r11 405r24 661r24 1204l5
+. 1204t17
+32U14*Simular_Sistema 116|29b14 32l8 32t23
+35V13*Posicion_Stop_Semaforo{boolean} 35>36 116|212b13 217l8 217t30
+35r36 Coche{117|213R9} 116|212b36 214r14 215r19 215r41
+36V13*Posicion_Stop_Semaforo{boolean} 36>36 116|219b13 224l8 224t30
+36r36 taxi{117|107R9} 116|219b36 221r14 222r19 222r40
+39U14*Aparece 39>22 116|232b14 235l8 235t15
+39r22 taxi{117|107R9} 116|232b22 234r23
+40U14*Aparece 40>22 116|237b14 240l8 240t15
+40r22 tren{117|137R9} 116|237b22 239r23
+41U14*Aparece 41>22 116|242b14 246l8 246t15
+41r22 peaton{117|175R9} 116|242b22 244r48
+42U14*Aparece 42>22 116|248b14 251l8 251t15
+42r22 coche{117|213R9} 116|248b22 250r46 250r67
+45U14*Desaparece 45>25 116|257b14 260l8 260t18
+45r25 taxi{117|107R9} 116|257b25
+46U14*Desaparece 46>25 116|267b14 278l8 278t18
+46r25 peaton{117|175R9} 116|267b25 272r30
+47U14*Desaparece 47>25 116|262b14 265l8 265t18
+47r25 tren{117|137R9} 116|262b25
+48U14*Desaparece 48>25 116|280b14 291l8 291t18
+48r25 coche{117|213R9} 116|280b25 285r30 285r54 286r77
+51V13*Pos_Final{boolean} 51>23 116|297b13 300l8 300t17
+51r23 Taxi{117|107R9} 116|297b23 299r14
+52V13*Pos_Final{boolean} 52>23 116|302b13 305l8 305t17
+52r23 Tren{117|137R9} 116|302b23 304r15 304r26
+53V13*Pos_Final{boolean} 53>23 116|307b13 310l8 310t17
+53r23 coche{117|213R9} 116|307b23 309r14
+56V13*Pos_Inicio{117|79R9} 56>24 116|316b13 319l8 319t18
+56r24 Taxi{117|107R9} 116|316b24
+57V13*Pos_Inicio{117|79R9} 57>24 116|321b13 324l8 324t18
+57r24 Tren{117|137R9} 116|321b24
+58V13*Pos_Inicio{117|79R9} 58>24 116|326b13 329l8 329t18
+58r24 peaton{117|175R9} 116|326b24 328r37
+59V13*Pos_Inicio{117|79R9} 59>24 116|331b13 334l8 334t18
+59r24 coche{117|213R9} 116|331b24 333r46
+62U14*Actualiza_Movimiento 62=35 116|342b14 358l8 358t28
+62r35 taxi{117|107R9} 116|342b35 347r22 347r43 354m7 356r23
+63U14*Actualiza_Movimiento 63=35 116|361b14 370l8 370t28
+63r35 tren{117|137R9} 116|361b35 366r22 366r43 367m7 369r23
+64U14*Actualiza_Movimiento 64=35 116|374b14 417l8 417t28
+64r35 Coche{117|213R9} 116|374b35 382r34 384r33 386r66 386m86 392r22 392r44
+. 399m7 402r30 402r54 403r45 403r66 405r60 406r10 407r13
+67U14*Actualiza_Atributo 67>33 68=33 116|423b14 426l8 426t26
+67r33 posicion{117|79R9} 116|423b33 425r18
+68r33 taxi{117|107R9} 116|423b56 425m7
+69U14*Actualiza_Atributo 69>33 70=33 116|429b14 432l8 432t26
+69r33 posicion{117|79R9} 116|429b33 431r18
+70r33 tren{117|137R9} 116|429b56 431m7
+71U14*Actualiza_Atributo 71>33 72=33 116|435b14 438l8 438t26
+71r33 posicion{117|79R9} 116|435b33 437r20
+72r33 peaton{117|175R9} 116|435b56 437m7
+73U14*Actualiza_Atributo 73>33 74=33 116|441b14 444l8 444t26
+73r33 posicion{117|79R9} 116|441b33 443r19
+74r33 coche{117|213R9} 116|441b56 443m7
+75U14*Actualiza_Atributo 75>33 76=33 116|447b14 450l8 450t26 608s7
+75e33 color{117|19E9} 116|447b33 449r23
+76r33 peaton{117|175R9} 116|447b53 449m7
+77U14*Actualiza_Atributo 77>33 78=33 116|453b14 456l8 456t26
+77e33 color{117|19E9} 116|453b33 455r21
+78r33 tren{117|137R9} 116|453b53 455m7
+79U14*Actualiza_Atributo 79>33 80=33 116|458b14 461l8 461t26
+79e33 color{117|19E9} 116|458b33 460r22
+80r33 coche{117|213R9} 116|458b53 460m7
+81U14*Actualiza_Atributo 81>33 82=33 116|464b14 467l8 467t26
+81i33 Velocidad{117|65I9} 116|464b33 466r26
+82r33 taxi{117|107R9} 116|464b66 466m7
+83U14*Actualiza_Atributo 83>33 84=33 116|386s13 470b14 473l8 473t26
+83i33 Velocidad{117|65I9} 116|470b33 472r27
+84r33 coche{117|213R9} 116|470b66 472m7
+85U14*Actualiza_Atributo 85>33 86=33 116|476b14 479l8 479t26
+85i33 Velocidad{117|65I9} 116|476b33 478r29
+86r33 tren{117|137R9} 116|476b66 478m7
+87U14*Actualiza_Atributo 87>33 88=33 116|482b14 485l8 485t26
+87m33 id{117|164M9} 116|482b33 484r19
+88r33 peaton{117|175R9} 116|482b52 484m7
+89U14*Actualiza_Atributo 89>33 90=32 116|488b14 491l8 491t26
+89i33 id{117|204I9} 116|488b33 490r18
+90r32 coche{117|213R9} 116|488b51 490m7
+91U14*Actualiza_Atributo 91>33 92=33 116|494b14 497l8 497t26
+91i33 carril{117|201I9} 116|494b33 496r22
+92r33 coche{117|213R9} 116|494b54 496m7
+93U14*Actualiza_Atributo 93>33 94=33 116|500b14 503l8 503t26
+93i33 num_vagones{117|130I12} 116|500b33 502r25
+94r33 tren{117|137R9} 116|500b61 502m7
+97V13*Coche_Parado{boolean} 97>26 116|510b13 513l8 513t20
+97r26 Coche{117|213R9} 116|510b26 512r14
+100V13*Hay_Tren{boolean} 116|519b13 522l8 522t16
+104V13*Dentro_Zona_Cruce{boolean} 104>31 116|529b13 533l8 533t25
+104r31 Tren{117|137R9} 116|529b31 531r14 532r15 532r26
+107U14*Actualiza_Color_Semaforo 107>39 116|540b14 548l8 548t32
+107e39 Color{117|22E12} 116|540b39 542r12
+110V13*Hay_Taxi{boolean} 116|554b13 557l8 557t16
+113V13*Pos_Parada_Taxi{boolean} 113>29 116|564b13 569l8 569t23
+113r29 taxi{117|107R9} 116|564b29 566r14 567r18
+116V13*Parada_Taxi_Vacia{boolean} 116|587b13 590l8 590t25
+119U14*Actualiza_Indicador_Taxi 119>39 119=63 116|575b14 580l8 580t32
+119b39 esta_libre{boolean} 116|575b39 577r21
+119r63 taxi{117|107R9} 116|575b63 577m7 578r23
+122U14*Actualiza_Cronometro 122>35 116|596b14 599l8 599t28
+122o35 tiempo_transcurrido{duration} 116|596b35 598r50
+125U14*Actualiza_Color_Peaton 125>37 125=62 116|605b14 617l8 617t30
+125e37 Color{117|167E12} 116|605b37 608r26
+125r62 peaton{117|175R9} 116|605b62 608m33 611r30 612r47
+133m7 PERIODICIDAD_REDIBUJAR_MILISEGUNDOS{35|55M9} 116|92r47
+136N7 X_CRONOMETRO 116|1071r33 1076r42
+137N7 Y_CRONOMETRO 116|1071r59 1076r62
+140N7 TAM_CRONOMETRO 143r43
+143a7 hora_segundos{35|79A12} 116|598m29 1075r29
+147N7 X_FINAL_COCHE 116|299r28 309r29
+150N7 Y_SUPERIOR_CARRETERA 155r42 167r35 116|758r57 758r102 764r38 764r80
+. 767r33 768r33 769r33 884r45 888r41
+151N7 Y_INFERIOR_CARRETERA 156r42
+155N7 Y_SUPERIOR_ZONA_TREN 116|531r28
+156N7 Y_INFERIOR_ZONA_TREN 116|532r55
+159N7 Y_CARRIL1 163r50 116|751r46
+160N7 Y_CARRIL2 163r61
+163a7 y_carril(integer) 116|166r28 333r37 816r34 818r34 930r30 930r54
+166N7 X_PARADA_TAXI 116|328r15 566r28 567r32 846r32 848r35 848r71 849r35
+. 849r86 850r35 850r71 853r37
+167N7 Y_PARADA_TAXI 116|328r52 846r56 848r53 848r89 849r68 849r119 850r53
+. 850r110 853r55
+170a7 color_semaforo(117|22E12) 116|543m25 544m25 545m25 887r52
+173N7 NUM_FLECHAS 174r35 116|771r19 1107r19
+174A12 T_Flechas(32|42A9)<integer> 175r18 176r18 177r18 290r50 116|1101r47
+. 1102r17
+175a7 flechas1{174A12} 116|767m7 772r43
+176a7 flechas2{174A12} 116|768m7 773r43
+177a7 flechas3{174A12} 116|769m7 774r43
+180p7 fuente_letra{103|49P9}
+183r7 White_RGBA{30|37R9} 191r80
+184r7 Black_RGBA{30|37R9} 192r80
+185r7 Grey_RGBA{30|37R9} 193r80
+186r7 Green_RGBA{30|37R9} 194r80
+187r7 Red_RGBA{30|37R9} 195r80
+188r7 Yellow_RGBA{30|37R9} 196r80
+189r7 Blue_RGBA{30|37R9} 197r80
+191r7 White_Gc{93|55R12} 116|758r31 764r25 772r33 773r33 774r33 1029r49 1070r31
+. 1092r32
+192r7 Black_Gc{93|55R12} 116|114r31 779r31 943r36 953r29 956r29 991r32 1014r35
+. 1057r29 1060r29 1076r27 1091r32
+193r7 Grey_Gc{93|55R12} 116|750r31 845r31 950r38 953r39 956r39 985r31 991r42
+. 1007r37 1014r45 1054r38 1057r39 1060r39 1093r32
+194r7 Green_Gc{93|55R12} 116|848r25 849r25 850r25 853r27 1039r31 1045r29
+. 1088r32
+195r7 Red_Gc{93|55R12} 116|980r31 1047r29 1087r32
+196r7 Yellow_Gc{93|55R12} 116|784r28 1090r32
+197r7 Blue_Gc{93|55R12} 116|883r31 1089r32
+199p7 PangoLayout{109|62P9} 116|97m15 97r15 99r41 852r16 853r73 1075r16 1076r80
+201K15 Void_Cb[75|820] 116|53r7 53r40
+202K15 Main_Context_Sources[41|395] 116|92r13
+204K15 Destroyed[75|820] 116|58r7 60r33
+206U17 Draw_Complex 206>31 116|111b14 122l8 122t20 132s7
+206m31 Pixmap{16|77M9} 116|111b28 114r23 120r28
+208V16 Draw_Complex_Buffer{boolean} 208>37 116|93r47 128b13 139l8 139t27
+208p37 Area{72|104P9} 116|128b34 129r56
+210U17 Quit 210^23 116|53r63 60r58 146b14 152l8 152t12
+210p23 Win(89|73R9) 116|146b20 147r29
+214K15 Pkg_Buffer_coches[112|9] 215r42 235r40 116|170r13 189r37 194r18 195r24
+. 198r27 250r7 286r7 403r7 692r20 698r28 790r17 791r33 792r33 795r30
+215a7 buffer_coches(112|10R9[214]) 116|170m56 170r56 250m53 250r53 285r40
+. 286m63 286r63 402r40 403m52 403r52 689r44 692r59 698r73 790r41 791r72 792r72
+. 795r73
+217K15 Pkg_Buffer_accidentes[112|9] 218r46 116|173r13 715r7 808r17 809r33
+. 810r33 813r30
+218a7 buffer_accidentes(112|10R9[217]) 116|173m60 173r60 715m57 715r57 808r45
+. 809r76 810r76 813r77
+220K15 Pkg_Buffer_peatones[112|9] 221r24 240r40 116|244r7 273r7 589r14 612r7
+. 629r37 634r18 635r25 638r28 856r14 857r29 858r29 861r27
+221r7 buffer_peatones{112|10R9[220]} 116|244m56 244r56 272r41 273m66 273r66
+. 589r40 611r41 612m55 612r55 856r40 857r70 858r70 861r72
+223r7 tren_dibujar{117|137R9} 116|239m7 264m7 369m7 521r14 835r10 966r62
+. 968r15 969r15 995r19
+224r7 taxi_dibujar{117|107R9} 116|234m7 259m7 356m7 556r14 578m7 840r10 1032r15
+. 1033r15 1044r10
+227U17 Inicializar_Interfaz_Grafica 116|38b14 105l8 105t36 1200s4
+230U17 Inicializar_Buffer_Coches 116|103s7 159b14 181l8 181t33
+234V16 Posicion_Buffer{117|62M9} 234>32 235>32 116|188b13 206l8 206t23 285s14
+. 402s14 689s18
+234i32 Id{117|204I9} 116|188b29 196r33
+235r32 buffer{112|10R9[214]} 116|189b29 194r57 195r61 198r64
+239V16 Posicion_Buffer{117|164M9} 239>32 240>32 116|272s14 611s14 628b13
+. 646l8 646t23
+239m32 Id{117|164M9} 116|628b29 636r34
+240r32 buffer{112|10R9[220]} 116|629b29 634r59 635r64 638r67
+243U17 Detectar_Coche_Delante 243>40 244<40 245<40 116|384s10 655b14 674l8
+. 674t30
+243r40 Coche{117|213R9} 116|655b37 661r60 663r10 664r23 668r25
+244i40 vel_Delante{117|65I9} 116|656b37 665m10 668m10
+245i40 distancia{integer} 116|657b37 664m10 667m10
+248U17 Coche_Accidentado 248>35 116|713b14 716l8 716t25
+248r35 coche{117|213R9} 116|713b32 715r50 715r75
+251V16 Tiene_SIF{boolean} 251>26 116|382s24 722b13 726l8 726t17
+251r26 coche{117|213R9} 116|722b23
+254V16 Consulta_Coche_Delante{117|213R9} 254>39 116|405s37 661s37 683b13
+. 705l8 705t30
+254r39 coche{117|213R9} 116|683b36 689r34 689r58 692r73 698r87
+259U17 Dibujar_Canvas_Calle 259>38 116|120s7 735b14 874l8 874t28
+259m38 Pixmap{16|77M9} 116|735b35 750r23 755r28 758r23 761r28 764r17 772r25
+. 773r25 774r25 779r23 784r20 797r37 821r37 832r31 836r30 841r30 845r23 848r17
+. 849r17 850r17 853r19 863r35 872r33
+262U17 Dibujar_Canvas_Semaforo 262>41 116|832s7 880b14 892l8 892t31
+262m41 Pixmap{16|77M9} 116|880b38 883r23 887r25
+266U17 Dibujar_Canvas_Peaton 266>39 267>39 267>45 268>39 116|863s13 899b14
+. 915l8 915t29
+266m39 Pixmap{16|77M9} 116|899b36 904r22 909r17 910r17 913r17 914r17
+267i39 posX{integer} 116|900b36 905r26 909r44 909r70 910r44 910r70 913r44
+. 913r70 914r44 914r70
+267i45 posY{integer} 116|900b42 905r45 909r56 909r82 910r58 910r84 913r56
+. 913r84 914r56 914r84
+268r39 color_peaton{93|55R12} 116|901b36 904r30 909r25 910r25 913r25 914r25
+272U17 Dibujar_Canvas_Coche 272>38 273>38 273>44 274>38 116|797s16 821s16
+. 923b14 957l8 957t28
+272m38 Pixmap{16|77M9} 116|923b35 943r28 947r22 950r30 953r21 956r21
+273i38 posX{integer} 116|924b36 937r30 938r30 939r30 940r30 941r30 942r30
+. 947r48 950r52 953r53 956r53
+273i44 posY{integer} 116|924b42 930r22 930r46 937r49 938r49 939r49 940r49
+. 941r49 942r49 947r60 950r64 953r69 956r68
+274r38 color_coche{93|55R12} 116|925b36 947r30
+277U17 Dibujar_Canvas_Tren 277>37 116|836s10 964b14 1018l8 1018t27
+277m37 Pixmap{16|77M9} 116|964b34 972r23 975r23 980r23 985r23 991r24 997r26
+. 1001r26 1007r29 1014r27
+280U17 Dibujar_Canvas_Taxi 280>37 116|841s10 1025b14 1061l8 1061t27
+280m37 Pixmap{16|77M9} 116|1025b34 1036r22 1039r23 1049r23 1054r30 1057r21
+. 1060r21
+283U17 Dibujar_Canvas_Cronometro 283>43 116|872s7 1067b14 1077l8 1077t33
+283m43 Pixmap{16|77M9} 116|1067b40 1070r23 1076r19
+287V16 Convertir_Color_GC{93|55R12} 287>35 116|797s81 821s76 863s81 887s33
+. 966s43 1084b13 1095l8 1095t26
+287e35 Color{117|19E9} 116|1084b32 1086r12
+290V16 Crear_Flechas{174A12} 290>30 116|767s19 768s19 769s19 1101b13 1117l8
+. 1117t21
+290i30 y{integer} 116|1101b27 1108r41 1109r39 1110r40 1111r38 1112r40
+293U17 Dibujar_Lineas 293>32 293>56 293>90 293>117 116|772s10 773s10 774s10
+. 943s13 1123b14 1128l8 1128t22
+293m32 Pixmap{16|77M9} 116|1123b29 1126r20
+293r56 color{93|55R12} 116|1123b53 1126r28
+293a90 flecha{32|42A9} 116|1123b87 1126r35 1126r48 1126r61 1126r76
+293i117 n_puntos{integer} 116|1123b114 1125r19
+296U17 Dibujar_Rueda 296>31 296>54 297>31 297>71 297>80 298>31 298>56 116|953s7
+. 956s7 991s10 1014s13 1057s7 1060s7 1134b14 1144l8 1144t21
+296m31 Pixmap{16|77M9} 116|1134b28 1138r25 1141r25
+296r54 color_neumatico{93|55R12} 116|1134b51 1138r33
+297r31 color_llanta{93|55R12} 116|1135b28 1141r33
+297i71 x{35|49I9} 116|1135b68 1139r21 1142r21
+297i80 y{35|49I9} 116|1135b77 1139r29 1142r31
+298i31 diametro_neumatico{35|49I9} 116|1136b28 1139r41 1139r71 1140r50
+298i56 diametro_llanta{35|49I9} 116|1136b53 1142r45 1142r72 1143r50
+301U17 Dibujar_Chasis 301>32 301>55 302>32 302>44 116|947s7 1036s7 1150b14
+. 1163l9 1163t23
+301m32 Pixmap{16|77M9} 116|1150b29 1153r21 1154r21 1155r21 1156r21 1157r21
+. 1158r21 1159r21 1160r24 1161r28 1162r18
+301r55 color{93|55R12} 116|1150b52 1161r36 1161r47 1161r60
+302i32 posX{35|49I9} 116|1151b30 1153r37 1154r37 1155r37 1156r37 1157r37
+. 1158r37 1159r37
+302i44 posY{35|49I9} 116|1151b42 1153r55 1154r55 1155r55 1156r54 1157r55
+. 1158r55 1159r55
+305U17 Dibujar_Ventanas_Coche 305>40 305>63 306>39 306>51 116|950s7 1054s7
+. 1169b14 1188l8 1188t30
+305m40 Pixmap{16|77M9} 116|1169b37 1173r21 1174r21 1175r21 1176r21 1177r24
+. 1178r28 1179r18 1182r21 1183r21 1184r21 1185r21 1186r24 1187r18
+305r63 color{93|55R12} 116|1169b60 1178r36 1178r47 1178r60
+306i39 posX{35|49I9} 116|1170b36 1173r37 1174r37 1175r37 1176r37 1182r37
+. 1183r37 1184r37 1185r37
+306i51 posY{35|49I9} 116|1170b48 1173r54 1174r54 1175r54 1176r54 1182r54
+. 1183r55 1184r55 1185r54
+X 116 pkg_graficos.adb
+39p7 Win{89|74P9} 50m27 50r27 51r18 52r7 53r24 61r48 84r7 86r17
+40p7 Buffer{18|94P9} 69m29 69r29 70r7 77r25 94r65 97r46
+41p7 Vbox{62|90P9} 75m21 75r21 77r19 79r19 81r25
+41p13 Hbox{62|90P9} 74m21 74r21 81r19 84r15
+42m7 Id{41|153M9} 92m7
+43p7 Button{65|56P9} 57m16 57r16 58r33 63r7 65r25
+44p7 inbuilt_font{103|51P9} 98m7 99r54
+47p7 alinea_button{60|57P9} 64m29 64r29 65r7 79r25
+129p7 Buffer{18|94P9} 132r33 134r26
+160r7 coche{117|213R9} 164m13 165m13 166m13 167m13 168m13 169m13 170r49 173r53
+162i11 carril{117|201I9} 166r37 169r29 170r70 173r78
+163m14 I{117|62M9} 170r46 173r50
+178r13 event{3|53R9} 179r103
+190r7 coche_aux{117|213R9} 195m11 196r17 198m14
+191m7 pos{117|62M9} 194m11 195r56 197m14 197r21 198r59 205r14
+201r16 event{3|53R9} 202r97
+268r7 Peaton_Aux{117|175R9} 273m54
+269m7 pos{117|164M9} 272m7 273r49
+275r13 event{3|53R9} 276r95
+281r7 coche_aux{117|213R9} 286m52
+282m7 pos{117|62M9} 285m7 286r47
+288r13 event{3|53R9} 289r94
+343i7 Nueva_Pos_X{integer} 347m7 348r10 349m10 350r13 351m10 354r20
+362i4 nueva_pos_y{integer} 366m7 367r21
+375i7 Nueva_Pos_X{integer} 392m7 393r10 394m10 395r13 396m10 399r21
+376r7 Coche_Delante{117|213R9} 405m7 406r22 407r27
+377i7 vel_delante{117|65I9} 384m40 386r53
+378i7 dist_obstaculo{integer} 384m53 385r13
+379m7 pos{117|62M9} 402m7 403r40
+413r13 event{3|53R9} 414r110
+606m4 pos{117|164M9} 611m7 612r42
+614r13 event{3|53R9} 615r100
+630r7 peaton_aux{117|175R9} 635m11 636r17 638m14
+631m7 pos{117|164M9} 634m11 635r59 637m14 637r21 638r62 645r14
+641r15 event{3|53R9} 642r97
+658r4 Coche_Delante{117|213R9} 661m7 663r22 664r37 665r25
+671r13 event{3|53R9} 672r100
+684r7 Coche_Delante{117|213R9} 698m11 704r14
+685m7 Pos_Delante{117|62M9} 693m14 696m14 698r60
+685m20 Pos{117|62M9} 689m11 692r14 693r29 696r29
+700r13 event{3|53R9} 701r100
+736m7 pos_primer_coche{117|62M9} 791m13 793r26 809m13 811r26
+737m7 pos_ultimo_coche{117|62M9} 792m13 799r38 810m13 823r38
+738m7 pos_Coche{117|62M9} 793m13 795r62 799r26 801m16 801r29 811m13 813r66
+. 823r26 825m16 825r29
+739r7 Item_Coche{117|213R9} 795m16 797r45 797r63 797r100 813m16 821r45 821r95
+740i7 Y_Accidente{117|77I12} 816m19 818m19 821r63
+741m7 Id_primer_peaton{117|164M9} 857m10 859r23
+742m7 Id_ultimo_peaton{117|164M9} 858m10 865r35
+743m7 Id_Peaton{117|164M9} 859m10 861r61 865r23 867m13 867r26
+744r7 Item_Peaton{117|175R9} 861m13 863r43 863r62 863r100
+746a7 Rotulo_Parada_Taxi{string} 852r29
+756i11 I{integer} 757r13 758r47 758r90
+771i11 i{integer} 772r52 773r52 774r52
+783i11 i{integer} 784r56 784r85
+789i11 Carril{117|201I9} 790r55 791r86 792r86 795r87
+807i11 Carril{117|201I9} 808r63 809r94 810r94 813r95 815r20 818r43
+886i11 i{integer} 887r67 888r72
+926b4 accidentado{boolean} 930m7 933r10
+927a4 humo{32|42A9} 937m13 938m13 939m13 940m13 941m13 942m13 943r46
+936i14 i{integer} 937r38 938r38 939r38 940r38 941r38 942r38
+965i7 PosX{integer} 968m7 973r33 976r33 981r33 986r33 991r56 998r36 1002r36
+. 1008r39 1014r59
+965i13 PosY{integer} 969m7 973r54 976r51 981r53 986r53 991r72 998r57 1002r54
+. 1008r59 1014r75
+966r7 color{93|55R12} 972r31 975r31 997r34 1001r34
+990i11 I{integer} 991r81
+995i11 I{integer} 998r66 1002r62 1008r68 1014r83
+1006i14 J{integer} 1008r83
+1013i14 k{integer} 1014r96
+1027a7 Ventana{32|42A9}
+1028i7 PosX{integer} 1032m7 1036r42 1040r33 1050r33 1054r52 1057r53 1060r53
+1028i13 PosY{integer} 1033m7 1036r54 1040r54 1050r53 1054r64 1057r69 1060r68
+1029r7 color{93|55R12} 1036r30
+1030r7 color_indicador{93|55R12} 1045m10 1047m10 1049r31
+1102a7 flechas{115|174A12} 1113m10 1116r14
+1103a7 flecha{32|42A9} 1108m10 1109m11 1110m10 1111m10 1112m10 1113r24
+1104i7 x{integer} 1106m7 1108r29 1109r30 1110r29 1111r29 1112r29 1114m10
+. 1114r15
+1107i11 i{integer} 1113r18
+1125i11 i{integer} 1126r42 1126r55 1126r68 1126r83
+X 117 pkg_tipos.ads
+5K9*PKG_tipos 115|5w6 5r21 117|224e14
+12X4*DETECTADA_COLISION 116|408r18
+19E9*T_Color 115|75r43 77r43 79r43 287r43 116|447r44 453r44 458r44 1084r40
+. 117|19e65
+19n21*Blue{19E9} 115|223r54 116|264r39 1089r15
+19n27*Yellow{19E9} 116|1090r15
+19n35*Red{19E9} 116|543r15 543r44 1087r15
+19n40*Green{19E9} 115|170r67 116|544r15 544r51 1088r15
+19n46*Black{19E9} 115|170r60 116|543r49 544r44 545r15 545r44 545r51 1091r15
+19n53*White{19E9} 116|1092r15
+19n60*Grey{19E9} 116|1093r15
+22E12*T_ColorSemaforo{19E9} 115|107r49 170r40 116|540r49
+34N4*CANVAS_WIDTH 115|136r34 116|52r28 70r31 116r32 350r27 351r25 395r27
+. 396r25 752r32 756r19 764r66
+35N4*CANVAS_HEIGHT 116|52r42 70r45 116r56 304r54 781r46 783r19
+38N4*X_INICIO_COCHE 116|318r18 333r18
+41N4*Y_CARRIL_TAXI 116|318r37
+44N4*X_TREN 116|214r30 215r64 221r29 222r62 323r18 780r32 784r39 784r66 884r28
+. 888r24
+47N4*DIST_SEGURIDAD 116|385r30
+49N4*TAM_COCHE 116|407r49 664r59
+50N4*TAM_VAGON 116|304r41 532r41 998r71 1002r64 1008r73 1014r85
+54N4*N_MAX_PEATONES 116|847r32 849r49 849r100 850r88
+62M9*T_RangoBufferCoches 115|214r90 217r94 235r75 116|163r19 189r72 191r23
+. 282r19 379r23 685r26 736r26 737r26 738r26
+65I9*T_RangoVelocidad<integer> 115|81r48 83r48 85r48 244r57 116|377r24 386r32
+. 464r48 470r48 476r48 656r54
+70i7*X{65I9} 116|215r57 222r55 347r58 386r82 392r60 665r49 668r41
+71i7*Y{65I9} 116|366r58
+76I12*T_CoordenadaX{integer}
+77I12*T_CoordenadaY{integer} 116|740r26
+79R9*T_Punto 115|56r54 57r54 58r58 59r57 67r47 69r47 71r47 73r47 116|316r52
+. 321r51 326r56 331r54 423r47 429r47 435r47 441r47 117|83e14
+81i7*X{76I12} 116|165m23 214r24 215r29 221r23 222r28 299r23 309r24 318m15
+. 323m15 333m15 347r31 354m16 392r32 399m17 407r23 407r45 566r23 567r27 664r33
+. 664r55 797r60 821r60 863r59 968r32 1032r32
+82i7*Y{77I12} 116|166m23 304r24 318m34 323m26 333m34 366r31 367m16 531r23
+. 532r24 797r78 863r78 969r32 1033r32
+95N4*VELOCIDAD_TAXI 116|566r44 567r48
+107R9*T_RecordTaxi 115|36r45 39r31 45r34 51r32 56r33 62r48 68r47 82r47 113r38
+. 119r76 224r22 116|219r45 232r31 257r32 297r32 316r31 342r48 423r70 464r80
+. 564r38 575r77 117|113e14
+109r7*Pos{79R9} 116|221r19 222r24 299r19 347r27 354m12 425m12 566r19 567r23
+. 1032r28 1033r28
+110r7*Velocidad{68R9} 116|222r45 347r48 466m12
+111b7*libre{boolean} 116|577m12 1044r23
+112b7*presente{boolean} 116|556r27 840r23
+130I12*T_NumVagones{integer} 115|93r47 116|500r47
+137R9*T_RecordTren 115|40r31 47r34 52r32 57r33 63r48 70r46 78r47 86r46 94r46
+. 104r40 223r22 116|237r31 262r32 302r32 321r30 361r48 429r69 453r67 476r79
+. 500r74 529r40 117|144e14
+139r7*Pos{79R9} 116|304r20 366r27 367m12 431m12 531r19 532r20 968r28 969r28
+140r7*velocidad{68R9} 116|366r48 478m12
+141i7*n_vagones{130I12} 116|304r31 502m12 532r31 995r32
+142e7*Color{133E12} 116|455m12 966r75
+143b7*Presente{boolean} 116|521r27 835r23
+164M9*T_IdPeaton 115|87r40 220r93 239r37 240r77 116|269r20 482r40 606r10
+. 628r34 629r74 631r20 741r25 742r25 743r25
+167E12*T_ColorPeaton{19E9} 115|125r47 116|605r47
+175R9*T_RecordPeaton 115|41r34 46r37 58r35 72r48 76r49 88r49 125r77 220r72
+. 116|242r34 267r37 268r20 326r33 435r71 447r69 482r68 605r77 630r20 744r25
+. 117|180e14
+177m7*id{164M9} 116|272r37 328r44 484m14 611r37 636r28
+178r7*Pos{79R9} 116|437m14 863r55 863r74
+179e7*Color{167E12} 116|449m14 863r112
+192N4*VELOCIDAD_COCHE 116|167r33
+201I9*T_Carril<integer> 115|91r44 163r25 215r29 218r33 116|162r21 494r44
+. 789r21 807r21
+204I9*T_IdCoche<integer> 115|89r40 234r37 116|188r34 488r40
+210E12*T_ColorCoche{19E9} 116|168r27
+213R9*T_RecordCoche 115|35r46 42r33 48r36 53r34 59r35 64r50 74r47 80r47 84r47
+. 90r46 92r47 97r36 214r70 217r74 243r51 248r46 251r36 254r49 254r71 116|160r15
+. 190r23 212r46 248r33 280r36 281r19 307r34 331r32 374r50 376r23 441r70 458r67
+. 470r80 488r65 494r68 510r36 655r48 658r19 683r47 683r69 684r26 713r43 722r33
+. 739r26 117|220e14
+215i7*id{204I9} 116|164m19 196r27 285r36 402r36 406r16 406r36 490m13 663r16
+. 663r36 689r40
+216r7*Pos{79R9} 116|165m19 166m19 214r20 215r25 309r20 392r28 399m13 407r19
+. 407r41 443m13 664r29 664r51 797r56 797r74 821r56
+217r7*velocidad{68R9} 116|167m19 215r47 386r72 392r50 472m13 512r20 665r39
+. 668r31
+218e7*Color{210E12} 116|168m19 460m13 797r111 821r106
+219i7*Carril{201I9} 116|169m19 250r73 285r60 286r83 333r52 402r60 403r72
+. 496m13 689r64 692r79 698r93 715r81
+X 118 system.ads
+67M9*Address
+X 128 s-memory.ads
+53V13*Alloc{118|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{118|67M9} 105i<c,__gnat_realloc>22
+X 129 s-os_lib.ads
+1062U14*OS_Exit 116|149s19
+X 136 s-stalib.ads
+84P9*Exception_Data_Ptr(83R9)
+X 137 s-stalib.adb
+89U14 Break_Start 90i<c,__gnat_break_start>22
+

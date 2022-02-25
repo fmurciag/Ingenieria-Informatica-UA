@@ -1,0 +1,1124 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U double_buffer%b	double_buffer.adb	0d452026 OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W cairo%s		cairo.adb		cairo.ali
+W gdk%s			gdk.ads			gdk.ali
+W gdk.cairo%s		gdk-cairo.adb		gdk-cairo.ali
+W gdk.color%s		gdk-color.adb		gdk-color.ali
+W gdk.event%s		gdk-event.adb		gdk-event.ali
+W gdk.pixbuf%s		gdk-pixbuf.adb		gdk-pixbuf.ali
+W gdk.rectangle%s	gdk-rectangle.adb	gdk-rectangle.ali
+W gdk.window%s		gdk-window.adb		gdk-window.ali
+W glib%s		glib.adb		glib.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.drawing_area%s	gtk-drawing_area.adb	gtk-drawing_area.ali
+W gtk.enums%s		gtk-enums.adb		gtk-enums.ali
+W gtk.handlers%s	gtk-handlers.adb	gtk-handlers.ali  EA
+W gtk.style%s		gtk-style.adb		gtk-style.ali
+W gtkada%s		gtkada.ads		gtkada.ali
+W gtkada.style%s	gtkada-style.adb	gtkada-style.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U double_buffer%s	double_buffer.ads	2c8ab45e EE OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W cairo%s		cairo.adb		cairo.ali
+W gdk%s			gdk.ads			gdk.ali
+W gdk.pixbuf%s		gdk-pixbuf.adb		gdk-pixbuf.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.drawing_area%s	gtk-drawing_area.adb	gtk-drawing_area.ali
+W pkg_tipos%s		pkg_tipos.ads		pkg_tipos.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-assert.ads		20210520051127 a718b65c ada.assertions%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051127 bf4f806b ada.finalization%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210520051129 c3a8ac65 ada.unchecked_deallocation%s
+D cairo.ads		20210519053508 925d4aaa cairo%s
+D cairo-region.ads	20210519053508 b7133728 cairo.region%s
+D double_buffer.ads	20210912175227 fb4ed6fc double_buffer%s
+D double_buffer.adb	20210912175227 83a886ec double_buffer%b
+D gdk.ads		20210519053508 96d821f3 gdk%s
+D gdk-cairo.ads		20210519053508 750fb209 gdk.cairo%s
+D gdk-color.ads		20210519053508 ef57bc34 gdk.color%s
+D gdk-device.ads	20210519053508 04c1ecbd gdk.device%s
+D gdk-display.ads	20210519053508 d91ec37e gdk.display%s
+D gdk-drag_contexts.ads	20210519053508 11b1346e gdk.drag_contexts%s
+D gdk-event.ads		20210519053508 1bda38e2 gdk.event%s
+D gdk-frame_clock.ads	20210519053508 dadfbe52 gdk.frame_clock%s
+D gdk-frame_timings.ads	20210519053508 98b5e7d1 gdk.frame_timings%s
+D gdk-pixbuf.ads	20210519053508 499fe1c7 gdk.pixbuf%s
+D gdk-rectangle.ads	20210519053508 7b900608 gdk.rectangle%s
+D gdk-rgba.ads		20210519053508 2609514a gdk.rgba%s
+D gdk-screen.ads	20210519053508 9fe578a4 gdk.screen%s
+D gdk-types.ads		20210519053508 921dc8b2 gdk.types%s
+D gdk-visual.ads	20210519053508 615e934c gdk.visual%s
+D gdk-window.ads	20210519053508 aa508024 gdk.window%s
+D glib.ads		20210519053508 7d107887 glib%s
+D glib-error.ads	20210519053508 e055fabe glib.error%s
+D glib-generic_properties.ads  20210519053508 f3dc70df glib.generic_properties%s
+D glib-glist.ads	20210519053508 65a6e1be glib.glist%s
+D glib-gslist.ads	20210519053508 953541be glib.gslist%s
+D glib-object.ads	20210519053508 fb5efa0e glib.object%s
+D glib-properties.ads	20210519053508 4118b916 glib.properties%s
+D glib-types.ads	20210519053508 86ac71ae glib.types%s
+D glib-values.ads	20210519053508 5ef3ad24 glib.values%s
+D gnat.ads		20210520051131 b5988c27 gnat%s
+D g-string.ads		20210520051130 c6abc540 gnat.strings%s
+D gtk.ads		20210519053508 cfdeaf1c gtk%s
+D gtk-accel_group.ads	20210519053508 a14a159a gtk.accel_group%s
+D gtk-buildable.ads	20210519053508 e8198b57 gtk.buildable%s
+D gtk-builder.ads	20210519053508 35d802c2 gtk.builder%s
+D gtk-cell_area.ads	20210519053508 309571a8 gtk.cell_area%s
+D gtk-cell_area_context.ads  20210519053508 5d63dcf9 gtk.cell_area_context%s
+D gtk-cell_editable.ads	20210519053508 a955a31f gtk.cell_editable%s
+D gtk-cell_layout.ads	20210519053508 ceee6a6f gtk.cell_layout%s
+D gtk-cell_renderer.ads	20210519053508 8a8076e8 gtk.cell_renderer%s
+D gtk-drawing_area.ads	20210519053508 6fdc9064 gtk.drawing_area%s
+D gtk-enums.ads		20210519053508 e3f2f3ba gtk.enums%s
+D gtk-handlers.ads	20210519053508 313b6eab gtk.handlers%s
+D gtk-handlers.adb	20210519053508 bd3515fb gtk.handlers%b
+D gtk-marshallers.ads	20210519053508 6c3cad4d gtk.marshallers%s
+D gtk-marshallers.adb	20210519053508 3763b331 gtk.marshallers%b
+D gtk-selection_data.ads  20210519053508 061b2148 gtk.selection_data%s
+D gtk-style.ads		20210519053508 3c4cbc07 gtk.style%s
+D gtk-style_provider.ads  20210519053508 e396c135 gtk.style_provider%s
+D gtk-target_entry.ads	20210519053508 02690213 gtk.target_entry%s
+D gtk-target_list.ads	20210519053508 a9d79eb7 gtk.target_list%s
+D gtk-tree_model.ads	20210519053508 e664b639 gtk.tree_model%s
+D gtk-tree_view_column.ads  20210519053508 54737275 gtk.tree_view_column%s
+D gtk-widget.ads	20210519053508 07bd7883 gtk.widget%s
+D gtkada.ads		20210519053508 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20210519053508 fc9825de gtkada.bindings%s
+D gtkada-c.ads		20210519053508 0f5973e3 gtkada.c%s
+D gtkada-style.ads	20210519053508 026aa25d gtkada.style%s
+D gtkada-types.ads	20210519053508 471f54b5 gtkada.types%s
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-c.ads		20210520051131 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051131 341d0ddf interfaces.c.strings%s
+D pango.ads		20210519053508 e51ea573 pango%s
+D pango-attributes.ads	20210519053508 b2832a43 pango.attributes%s
+D pango-context.ads	20210519053508 5a6f0fe6 pango.context%s
+D pango-enums.ads	20210519053508 eff085ce pango.enums%s
+D pango-font.ads	20210519053508 71042db5 pango.font%s
+D pango-font_face.ads	20210519053508 c62e6ce5 pango.font_face%s
+D pango-font_family.ads	20210519053508 1fdea8b4 pango.font_family%s
+D pango-font_metrics.ads  20210519053508 25e6f301 pango.font_metrics%s
+D pango-fontset.ads	20210519053508 af4fe708 pango.fontset%s
+D pango-language.ads	20210519053508 e96cb8f4 pango.language%s
+D pango-layout.ads	20210519053508 d240b716 pango.layout%s
+D pango-matrix.ads	20210519053508 309f74b5 pango.matrix%s
+D pango-tabs.ads	20210519053508 0c575925 pango.tabs%s
+D pkg_tipos.ads		20210912175227 63da59ab pkg_tipos%s
+D system.ads		20210520051134 a2da961d system%s
+D s-assert.ads		20210520051131 6a49a4e4 system.assertions%s
+D s-conca4.ads		20210520051131 7e642b20 system.concat_4%s
+D s-conca5.ads		20210520051131 875e432e system.concat_5%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-finmas.ads		20210520051131 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210520051131 4ff27390 system.finalization_root%s
+D s-memory.ads		20210520051132 597d6634 system.memory%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-pooglo.ads		20210520051133 ede33ef8 system.pool_global%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stalib.adb		20210520051133 977290bf system.standard_library%b
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210520051133 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20210520051133 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20210520051133 7bdda3fa system.stream_attributes%s
+D s-string.ads		20210520051133 8fe54fb7 system.strings%s
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20210520051134 214516a4 unchecked_deallocation%s
+G a e
+G c b b b [b double_buffer 58 1 none]
+G c Z s b [gtk_new double_buffer 96 14 none]
+G c Z s b [initialize double_buffer 97 14 none]
+G c Z s b [freeze double_buffer 99 14 none]
+G c Z s b [thaw double_buffer 102 14 none]
+G c Z s b [get_pixmap double_buffer 107 13 none]
+G c Z s b [set_back_store double_buffer 113 14 none]
+G c Z s b [set_triple_buffer double_buffer 119 14 none]
+G c Z s s [gtk_double_buffer_recordDA double_buffer 127 9 none]
+G c Z s s [gtk_double_buffer_recordDF double_buffer 127 9 none]
+G c Z s s [gtk_double_buffer_recordIP double_buffer 127 9 none]
+G c Z b b [to_marshaller double_buffer__event_cb__marshallers__void_marshaller 206 19 229_7_60_4]
+G c Z b b [emit_by_name double_buffer__event_cb__marshallers__void_marshaller 208 19 229_7_60_4]
+G c Z b b [call double_buffer__event_cb__marshallers__void_marshaller 213 19 229_7_60_4]
+G c Z b b [to_handler double_buffer__event_cb__marshallers__void_marshaller 211 19 229_7_60_4]
+G c Z b b [to_general_handler double_buffer__event_cb__marshallers__void_marshaller 213 19 229_7_60_4]
+G c Z b b [marshallerIP double_buffer__event_cb__marshallers 134 12 229_7_60_4]
+G c Z b b [connect double_buffer__event_cb 242 17 60_4]
+G c Z b b [object_connect double_buffer__event_cb 249 17 60_4]
+G c Z b b [connect double_buffer__event_cb 260 17 60_4]
+G c Z b b [object_connect double_buffer__event_cb 265 17 60_4]
+G c Z b b [connect double_buffer__event_cb 275 17 60_4]
+G c Z b b [object_connect double_buffer__event_cb 280 17 60_4]
+G c Z b b [connect double_buffer__event_cb 294 16 60_4]
+G c Z b b [object_connect double_buffer__event_cb 301 16 60_4]
+G c Z b b [connect double_buffer__event_cb 312 16 60_4]
+G c Z b b [object_connect double_buffer__event_cb 319 16 60_4]
+G c Z b b [to_marshaller double_buffer__event_cb__gint_marshaller 150 19 332_7_60_4]
+G c Z b b [emit_by_name double_buffer__event_cb__gint_marshaller 152 19 332_7_60_4]
+G c Z b b [call double_buffer__event_cb__gint_marshaller 168 19 332_7_60_4]
+G c Z b b [to_handler double_buffer__event_cb__gint_marshaller 43 19 332_7_60_4]
+G c Z b b [to_general_handler double_buffer__event_cb__gint_marshaller 45 19 332_7_60_4]
+G c Z b b [to_marshaller double_buffer__event_cb__guint_marshaller 150 19 334_7_60_4]
+G c Z b b [emit_by_name double_buffer__event_cb__guint_marshaller 152 19 334_7_60_4]
+G c Z b b [call double_buffer__event_cb__guint_marshaller 168 19 334_7_60_4]
+G c Z b b [to_handler double_buffer__event_cb__guint_marshaller 43 19 334_7_60_4]
+G c Z b b [to_general_handler double_buffer__event_cb__guint_marshaller 45 19 334_7_60_4]
+G c Z b b [to_marshaller double_buffer__event_cb__event_marshaller 150 19 336_7_60_4]
+G c Z b b [emit_by_name double_buffer__event_cb__event_marshaller 152 19 336_7_60_4]
+G c Z b b [call double_buffer__event_cb__event_marshaller 168 19 336_7_60_4]
+G c Z b b [to_handler double_buffer__event_cb__event_marshaller 43 19 336_7_60_4]
+G c Z b b [to_general_handler double_buffer__event_cb__event_marshaller 45 19 336_7_60_4]
+G c Z b b [to_marshaller double_buffer__event_cb__context_marshaller 150 19 338_7_60_4]
+G c Z b b [emit_by_name double_buffer__event_cb__context_marshaller 152 19 338_7_60_4]
+G c Z b b [call double_buffer__event_cb__context_marshaller 168 19 338_7_60_4]
+G c Z b b [to_handler double_buffer__event_cb__context_marshaller 43 19 338_7_60_4]
+G c Z b b [to_general_handler double_buffer__event_cb__context_marshaller 45 19 338_7_60_4]
+G c Z b b [to_marshaller double_buffer__event_cb__widget_marshaller 185 19 340_7_60_4]
+G c Z b b [emit_by_name double_buffer__event_cb__widget_marshaller 187 19 340_7_60_4]
+G c Z b b [call double_buffer__event_cb__widget_marshaller 193 19 340_7_60_4]
+G c Z b b [to_handler double_buffer__event_cb__widget_marshaller 138 19 340_7_60_4]
+G c Z b b [to_general_handler double_buffer__event_cb__widget_marshaller 140 19 340_7_60_4]
+G c Z b b [emit_by_name double_buffer__event_cb 383 16 60_4]
+G c Z b b [convert double_buffer__event_cb 420 16 60_4]
+G c Z b b [convert double_buffer__event_cb 422 16 60_4]
+G c Z b b [free_data double_buffer__event_cb 425 17 60_4]
+G c Z b b [first_marshaller double_buffer__event_cb 429 17 60_4]
+G c Z b b [data_type_recordIP double_buffer__event_cb 406 12 60_4]
+G c Z b b [to_handler double_buffer__event_cb 182 16 60_4]
+G c Z b b [to_general_handler double_buffer__event_cb 184 16 60_4]
+G c Z b b [to_address double_buffer__event_cb 186 16 60_4]
+G c Z b b [to_address double_buffer__event_cb 188 16 60_4]
+G c Z b b [to_marshaller double_buffer__void_cb__marshallers__void_marshaller 461 19 828_7_63_4]
+G c Z b b [emit_by_name double_buffer__void_cb__marshallers__void_marshaller 463 20 828_7_63_4]
+G c Z b b [call double_buffer__void_cb__marshallers__void_marshaller 468 20 828_7_63_4]
+G c Z b b [to_handler double_buffer__void_cb__marshallers__void_marshaller 769 19 828_7_63_4]
+G c Z b b [to_general_handler double_buffer__void_cb__marshallers__void_marshaller 771 19 828_7_63_4]
+G c Z b b [marshallerIP double_buffer__void_cb__marshallers 344 12 828_7_63_4]
+G c Z b b [connect double_buffer__void_cb 833 17 63_4]
+G c Z b b [object_connect double_buffer__void_cb 838 17 63_4]
+G c Z b b [connect double_buffer__void_cb 845 17 63_4]
+G c Z b b [object_connect double_buffer__void_cb 850 17 63_4]
+G c Z b b [connect double_buffer__void_cb 857 17 63_4]
+G c Z b b [object_connect double_buffer__void_cb 862 17 63_4]
+G c Z b b [connect double_buffer__void_cb 872 16 63_4]
+G c Z b b [object_connect double_buffer__void_cb 878 16 63_4]
+G c Z b b [connect double_buffer__void_cb 885 16 63_4]
+G c Z b b [object_connect double_buffer__void_cb 891 16 63_4]
+G c Z b b [to_marshaller double_buffer__void_cb__gint_marshaller 360 19 900_7_63_4]
+G c Z b b [emit_by_name double_buffer__void_cb__gint_marshaller 362 20 900_7_63_4]
+G c Z b b [call double_buffer__void_cb__gint_marshaller 378 20 900_7_63_4]
+G c Z b b [to_handler double_buffer__void_cb__gint_marshaller 515 19 900_7_63_4]
+G c Z b b [to_general_handler double_buffer__void_cb__gint_marshaller 517 19 900_7_63_4]
+G c Z b b [to_marshaller double_buffer__void_cb__guint_marshaller 360 19 902_7_63_4]
+G c Z b b [emit_by_name double_buffer__void_cb__guint_marshaller 362 20 902_7_63_4]
+G c Z b b [call double_buffer__void_cb__guint_marshaller 378 20 902_7_63_4]
+G c Z b b [to_handler double_buffer__void_cb__guint_marshaller 515 19 902_7_63_4]
+G c Z b b [to_general_handler double_buffer__void_cb__guint_marshaller 517 19 902_7_63_4]
+G c Z b b [to_marshaller double_buffer__void_cb__event_marshaller 360 19 904_7_63_4]
+G c Z b b [emit_by_name double_buffer__void_cb__event_marshaller 362 20 904_7_63_4]
+G c Z b b [call double_buffer__void_cb__event_marshaller 378 20 904_7_63_4]
+G c Z b b [to_handler double_buffer__void_cb__event_marshaller 515 19 904_7_63_4]
+G c Z b b [to_general_handler double_buffer__void_cb__event_marshaller 517 19 904_7_63_4]
+G c Z b b [to_marshaller double_buffer__void_cb__widget_marshaller 440 19 906_7_63_4]
+G c Z b b [emit_by_name double_buffer__void_cb__widget_marshaller 442 20 906_7_63_4]
+G c Z b b [call double_buffer__void_cb__widget_marshaller 448 20 906_7_63_4]
+G c Z b b [to_handler double_buffer__void_cb__widget_marshaller 700 19 906_7_63_4]
+G c Z b b [to_general_handler double_buffer__void_cb__widget_marshaller 702 19 906_7_63_4]
+G c Z b b [to_marshaller double_buffer__void_cb__tree_path_marshaller 360 19 908_7_63_4]
+G c Z b b [emit_by_name double_buffer__void_cb__tree_path_marshaller 362 20 908_7_63_4]
+G c Z b b [call double_buffer__void_cb__tree_path_marshaller 378 20 908_7_63_4]
+G c Z b b [to_handler double_buffer__void_cb__tree_path_marshaller 515 19 908_7_63_4]
+G c Z b b [to_general_handler double_buffer__void_cb__tree_path_marshaller 517 19 908_7_63_4]
+G c Z b b [to_marshaller double_buffer__void_cb__tree_iter_tree_path_marshaller 400 19 910_7_63_4]
+G c Z b b [emit_by_name double_buffer__void_cb__tree_iter_tree_path_marshaller 402 20 910_7_63_4]
+G c Z b b [call double_buffer__void_cb__tree_iter_tree_path_marshaller 423 20 910_7_63_4]
+G c Z b b [to_handler double_buffer__void_cb__tree_iter_tree_path_marshaller 600 19 910_7_63_4]
+G c Z b b [to_general_handler double_buffer__void_cb__tree_iter_tree_path_marshaller 602 19 910_7_63_4]
+G c Z b b [to_marshaller double_buffer__void_cb__tree_path_tree_iter_marshaller 400 19 914_7_63_4]
+G c Z b b [emit_by_name double_buffer__void_cb__tree_path_tree_iter_marshaller 402 20 914_7_63_4]
+G c Z b b [call double_buffer__void_cb__tree_path_tree_iter_marshaller 423 20 914_7_63_4]
+G c Z b b [to_handler double_buffer__void_cb__tree_path_tree_iter_marshaller 600 19 914_7_63_4]
+G c Z b b [to_general_handler double_buffer__void_cb__tree_path_tree_iter_marshaller 602 19 914_7_63_4]
+G c Z b b [to_marshaller double_buffer__void_cb__tree_path_tree_column_marshaller 400 19 918_7_63_4]
+G c Z b b [emit_by_name double_buffer__void_cb__tree_path_tree_column_marshaller 402 20 918_7_63_4]
+G c Z b b [call double_buffer__void_cb__tree_path_tree_column_marshaller 423 20 918_7_63_4]
+G c Z b b [to_handler double_buffer__void_cb__tree_path_tree_column_marshaller 600 19 918_7_63_4]
+G c Z b b [to_general_handler double_buffer__void_cb__tree_path_tree_column_marshaller 602 19 918_7_63_4]
+G c Z b b [emit_by_name double_buffer__void_cb 976 17 63_4]
+G c Z b b [emit_by_nameR double_buffer__void_cb__emit_by_nameGP40121 992 17 63_4]
+G c Z b b [emit_by_name double_buffer__void_cb 992 17 63_4]
+G c Z b b [emit_by_nameR double_buffer__void_cb__emit_by_nameGP40236 996 17 63_4]
+G c Z b b [emit_by_name double_buffer__void_cb 996 17 63_4]
+G c Z b b [emit_by_nameR double_buffer__void_cb__emit_by_nameGP40403 1001 17 63_4]
+G c Z b b [emit_by_name double_buffer__void_cb 1001 17 63_4]
+G c Z b b [convert double_buffer__void_cb 1022 16 63_4]
+G c Z b b [convert double_buffer__void_cb 1024 16 63_4]
+G c Z b b [free_data double_buffer__void_cb 1027 17 63_4]
+G c Z b b [first_marshaller double_buffer__void_cb 1031 17 63_4]
+G c Z b b [data_type_recordIP double_buffer__void_cb 1013 12 63_4]
+G c Z b b [to_handler double_buffer__void_cb 867 16 63_4]
+G c Z b b [to_general_handler double_buffer__void_cb 869 16 63_4]
+G c Z b b [to_address double_buffer__void_cb 871 16 63_4]
+G c Z b b [to_address double_buffer__void_cb 873 16 63_4]
+G c Z b b [configure double_buffer 66 13 none]
+G c Z b b [expose double_buffer 71 13 none]
+G c Z b b [create_internal_pixmap double_buffer 76 13 none]
+G c Z b b [destroy_cb double_buffer 82 14 none]
+G r i none [b double_buffer 58 1 none] [return_marshallers gtk__marshallers 127 12 none]
+G r i none [b double_buffer 58 1 none] [void_marshallers gtk__marshallers 337 12 none]
+G r i none [b double_buffer 58 1 none] [return_callback gtk__handlers 220 12 none]
+G r i none [b double_buffer 58 1 none] [callback gtk__handlers 820 12 none]
+G r s gtk_drawing_area_record [gtk_new double_buffer 96 14 none] [gtk_drawing_area_recordIP gtk__drawing_area 103 9 none]
+G r c none [gtk_new double_buffer 96 14 none] [initialize gtk__drawing_area 111 14 none]
+G r s handler_id [gtk_new double_buffer 96 14 none] [handler_idIP gtk__handlers 189 9 none]
+G r c none [gtk_new double_buffer 96 14 none] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [initialize double_buffer 97 14 none] [initialize gtk__drawing_area 111 14 none]
+G r s handler_id [initialize double_buffer 97 14 none] [handler_idIP gtk__handlers 189 9 none]
+G r c none [initialize double_buffer 97 14 none] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [thaw double_buffer 102 14 none] [get_window gtk__widget 2229 13 none]
+G r c none [thaw double_buffer 102 14 none] [create gdk__cairo 39 13 none]
+G r c none [thaw double_buffer 102 14 none] [set_source_pixbuf gdk__cairo 49 14 none]
+G r c none [get_pixmap double_buffer 107 13 none] [get_window gtk__widget 2229 13 none]
+G r c none [get_pixmap double_buffer 107 13 none] [create gdk__cairo 39 13 none]
+G r c none [get_pixmap double_buffer 107 13 none] [set_source_pixbuf gdk__cairo 49 14 none]
+G r c none [set_triple_buffer double_buffer 119 14 none] [get_window gtk__widget 2229 13 none]
+G r c none [set_triple_buffer double_buffer 119 14 none] [create gdk__cairo 39 13 none]
+G r c none [set_triple_buffer double_buffer 119 14 none] [unref glib__object 78 14 none]
+G r c none [set_triple_buffer double_buffer 119 14 none] [gdk_new gdk__pixbuf 210 13 none]
+G r c none [set_triple_buffer double_buffer 119 14 none] [set_source_pixbuf gdk__cairo 49 14 none]
+G r s gtk_drawing_area_record [gtk_double_buffer_recordIP double_buffer 127 9 none] [gtk_drawing_area_recordIP gtk__drawing_area 103 9 none]
+G r c none [emit_by_name double_buffer__event_cb__marshallers__void_marshaller 208 19 229_7_60_4] [get_object glib__object 135 13 none]
+G r s handler_id [connect double_buffer__event_cb 242 17 60_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect double_buffer__event_cb 242 17 60_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect double_buffer__event_cb 249 17 60_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect double_buffer__event_cb 249 17 60_4] [get_object glib__object 135 13 none]
+G r c none [object_connect double_buffer__event_cb 249 17 60_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [connect double_buffer__event_cb 260 17 60_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect double_buffer__event_cb 260 17 60_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect double_buffer__event_cb 265 17 60_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect double_buffer__event_cb 265 17 60_4] [get_object glib__object 135 13 none]
+G r c none [object_connect double_buffer__event_cb 265 17 60_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [connect double_buffer__event_cb 275 17 60_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect double_buffer__event_cb 275 17 60_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect double_buffer__event_cb 280 17 60_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect double_buffer__event_cb 280 17 60_4] [get_object glib__object 135 13 none]
+G r c none [object_connect double_buffer__event_cb 280 17 60_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [connect double_buffer__event_cb 294 16 60_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [object_connect double_buffer__event_cb 301 16 60_4] [get_object glib__object 135 13 none]
+G r c none [object_connect double_buffer__event_cb 301 16 60_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [connect double_buffer__event_cb 312 16 60_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [object_connect double_buffer__event_cb 319 16 60_4] [get_object glib__object 135 13 none]
+G r c none [object_connect double_buffer__event_cb 319 16 60_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [emit_by_name double_buffer__event_cb__gint_marshaller 152 19 332_7_60_4] [get_object glib__object 135 13 none]
+G r c none [call double_buffer__event_cb__gint_marshaller 168 19 332_7_60_4] [nth glib__values 70 13 none]
+G r c none [call double_buffer__event_cb__gint_marshaller 168 19 332_7_60_4] [get_int glib__values 141 14 none]
+G r c none [emit_by_name double_buffer__event_cb__guint_marshaller 152 19 334_7_60_4] [get_object glib__object 135 13 none]
+G r c none [call double_buffer__event_cb__guint_marshaller 168 19 334_7_60_4] [nth glib__values 70 13 none]
+G r c none [call double_buffer__event_cb__guint_marshaller 168 19 334_7_60_4] [get_uint glib__values 147 14 none]
+G r c none [emit_by_name double_buffer__event_cb__event_marshaller 152 19 336_7_60_4] [get_object glib__object 135 13 none]
+G r c none [call double_buffer__event_cb__event_marshaller 168 19 336_7_60_4] [nth glib__values 70 13 none]
+G r c none [call double_buffer__event_cb__event_marshaller 168 19 336_7_60_4] [get_event gdk__event 1039 13 none]
+G r c none [emit_by_name double_buffer__event_cb__context_marshaller 152 19 338_7_60_4] [get_object glib__object 135 13 none]
+G r c none [call double_buffer__event_cb__context_marshaller 168 19 338_7_60_4] [nth glib__values 70 13 none]
+G r c none [call double_buffer__event_cb__context_marshaller 168 19 338_7_60_4] [get_context cairo 88 13 none]
+G r c none [emit_by_name double_buffer__event_cb__widget_marshaller 187 19 340_7_60_4] [get_object glib__object 135 13 none]
+G r c none [call double_buffer__event_cb__widget_marshaller 193 19 340_7_60_4] [nth glib__values 70 13 none]
+G r c none [call double_buffer__event_cb__widget_marshaller 193 19 340_7_60_4] [get_address glib__values 172 14 none]
+G r c none [call double_buffer__event_cb__widget_marshaller 193 19 340_7_60_4] [convert gtk__widget 432 13 none]
+G r s gtk_widget_record [call double_buffer__event_cb__widget_marshaller 193 19 340_7_60_4] [gtk_widget_recordIP gtk__widget 343 9 none]
+G r c none [emit_by_name double_buffer__event_cb 383 16 60_4] [get_object glib__object 135 13 none]
+G r c none [emit_by_name double_buffer__event_cb 383 16 60_4] [to_address gdk__event 1036 13 none]
+G r c none [first_marshaller double_buffer__event_cb 429 17 60_4] [get_data gtkada__bindings 174 13 none]
+G r s gtk_drawing_area_record [first_marshaller double_buffer__event_cb 429 17 60_4] [gtk_drawing_area_recordIP gtk__drawing_area 103 9 none]
+G r c none [first_marshaller double_buffer__event_cb 429 17 60_4] [make_values glib__values 63 13 none]
+G r c none [first_marshaller double_buffer__event_cb 429 17 60_4] [nth glib__values 70 13 none]
+G r c none [first_marshaller double_buffer__event_cb 429 17 60_4] [get_address glib__values 172 14 none]
+G r c none [first_marshaller double_buffer__event_cb 429 17 60_4] [get_user_data glib__object 147 13 none]
+G r c none [first_marshaller double_buffer__event_cb 429 17 60_4] [set_value gtkada__bindings 208 14 none]
+G r c none [first_marshaller double_buffer__event_cb 429 17 60_4] [process_exception gtkada__bindings 220 14 none]
+G r c none [emit_by_name double_buffer__void_cb__marshallers__void_marshaller 463 20 828_7_63_4] [get_object glib__object 135 13 none]
+G r s handler_id [connect double_buffer__void_cb 833 17 63_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect double_buffer__void_cb 833 17 63_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect double_buffer__void_cb 838 17 63_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect double_buffer__void_cb 838 17 63_4] [get_object glib__object 135 13 none]
+G r c none [object_connect double_buffer__void_cb 838 17 63_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [connect double_buffer__void_cb 845 17 63_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect double_buffer__void_cb 845 17 63_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect double_buffer__void_cb 850 17 63_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect double_buffer__void_cb 850 17 63_4] [get_object glib__object 135 13 none]
+G r c none [object_connect double_buffer__void_cb 850 17 63_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [connect double_buffer__void_cb 857 17 63_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect double_buffer__void_cb 857 17 63_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect double_buffer__void_cb 862 17 63_4] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect double_buffer__void_cb 862 17 63_4] [get_object glib__object 135 13 none]
+G r c none [object_connect double_buffer__void_cb 862 17 63_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [connect double_buffer__void_cb 872 16 63_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [object_connect double_buffer__void_cb 878 16 63_4] [get_object glib__object 135 13 none]
+G r c none [object_connect double_buffer__void_cb 878 16 63_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [connect double_buffer__void_cb 885 16 63_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [object_connect double_buffer__void_cb 891 16 63_4] [get_object glib__object 135 13 none]
+G r c none [object_connect double_buffer__void_cb 891 16 63_4] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [emit_by_name double_buffer__void_cb__gint_marshaller 362 20 900_7_63_4] [get_object glib__object 135 13 none]
+G r c none [call double_buffer__void_cb__gint_marshaller 378 20 900_7_63_4] [nth glib__values 70 13 none]
+G r c none [call double_buffer__void_cb__gint_marshaller 378 20 900_7_63_4] [get_int glib__values 141 14 none]
+G r c none [emit_by_name double_buffer__void_cb__guint_marshaller 362 20 902_7_63_4] [get_object glib__object 135 13 none]
+G r c none [call double_buffer__void_cb__guint_marshaller 378 20 902_7_63_4] [nth glib__values 70 13 none]
+G r c none [call double_buffer__void_cb__guint_marshaller 378 20 902_7_63_4] [get_uint glib__values 147 14 none]
+G r c none [emit_by_name double_buffer__void_cb__event_marshaller 362 20 904_7_63_4] [get_object glib__object 135 13 none]
+G r c none [call double_buffer__void_cb__event_marshaller 378 20 904_7_63_4] [nth glib__values 70 13 none]
+G r c none [call double_buffer__void_cb__event_marshaller 378 20 904_7_63_4] [get_event gdk__event 1039 13 none]
+G r c none [emit_by_name double_buffer__void_cb__widget_marshaller 442 20 906_7_63_4] [get_object glib__object 135 13 none]
+G r c none [call double_buffer__void_cb__widget_marshaller 448 20 906_7_63_4] [nth glib__values 70 13 none]
+G r c none [call double_buffer__void_cb__widget_marshaller 448 20 906_7_63_4] [get_address glib__values 172 14 none]
+G r c none [call double_buffer__void_cb__widget_marshaller 448 20 906_7_63_4] [convert gtk__widget 432 13 none]
+G r s gtk_widget_record [call double_buffer__void_cb__widget_marshaller 448 20 906_7_63_4] [gtk_widget_recordIP gtk__widget 343 9 none]
+G r c none [emit_by_name double_buffer__void_cb__tree_path_marshaller 362 20 908_7_63_4] [get_object glib__object 135 13 none]
+G r c none [call double_buffer__void_cb__tree_path_marshaller 378 20 908_7_63_4] [nth glib__values 70 13 none]
+G r c none [call double_buffer__void_cb__tree_path_marshaller 378 20 908_7_63_4] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [emit_by_name double_buffer__void_cb__tree_iter_tree_path_marshaller 402 20 910_7_63_4] [get_object glib__object 135 13 none]
+G r c none [call double_buffer__void_cb__tree_iter_tree_path_marshaller 423 20 910_7_63_4] [nth glib__values 70 13 none]
+G r c none [call double_buffer__void_cb__tree_iter_tree_path_marshaller 423 20 910_7_63_4] [get_tree_iter gtk__tree_model 788 13 none]
+G r c none [call double_buffer__void_cb__tree_iter_tree_path_marshaller 423 20 910_7_63_4] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [emit_by_name double_buffer__void_cb__tree_path_tree_iter_marshaller 402 20 914_7_63_4] [get_object glib__object 135 13 none]
+G r c none [call double_buffer__void_cb__tree_path_tree_iter_marshaller 423 20 914_7_63_4] [nth glib__values 70 13 none]
+G r c none [call double_buffer__void_cb__tree_path_tree_iter_marshaller 423 20 914_7_63_4] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [call double_buffer__void_cb__tree_path_tree_iter_marshaller 423 20 914_7_63_4] [get_tree_iter gtk__tree_model 788 13 none]
+G r c none [emit_by_name double_buffer__void_cb__tree_path_tree_column_marshaller 402 20 918_7_63_4] [get_object glib__object 135 13 none]
+G r c none [call double_buffer__void_cb__tree_path_tree_column_marshaller 423 20 918_7_63_4] [nth glib__values 70 13 none]
+G r c none [call double_buffer__void_cb__tree_path_tree_column_marshaller 423 20 918_7_63_4] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [call double_buffer__void_cb__tree_path_tree_column_marshaller 423 20 918_7_63_4] [get_tree_view_column gtk__handlers 199 13 none]
+G r c none [emit_by_name double_buffer__void_cb 976 17 63_4] [get_object glib__object 135 13 none]
+G r c none [emit_by_name double_buffer__void_cb 976 17 63_4] [to_address gdk__event 1036 13 none]
+G r c none [emit_by_nameR double_buffer__void_cb__emit_by_nameGP40121 992 17 63_4] [get_object glib__object 135 13 none]
+G r c none [emit_by_nameR double_buffer__void_cb__emit_by_nameGP40121 992 17 63_4] [to_address gtk__handlers 196 13 none]
+G r c none [emit_by_nameR double_buffer__void_cb__emit_by_nameGP40236 996 17 63_4] [get_object glib__object 135 13 none]
+G r c none [emit_by_nameR double_buffer__void_cb__emit_by_nameGP40236 996 17 63_4] [to_address gtk__tree_model 791 13 none]
+G r c none [emit_by_nameR double_buffer__void_cb__emit_by_nameGP40236 996 17 63_4] [to_address gtk__handlers 196 13 none]
+G r c none [emit_by_nameR double_buffer__void_cb__emit_by_nameGP40403 1001 17 63_4] [get_object glib__object 135 13 none]
+G r c none [emit_by_nameR double_buffer__void_cb__emit_by_nameGP40403 1001 17 63_4] [to_address gtk__handlers 196 13 none]
+G r c none [emit_by_nameR double_buffer__void_cb__emit_by_nameGP40403 1001 17 63_4] [to_address gtk__tree_model 791 13 none]
+G r c none [first_marshaller double_buffer__void_cb 1031 17 63_4] [get_data gtkada__bindings 174 13 none]
+G r s gtk_drawing_area_record [first_marshaller double_buffer__void_cb 1031 17 63_4] [gtk_drawing_area_recordIP gtk__drawing_area 103 9 none]
+G r c none [first_marshaller double_buffer__void_cb 1031 17 63_4] [make_values glib__values 63 13 none]
+G r c none [first_marshaller double_buffer__void_cb 1031 17 63_4] [nth glib__values 70 13 none]
+G r c none [first_marshaller double_buffer__void_cb 1031 17 63_4] [get_address glib__values 172 14 none]
+G r c none [first_marshaller double_buffer__void_cb 1031 17 63_4] [get_user_data glib__object 147 13 none]
+G r c none [first_marshaller double_buffer__void_cb 1031 17 63_4] [process_exception gtkada__bindings 220 14 none]
+G r c none [configure double_buffer 66 13 none] [get_window gtk__widget 2229 13 none]
+G r c none [configure double_buffer 66 13 none] [create gdk__cairo 39 13 none]
+G r c none [configure double_buffer 66 13 none] [gdk_new gdk__pixbuf 210 13 none]
+G r c none [configure double_buffer 66 13 none] [get_width gdk__pixbuf 197 13 none]
+G r c none [configure double_buffer 66 13 none] [get_height gdk__pixbuf 200 13 none]
+G r c none [configure double_buffer 66 13 none] [draw_rectangle gtkada__style 176 14 none]
+G r c none [configure double_buffer 66 13 none] [set_source_pixbuf gdk__cairo 49 14 none]
+G r c none [configure double_buffer 66 13 none] [unref glib__object 78 14 none]
+G r c none [expose double_buffer 71 13 none] [get_window gtk__widget 2229 13 none]
+G r c none [expose double_buffer 71 13 none] [create gdk__cairo 39 13 none]
+G r c none [expose double_buffer 71 13 none] [events_pending gdk__event 1098 13 none]
+G r c none [expose double_buffer 71 13 none] [set_source_pixbuf gdk__cairo 49 14 none]
+G r c none [create_internal_pixmap double_buffer 76 13 none] [gdk_new gdk__pixbuf 210 13 none]
+G r c none [destroy_cb double_buffer 82 14 none] [unref glib__object 78 14 none]
+X 12 cairo.ads
+75K9*Cairo 2893e10 14|84w6 108r31 15|44w6 44r29 147r34 148r34 149r16 294r34
+. 295r34 372r32 374r17 409r17 427r17
+77M9*Cairo_Context<88|67M9> 14|108r37 15|147r40 148r40 149r22 294r40 295r40
+. 372r38 374r23 409r23 427r23
+X 13 cairo-region.ads
+37M9*Cairo_Region<88|67M9>
+X 14 double_buffer.ads
+90K9*Double_Buffer 127E9 148l5 148e18 15|58b14 92r7 462l5 462t18
+92R9*Gtk_Double_Buffer_Record<52|103R9> 94r41 99p14 99r38 102p14 102r36 107p13
+. 107r41 113p14 113r46 119p14 119r49 127c9 140e14 15|61r22 64r22 66r47 71r44
+. 77r23 82r42 91r21 124r23 141r47 268r42 285r44 371r41 389r46 399r38 408r36
+. 425r49 37|55p13 72p14 78p14 106p14 119p14 494p14 65|499p13 506p14 527p14
+. 537p14 544p14 557p13 627p13 639p13 660p14 670p13 684p13 691p13 702p14 716p14
+. 727p13 738p13 781p13 795p14 804p14 812p14 820p13 826p14 837p14 849p14 853p14
+. 871p14 876p14 885p14 893p14 901p14 910p14 918p14 927p14 930p14 933p14 952p14
+. 960p14 969p13 981p14 988p13 996p13 1002p13 1008p14 1029p14 1043p13 1056p13
+. 1063p14 1078p13 1084p14 1092p13 1098p14 1106p14 1127p13 1134p14 1152p14
+. 1163p14 1182p13 1188p14 1197p13 1206p14 1219p13 1229p14 1247p13 1253p14
+. 1269p13 1280p13 1286p14 1309p13 1320p14 1335p13 1358p13 1366p14 1373p13
+. 1379p14 1387p13 1393p14 1408p13 1422p14 1446p13 1456p14 1471p13 1476p14
+. 1485p13 1490p14 1498p13 1503p14 1511p13 1518p14 1528p13 1535p14 1545p13
+. 1550p14 1558p13 1563p14 1571p13 1580p13 1585p14 1598p13 1605p14 1615p13
+. 1621p14 1638p13 1649p13 1653p14 1663p13 1667p14 1678p13 1684p14 1698p14
+. 1713p14 1739p14 1756p14 1776p14 1791p14 1808p13 1813p14 1823p13 1831p14
+. 1841p13 1851p14 1865p13 1878p13 1886p13 1897p13 1905p14 1914p14 1927p14
+. 1958p14 1976p13 1984p14 1994p13 2003p14 2023p13 2030p14 2040p13 2045p14
+. 2056p13 2070p13 2075p14 2088p13 2093p14 2104p13 2111p14 2124p13 2143p13
+. 2153p14 2160p13 2166p13 2171p14 2178p13 2184p14 2192p13 2201p14 2213p13
+. 2218p14 2229p13 2234p14 2248p14 2256p14 2266p14 2276p14 2282p13 2288p13
+. 2295p13 2302p13 2310p13 2317p13 2329p14 2333p13 2343p13 2348p14 2366p14
+. 2375p13 2386p13 2393p13 2403p13 2409p13 2416p13 2422p13 2430p13 2438p13
+. 2466p13 2478p14 2482p13 2491p14 2513p14 2534p14 2553p14 2567p14 2578p14
+. 2593p14 2605p14 2634p14 2651p14 2660p14 2674p14 2681p14 2685p14 2703p14
+. 2717p14 2728p14 2734p14 2751p13 2764p14 2777p13 2788p14 2798p14 2806p13
+. 2828p13 2847p14 2856p14 2864p14 2871p13 2884p13 2906p14 2931p14 2951p14
+. 2959p14 2970p14 2974p14 2980p14 2995p14 3015p14 3027p14 3035p14 3040p14
+. 3058p14 3064p14 3068p14 3073p14 3078p14 3087p14 3624p14 3628p14 3643p14
+. 3647p14 3666p14 3670p14 3697p14 3701p14 3725p14 3729p14 3739p14 3743p14
+. 3760p14 3764p14 3790p14 3794p14 3817p14 3821p14 3838p14 3842p14 3852p14
+. 3856p14 3884p14 3888p14 3905p14 3909p14 3923p14 3927p14 3953p14 3957p14
+. 3995p14 3999p14 4065p14 4069p14 4093p14 4097p14 4117p14 4121p14 4148p14
+. 4152p14 4172p14 4176p14 4250p14 4254p14 4290p14 4294p14 4313p14 4317p14
+. 4345p14 4349p14 4367p14 4371p14 4389p14 4393p14 4410p14 4414p14 4439p14
+. 4443p14 4461p14 4465p14 4480p14 4484p14 4497p14 4501p14 4518p14 4522p14
+. 4541p14 4545p14 4565p14 4569p14 4587p14 4591p14 4606p14 4610p14 4629p14
+. 4633p14 4657p14 4661p14 4687p14 4691p14 4710p14 4714p14 4741p14 4745p14
+. 4752p14 4756p14 4772p14 4776p14 4801p14 4805p14 4830p14 4834p14 4850p14
+. 4854p14 4886p14 4890p14 4917p14 4921p14 4939p14 4943p14 4960p14 4964p14
+. 4992p14 4996p14 5022p14 5026p14 5035p14 5039p14 5059p14 5063p14 5072p14
+. 5076p14 5090p14 5094p14 5111p14 5115p14 5134p14 5138p14 5153p14 5157p14
+. 5174p14 5178p14 5195p14 5199p14 5214p14 5218p14 5229p14 5233p14 5240p14
+. 5244p14 5257p14 5261p14 5279p14 5283p14 5302p14 5306p14 5332p14 5336p14
+94P9*Gtk_Double_Buffer(92R9) 96r36 97r35 15|89r36 99r35
+96U14*Gtk_New 96<23 15|89b14 93l8 93t15
+96p23 Buffer{94P9} 15|89b23 91m7 92r33
+97U14*Initialize 97>26 15|92s21 99b14 117l8 117t18
+97p26 Buffer{94P9} 15|99b26 102r36 108r25 110r25 114r24
+99U14*Freeze 99^22 15|399b14 402l8 402t14
+99p22 Buffer(92R9) 15|399b22 401r7
+102U14*Thaw 102^20 15|408b14 419l8 419t12
+102p20 Buffer(92R9) 15|408b20 409r69 410r41 412r7 414r10
+107V13*Get_Pixmap{12|77M9} 107^25 15|371b13 383l8 383t18
+107p25 Buffer(92R9) 15|371b25 376r46 379r44
+113U14*Set_Back_Store 113^30 114>30 15|389b14 393l8 393t22
+113p30 Buffer(92R9) 15|389b30 392r7
+114b30 Back_Store{boolean} 15|390b30 392r28
+119U14*Set_Triple_Buffer 119^33 120>33 15|425b14 460l8 460t25
+119p33 Buffer(92R9) 15|425b33 427r68 431r7 435r18 437r28 443r10 443r58 445r47
+120b33 Use_Triple_Buffer{boolean} 15|426b33 431r35 434r14 442r10
+130p7 Pixmap{25|55P9} 15|145r52 154m14 272r17 273r35 292r52 379r51 410r48
+131p7 Triple_Buffer{25|55P9} 15|146r52 159m17 276r17 277r35 293r52 435r25
+. 437r35 443m17 445r54
+136b7 Is_Frozen{boolean} 15|312r23 344r24 401m14 412m14
+137b7 Back_Store{boolean} 15|168r20 216r20 392m14
+138b7 Should_Update_On_Screen{boolean} 15|313m23 360m17 414r17
+139b7 Use_Triple_Buffer{boolean} 15|157r17 302r17 431m14
+X 15 double_buffer.adb
+60K12 Event_Cb[54|220] 108r7 109r25 110r7 111r25
+63K12 Void_Cb[54|820] 114r7 115r24
+66V13 Configure{boolean} 66^24 67>24 109r49 141b13 262l8 262t17
+66p24 Buffer(14|92R9) 141b24 145r45 146r45 152r63 154r7 154r48 157r10 158r66
+. 159r10 159r58 168r13 216r13
+67p24 Event{22|761P9} 142b24
+71V13 Expose{boolean} 71^21 72>21 111r49 285b13 365l8 365t14
+71p21 Buffer(14|92R9) 285b21 292r45 293r45 299r63 302r10 304r66 312r16 313r16
+. 344r17 360r10
+72p21 Event{22|761P9} 286b21 289r45
+76V13 Create_Internal_Pixmap{25|55P9} 77^7 123b13 135l8 135t30 154s24 159s34
+. 443s34
+77p7 Buffer(14|92R9) 124b7
+82U14 Destroy_Cb 82^26 115r47 268b14 279l8 279t18
+82p26 Buffer(14|92R9) 268b26 272r10 273r28 276r10 277r28
+145p7 Old_Pixmap{25|55P9} 163r10 174r39 175r41 193r70 208r27
+146p7 Old_Triple{25|55P9} 211r10 222r39 223r41 242r70 258r28
+147m7 Old_Pixmap_cairo_context{12|77M9} 152m7 177r32 193r44
+148m7 Old_Triple_cairo_context{12|77M9} 158m10 225r32 242r44
+170i16 Old_Width{32|49I9} 174m16 181r36
+171i16 Old_Height{32|49I9} 175m16 181r57
+218i16 Old_Width{32|49I9} 222m16 229r36
+219i16 Old_Height{32|49I9} 223m16 229r57
+289r7 Area{26|31R12}
+292p7 Old_Pixmap{25|55P9} 315r70 345r65
+293p7 Old_Triple{25|55P9} 330r64
+294m7 Old_Pixmap_cairo_context{12|77M9} 299m7 330r38 345r39
+295m7 Old_Triple_cairo_context{12|77M9} 304m10 315r44
+373p7 ventana{16|43P9} 376m7 377r35
+374m7 context{12|77M9} 377m7 379r35 381r14
+409m7 context{12|77M9} 415r38
+410p7 Pixmap{25|55P9} 415r47
+427m7 context{12|77M9} 445r38
+X 16 gdk.ads
+38K9*Gdk 14|85r6 130r33 130r58 131r33 131r58 15|45r6 45r28 48r6 49r6 50r6
+. 50r28 51r6 51r28 52r6 52r28 67r40 72r37 78r13 125r13 128r14 142r40 145r20
+. 146r20 152r35 158r38 163r24 178r27 193r16 208r10 211r24 226r27 242r16 258r10
+. 270r16 272r27 273r10 276r34 277r10 286r37 289r14 292r20 293r20 299r35 304r38
+. 310r13 315r16 330r10 345r11 373r17 377r18 379r7 409r41 410r16 415r10 427r40
+. 429r16 437r10 445r10 16|48e8
+43P9*Gdk_Window<32|153P9> 15|373r21 429r20
+46P9*Gdk_Visual<32|153P9>
+X 17 gdk-cairo.ads
+37K13*Cairo 15|49w10 152r39 158r42 193r20 242r20 299r39 304r42 315r20 330r14
+. 345r15 377r22 379r11 409r45 415r14 427r44 445r14 17|85e14
+39V13*Create{12|77M9} 15|152s45 158s48 299s45 304s48 377s28 409s51 427s50
+49U14*Set_Source_Pixbuf 15|193s26 242s26 315s26 330s20 345s21 379s17 415s20
+. 445s20
+X 18 gdk-color.ads
+44K13*Color 15|48w10 178r31 226r31 18|196e14
+66r4*Null_Color{46R9} 15|178r37 226r37
+X 19 gdk-device.ads
+49P9*Gdk_Device(48R9)
+59V13*Convert{88|67M9} 35|58i21
+60V13*Convert{49P9} 35|59i21
+X 20 gdk-display.ads
+55P9*Gdk_Display(54R9)
+X 21 gdk-drag_contexts.ads
+35P9*Drag_Context(34R9)
+X 22 gdk-event.ads
+58K13*Event 15|50w10 50r32 67r44 72r41 142r44 286r41 310r17 22|1110e14
+158M9*Gdk_Event_Mask
+357r7*Area{26|31R12} 15|289r58
+666r10*Expose{353R9} 15|289r51
+761P9*Gdk_Event(653R9) 15|67r50 72r47 142r50 286r47
+1098V13*Events_Pending{boolean} 15|310s23
+X 23 gdk-frame_clock.ads
+69P9*Gdk_Frame_Clock(68R9)
+X 25 gdk-pixbuf.ads
+51K13*Pixbuf 14|85w10 130r37 130r62 131r37 131r62 15|45w10 45r32 78r17 125r17
+. 128r18 145r24 146r24 163r28 208r14 211r28 258r14 270r20 272r31 273r14 276r38
+. 277r14 292r24 293r24 410r20 437r14 25|624e15
+55P9*Gdk_Pixbuf(53R9) 14|130r44 131r44 15|78r24 125r24 145r31 146r31 270r27
+. 292r31 293r31 410r27
+62p4*Null_Pixbuf{55P9} 14|130r69 131r69 15|163r35 211r35 272r38 276r45
+76n28*Colorspace_RGB{76E9} 15|128r33
+197V13*Get_Width{32|49I9} 15|174s29 222s29
+200V13*Get_Height{32|49I9} 15|175s30 223s30
+210V13*Gdk_New{55P9} 15|128s25
+214i7 Width{32|49I9} 15|129r38
+215i7 Height{32|49I9} 15|129r61
+X 26 gdk-rectangle.ads
+29K13*Rectangle 15|52w10 52r32 289r18 26|61e18
+31R12*Gdk_Rectangle{13|50R9} 15|289r28
+X 28 gdk-screen.ads
+54P9*Gdk_Screen(53R9)
+X 29 gdk-types.ads
+167M9*Gdk_Modifier_Type<32|55M9>
+X 30 gdk-visual.ads
+78V13*Convert[112|20]{88|67M9} 35|58i21
+79V13*Convert[112|20]{16|46P9} 35|59i21
+X 31 gdk-window.ads
+45K13*Window 15|51w10 51r32 31|2193e15
+280V13*Convert{88|67M9} 35|58i21
+281V13*Convert{16|43P9} 35|59i21
+X 32 glib.ads
+38K9*Glib 15|41w6 41r28 32|429e9
+49I9*Gint<72|35I9> 15|170r29 171r29 218r29 219r29
+55M9*Guint<72|44M9>
+59F9*Gdouble<72|72F9>
+71M9*Gsize<72|62M9>
+79A12*UTF8_String{string}<integer>
+153P9*C_Proxy(150R9)
+284M9*GType<71M9>
+X 35 glib-glist.ads
+65R12*Glist
+X 37 glib-object.ads
+41P9*GObject(40R9)
+55V13*Get_Type{32|284M9}
+72U14*Ref
+78U14*Unref 15|208R21 258R21 273R21 277R21 437R21
+106U14*Deallocate
+119U14*Ref_Sink
+494U14*Notify
+675V13*Convert{88|67M9} 35|58i21 36|49i21
+676V13*Convert{41P9} 35|59i21 36|50i21
+X 43 gtk.ads
+41K9*Gtk 14|83r6 93r6 128r6 15|42r6 42r28 43r6 43r28 53r6 53r28 54r6 54r28
+. 60r28 63r27 102r7 43|79e8
+X 51 gtk-cell_renderer.ads
+83P9*Gtk_Cell_Renderer(82R9)
+104V13*Convert{88|67M9} 35|58i21
+105V13*Convert{83P9} 35|59i21
+X 52 gtk-drawing_area.ads
+101K13*Drawing_Area 14|83w10 93r10 128r10 15|53w10 53r32 102r11 52|141e21
+103R9*Gtk_Drawing_Area_Record<65|343R9> 14|93r23 128r23 52|103e74
+104P9*Gtk_Drawing_Area(103R9) 15|376r29
+111U14*Initialize 15|102s24
+X 53 gtk-enums.ads
+30K13*Enums 15|42w10 42r32 53|878e14
+499M9*Gtk_State_Flags
+865V13*Convert{88|67M9} 35|58i21 36|49i21
+866V13*Convert{string} 35|59i21 36|50i21
+X 54 gtk-handlers.ads
+181K13*Handlers 15|54w10 54r32 55r27 60r32 63r31 54|1531e17
+218R12 Widget_Type<37|40R9> 15|61r7
+219E12 Return_Type 15|62r7
+220k12*Return_Callback 15|60r41 54|446e23
+242U17 Connect 15|108s16[60] 110s16[60]
+356V16 To_Marshaller=358:65{56|134R12[229[15|60]]} 15|109s34[60] 111s34[60]
+819R12 Widget_Type<37|40R9> 15|64r7
+820k12*Callback 15|63r40 54|1044e16
+833U17 Connect 15|114s15[63]
+939V16 To_Marshaller=942:46{56|344R12[828[15|63]]} 15|115s32[63]
+X 56 gtk-marshallers.ads
+134R12*Marshaller
+344R12*Marshaller
+X 59 gtk-style.ads
+54K13*Style 15|43w10 43r32 59|237e14
+57P9*Gtk_Style(56R9)
+X 63 gtk-tree_model.ads
+808V13*Convert{88|67M9} 35|58i21
+809V13*Convert{221R9} 35|59i21
+X 64 gtk-tree_view_column.ads
+55P9*Gtk_Tree_View_Column(54R9)
+66V13*Convert{88|67M9} 35|58i21
+67V13*Convert{55P9} 35|59i21
+X 65 gtk-widget.ads
+344P9*Gtk_Widget(343R9)
+388P9*Gtk_Widget_Path<32|153P9>
+431V13*Convert{88|67M9} 35|58i21 36|49i21
+432V13*Convert{344P9} 35|59i21 36|50i21
+499V13*Activate{boolean}
+506U14*Add_Accelerator
+527U14*Add_Device_Events
+537U14*Add_Events
+544U14*Add_Mnemonic_Label
+557V13*Add_Tick_Callback{32|55M9}
+627V13*Can_Activate_Accel{boolean}
+639V13*Child_Focus{boolean}
+660U14*Child_Notify
+670V13*Compute_Expand{boolean}
+684V13*Create_Pango_Context{76|44P9}
+691V13*Create_Pango_Layout{84|62P9}
+702U14*Destroy
+716U14*Destroyed
+727V13*Device_Is_Shadowed{boolean}
+738V13*Drag_Begin_With_Coordinates{21|35P9}
+781V13*Drag_Check_Threshold{boolean}
+795U14*Drag_Dest_Add_Image_Targets
+804U14*Drag_Dest_Add_Text_Targets
+812U14*Drag_Dest_Add_Uri_Targets
+820V13*Drag_Dest_Get_Track_Motion{boolean}
+826U14*Drag_Dest_Set_Track_Motion
+837U14*Drag_Dest_Set_Proxy
+849U14*Drag_Dest_Unset
+853U14*Drag_Get_Data
+871U14*Drag_Highlight
+876U14*Drag_Source_Add_Image_Targets
+885U14*Drag_Source_Add_Text_Targets
+893U14*Drag_Source_Add_Uri_Targets
+901U14*Drag_Source_Set_Icon_Name
+910U14*Drag_Source_Set_Icon_Pixbuf
+918U14*Drag_Source_Set_Icon_Stock
+927U14*Drag_Source_Unset
+930U14*Drag_Unhighlight
+933U14*Draw
+952U14*Ensure_Style
+960U14*Error_Bell
+969V13*Event{boolean}
+981U14*Freeze_Child_Notify
+988V13*Get_Allocated_Baseline{32|49I9}
+996V13*Get_Allocated_Height{32|49I9}
+1002V13*Get_Allocated_Width{32|49I9}
+1008U14*Get_Allocation
+1029U14*Set_Allocation
+1043V13*Get_Ancestor{344P9}
+1056V13*Get_App_Paintable{boolean}
+1063U14*Set_App_Paintable
+1078V13*Get_Can_Default{boolean}
+1084U14*Set_Can_Default
+1092V13*Get_Can_Focus{boolean}
+1098U14*Set_Can_Focus
+1106U14*Get_Child_Requisition
+1127V13*Get_Child_Visible{boolean}
+1134U14*Set_Child_Visible
+1152U14*Get_Clip
+1163U14*Set_Clip
+1182V13*Get_Composite_Name{32|79A12}
+1188U14*Set_Composite_Name
+1197V13*Get_Device_Enabled{boolean}
+1206U14*Set_Device_Enabled
+1219V13*Get_Device_Events{22|158M9}
+1229U14*Set_Device_Events
+1247V13*Get_Direction{53|544E9}
+1253U14*Set_Direction
+1269V13*Get_Display{20|55P9}
+1280V13*Get_Double_Buffered{boolean}
+1286U14*Set_Double_Buffered
+1309V13*Get_Events{22|158M9}
+1320U14*Set_Events
+1335V13*Get_Frame_Clock{23|69P9}
+1358V13*Get_Halign{346E9}
+1366U14*Set_Halign
+1373V13*Get_Has_Tooltip{boolean}
+1379U14*Set_Has_Tooltip
+1387V13*Get_Has_Window{boolean}
+1393U14*Set_Has_Window
+1408V13*Get_Hexpand{boolean}
+1422U14*Set_Hexpand
+1446V13*Get_Hexpand_Set{boolean}
+1456U14*Set_Hexpand_Set
+1471V13*Get_Mapped{boolean}
+1476U14*Set_Mapped
+1485V13*Get_Margin_Bottom{32|49I9}
+1490U14*Set_Margin_Bottom
+1498V13*Get_Margin_End{32|49I9}
+1503U14*Set_Margin_End
+1511V13*Get_Margin_Left{32|49I9}
+1518U14*Set_Margin_Left
+1528V13*Get_Margin_Right{32|49I9}
+1535U14*Set_Margin_Right
+1545V13*Get_Margin_Start{32|49I9}
+1550U14*Set_Margin_Start
+1558V13*Get_Margin_Top{32|49I9}
+1563U14*Set_Margin_Top
+1571V13*Get_Modifier_Mask{29|167M9}
+1580V13*Get_Name{32|79A12}
+1585U14*Set_Name
+1598V13*Get_No_Show_All{boolean}
+1605U14*Set_No_Show_All
+1615V13*Get_Opacity{32|59F9}
+1621U14*Set_Opacity
+1638V13*Get_Pango_Context{76|44P9}
+1649V13*Get_Parent{344P9}
+1653U14*Set_Parent
+1663V13*Get_Parent_Window{16|43P9}
+1667U14*Set_Parent_Window
+1678V13*Get_Path{388P9}
+1684U14*Get_Pointer
+1698U14*Get_Preferred_Height
+1713U14*Get_Preferred_Height_And_Baseline_For_Width
+1739U14*Get_Preferred_Height_For_Width
+1756U14*Get_Preferred_Size
+1776U14*Get_Preferred_Width
+1791U14*Get_Preferred_Width_For_Height
+1808V13*Get_Realized{boolean}
+1813U14*Set_Realized
+1823V13*Get_Receives_Default{boolean}
+1831U14*Set_Receives_Default
+1841V13*Get_Request_Mode{53|485E9}
+1851U14*Get_Requisition
+1865V13*Get_Root_Window{16|43P9}
+1878V13*Get_Scale_Factor{32|49I9}
+1886V13*Get_Screen{28|54P9}
+1897V13*Get_Sensitive{boolean}
+1905U14*Set_Sensitive
+1914U14*Get_Size_Request
+1927U14*Set_Size_Request
+1958U14*Size_Request
+1976V13*Get_State{53|519E9}
+1984U14*Set_State
+1994V13*Get_State_Flags{53|499M9}
+2003U14*Set_State_Flags
+2023V13*Get_Style{59|57P9}
+2030U14*Set_Style
+2040V13*Get_Support_Multidevice{boolean}
+2045U14*Set_Support_Multidevice
+2056V13*Get_Template_Child{37|41P9}
+2070V13*Get_Tooltip_Markup{32|79A12}
+2075U14*Set_Tooltip_Markup
+2088V13*Get_Tooltip_Text{32|79A12}
+2093U14*Set_Tooltip_Text
+2104V13*Get_Tooltip_Window{344P9}
+2111U14*Set_Tooltip_Window
+2124V13*Get_Toplevel{344P9}
+2143V13*Get_Valign{346E9}
+2153U14*Set_Valign
+2160V13*Get_Valign_With_Baseline{346E9}
+2166V13*Get_Vexpand{boolean}
+2171U14*Set_Vexpand
+2178V13*Get_Vexpand_Set{boolean}
+2184U14*Set_Vexpand_Set
+2192V13*Get_Visible{boolean}
+2201U14*Set_Visible
+2213V13*Get_Visual{30|37P12}
+2218U14*Set_Visual
+2229V13*Get_Window{16|43P9} 15|152R52 158R55 299R52 304R55 376R18 409s58
+. 427s57
+2234U14*Set_Window
+2248U14*Grab_Add
+2256U14*Grab_Default
+2266U14*Grab_Focus
+2276U14*Grab_Remove
+2282V13*Has_Default{boolean}
+2288V13*Has_Focus{boolean}
+2295V13*Has_Grab{boolean}
+2302V13*Has_Rc_Style{boolean}
+2310V13*Has_Screen{boolean}
+2317V13*Has_Visible_Focus{boolean}
+2329U14*Hide
+2333V13*Hide_On_Delete{boolean}
+2343V13*In_Destruction{boolean}
+2348U14*Init_Template
+2366U14*Input_Shape_Combine_Region
+2375V13*Intersect{boolean}
+2386V13*Is_Ancestor{boolean}
+2393V13*Is_Composited{boolean}
+2403V13*Is_Drawable{boolean}
+2409V13*Is_Focus{boolean}
+2416V13*Is_Sensitive{boolean}
+2422V13*Is_Toplevel{boolean}
+2430V13*Is_Visible{boolean}
+2438V13*Keynav_Failed{boolean}
+2466V13*List_Mnemonic_Labels{35|65R12[433]}
+2478U14*Map
+2482V13*Mnemonic_Activate{boolean}
+2491U14*Modify_Base
+2513U14*Modify_Bg
+2534U14*Modify_Cursor
+2553U14*Modify_Fg
+2567U14*Modify_Font
+2578U14*Modify_Text
+2593U14*Override_Background_Color
+2605U14*Override_Color
+2634U14*Override_Cursor
+2651U14*Override_Font
+2660U14*Override_Symbolic_Color
+2674U14*Queue_Compute_Expand
+2681U14*Queue_Draw
+2685U14*Queue_Draw_Area
+2703U14*Queue_Draw_Region
+2717U14*Queue_Resize
+2728U14*Queue_Resize_No_Redraw
+2734U14*Realize
+2751V13*Region_Intersect{13|37M9}
+2764U14*Register_Window
+2777V13*Remove_Accelerator{boolean}
+2788U14*Remove_Mnemonic_Label
+2798U14*Remove_Tick_Callback
+2806V13*Render_Icon{25|55P9}
+2828V13*Render_Icon_Pixbuf{25|55P9}
+2847U14*Reparent
+2856U14*Reset_Rc_Styles
+2864U14*Reset_Style
+2871V13*Send_Expose{32|49I9}
+2884V13*Send_Focus_Change{boolean}
+2906U14*Set_Accel_Path
+2931U14*Set_Redraw_On_Allocate
+2951U14*Shape_Combine_Region
+2959U14*Show
+2970U14*Show_All
+2974U14*Show_Now
+2980U14*Size_Allocate
+2995U14*Size_Allocate_With_Baseline
+3015U14*Style_Attach
+3027U14*Style_Get_Property
+3035U14*Thaw_Child_Notify
+3040U14*Translate_Coordinates
+3058U14*Trigger_Tooltip_Query
+3064U14*Unmap
+3068U14*Unparent
+3073U14*Unrealize
+3078U14*Unregister_Window
+3087U14*Unset_State_Flags
+3624U14*On_Accel_Closures_Changed
+3628U14*On_Accel_Closures_Changed
+3643U14*On_Button_Press_Event
+3647U14*On_Button_Press_Event
+3666U14*On_Button_Release_Event
+3670U14*On_Button_Release_Event
+3697U14*On_Can_Activate_Accel
+3701U14*On_Can_Activate_Accel
+3725U14*On_Child_Notify
+3729U14*On_Child_Notify
+3739U14*On_Composited_Changed
+3743U14*On_Composited_Changed
+3760U14*On_Configure_Event
+3764U14*On_Configure_Event
+3790U14*On_Damage_Event
+3794U14*On_Damage_Event
+3817U14*On_Delete_Event
+3821U14*On_Delete_Event
+3838U14*On_Destroy
+3842U14*On_Destroy
+3852U14*On_Destroy_Event
+3856U14*On_Destroy_Event
+3884U14*On_Direction_Changed
+3888U14*On_Direction_Changed
+3905U14*On_Drag_Begin
+3909U14*On_Drag_Begin
+3923U14*On_Drag_Data_Delete
+3927U14*On_Drag_Data_Delete
+3953U14*On_Drag_Data_Get
+3957U14*On_Drag_Data_Get
+3995U14*On_Drag_Data_Received
+3999U14*On_Drag_Data_Received
+4065U14*On_Drag_Drop
+4069U14*On_Drag_Drop
+4093U14*On_Drag_End
+4097U14*On_Drag_End
+4117U14*On_Drag_Failed
+4121U14*On_Drag_Failed
+4148U14*On_Drag_Leave
+4152U14*On_Drag_Leave
+4172U14*On_Drag_Motion
+4176U14*On_Drag_Motion
+4250U14*On_Draw
+4254U14*On_Draw
+4290U14*On_Enter_Notify_Event
+4294U14*On_Enter_Notify_Event
+4313U14*On_Event
+4317U14*On_Event
+4345U14*On_Event_After
+4349U14*On_Event_After
+4367U14*On_Focus
+4371U14*On_Focus
+4389U14*On_Focus_In_Event
+4393U14*On_Focus_In_Event
+4410U14*On_Focus_Out_Event
+4414U14*On_Focus_Out_Event
+4439U14*On_Grab_Broken_Event
+4443U14*On_Grab_Broken_Event
+4461U14*On_Grab_Focus
+4465U14*On_Grab_Focus
+4480U14*On_Grab_Notify
+4484U14*On_Grab_Notify
+4497U14*On_Hide
+4501U14*On_Hide
+4518U14*On_Hierarchy_Changed
+4522U14*On_Hierarchy_Changed
+4541U14*On_Key_Press_Event
+4545U14*On_Key_Press_Event
+4565U14*On_Key_Release_Event
+4569U14*On_Key_Release_Event
+4587U14*On_Keynav_Failed
+4591U14*On_Keynav_Failed
+4606U14*On_Leave_Notify_Event
+4610U14*On_Leave_Notify_Event
+4629U14*On_Map
+4633U14*On_Map
+4657U14*On_Map_Event
+4661U14*On_Map_Event
+4687U14*On_Mnemonic_Activate
+4691U14*On_Mnemonic_Activate
+4710U14*On_Motion_Notify_Event
+4714U14*On_Motion_Notify_Event
+4741U14*On_Move_Focus
+4745U14*On_Move_Focus
+4752U14*On_Parent_Set
+4756U14*On_Parent_Set
+4772U14*On_Popup_Menu
+4776U14*On_Popup_Menu
+4801U14*On_Property_Notify_Event
+4805U14*On_Property_Notify_Event
+4830U14*On_Proximity_In_Event
+4834U14*On_Proximity_In_Event
+4850U14*On_Proximity_Out_Event
+4854U14*On_Proximity_Out_Event
+4886U14*On_Query_Tooltip
+4890U14*On_Query_Tooltip
+4917U14*On_Realize
+4921U14*On_Realize
+4939U14*On_Screen_Changed
+4943U14*On_Screen_Changed
+4960U14*On_Scroll_Event
+4964U14*On_Scroll_Event
+4992U14*On_Selection_Clear_Event
+4996U14*On_Selection_Clear_Event
+5022U14*On_Selection_Get
+5026U14*On_Selection_Get
+5035U14*On_Selection_Notify_Event
+5039U14*On_Selection_Notify_Event
+5059U14*On_Selection_Received
+5063U14*On_Selection_Received
+5072U14*On_Selection_Request_Event
+5076U14*On_Selection_Request_Event
+5090U14*On_Show
+5094U14*On_Show
+5111U14*On_Show_Help
+5115U14*On_Show_Help
+5134U14*On_Size_Allocate
+5138U14*On_Size_Allocate
+5153U14*On_State_Changed
+5157U14*On_State_Changed
+5174U14*On_State_Flags_Changed
+5178U14*On_State_Flags_Changed
+5195U14*On_Style_Set
+5199U14*On_Style_Set
+5214U14*On_Style_Updated
+5218U14*On_Style_Updated
+5229U14*On_Touch_Event
+5233U14*On_Touch_Event
+5240U14*On_Unmap
+5244U14*On_Unmap
+5257U14*On_Unmap_Event
+5261U14*On_Unmap_Event
+5279U14*On_Unrealize
+5283U14*On_Unrealize
+5302U14*On_Visibility_Notify_Event
+5306U14*On_Visibility_Notify_Event
+5332U14*On_Window_State_Event
+5336U14*On_Window_State_Event
+X 66 gtkada.ads
+30K9*Gtkada 15|47r6 47r29 66|34e11
+X 69 gtkada-style.ads
+46K16*Style 15|47w13 47r36 69|591e17
+176U14*Draw_Rectangle 15|177s16 225s16
+179b7 Filled{boolean} 15|179r27 227r27
+180i7 X{32|49I9} 15|180r27 228r27
+180i10 Y{32|49I9} 15|180r36 228r36
+180i13 Width{32|49I9} 15|181r27 229r27
+180i20 Height{32|49I9} 15|181r47 229r47
+X 72 i-c.ads
+35I9*int<integer>
+44M9*unsigned
+62M9*size_t
+72F9*double<long_float>
+X 76 pango-context.ads
+44P9*Pango_Context(43R9)
+X 84 pango-layout.ads
+62P9*Pango_Layout(61R9)
+X 87 pkg_tipos.ads
+5K9*PKG_tipos 14|88w6 88r21 87|224e14
+34N4*CANVAS_WIDTH 15|129r47
+35N4*CANVAS_HEIGHT 15|129r71
+X 88 system.ads
+67M9*Address
+X 95 s-memory.ads
+53V13*Alloc{88|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{88|67M9} 105i<c,__gnat_realloc>22
+X 103 s-stalib.adb
+89U14 Break_Start 90i<c,__gnat_break_start>22
+

@@ -1,0 +1,359 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RELATIVE_DELAY
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_ALLOCATORS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U pkg_peaton%b		pkg_peaton.adb		b45fda9b OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W pkg_debug%s		pkg_debug.adb		pkg_debug.ali  AD
+W pkg_graficos%s	pkg_graficos.adb	pkg_graficos.ali  AD
+W pkg_taxi%s		pkg_taxi.adb		pkg_taxi.ali
+W system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+U pkg_peaton%s		pkg_peaton.ads		9168873d EE OO PK
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W pkg_taxi%s		pkg_taxi.adb		pkg_taxi.ali
+W pkg_tipos%s		pkg_tipos.ads		pkg_tipos.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-calend.ads		20210520051127 474d9720 ada.calendar%s
+D a-caldel.ads		20210520051127 9f20b83d ada.calendar.delays%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051127 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051128 84bea7a3 ada.numerics%s
+D a-nudira.ads		20210520051128 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20210520051128 0bfd6ec4 ada.numerics.discrete_random%b
+D a-reatim.ads		20210520051126 0240fc73 ada.real_time%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210520051129 c3a8ac65 ada.unchecked_deallocation%s
+D cairo.ads		20210519053508 925d4aaa cairo%s
+D cairo-region.ads	20210519053508 b7133728 cairo.region%s
+D gdk.ads		20210519053508 96d821f3 gdk%s
+D gdk-cairo.ads		20210519053508 750fb209 gdk.cairo%s
+D gdk-color.ads		20210519053508 ef57bc34 gdk.color%s
+D gdk-device.ads	20210519053508 04c1ecbd gdk.device%s
+D gdk-display.ads	20210519053508 d91ec37e gdk.display%s
+D gdk-drag_contexts.ads	20210519053508 11b1346e gdk.drag_contexts%s
+D gdk-event.ads		20210519053508 1bda38e2 gdk.event%s
+D gdk-frame_clock.ads	20210519053508 dadfbe52 gdk.frame_clock%s
+D gdk-frame_timings.ads	20210519053508 98b5e7d1 gdk.frame_timings%s
+D gdk-pixbuf.ads	20210519053508 499fe1c7 gdk.pixbuf%s
+D gdk-rectangle.ads	20210519053508 7b900608 gdk.rectangle%s
+D gdk-rgba.ads		20210519053508 2609514a gdk.rgba%s
+D gdk-screen.ads	20210519053508 9fe578a4 gdk.screen%s
+D gdk-types.ads		20210519053508 921dc8b2 gdk.types%s
+D gdk-visual.ads	20210519053508 615e934c gdk.visual%s
+D gdk-window.ads	20210519053508 aa508024 gdk.window%s
+D glib.ads		20210519053508 7d107887 glib%s
+D glib-error.ads	20210519053508 e055fabe glib.error%s
+D glib-generic_properties.ads  20210519053508 f3dc70df glib.generic_properties%s
+D glib-glist.ads	20210519053508 65a6e1be glib.glist%s
+D glib-gslist.ads	20210519053508 953541be glib.gslist%s
+D glib-main.ads		20210519053508 aec03ed0 glib.main%s
+D glib-object.ads	20210519053508 fb5efa0e glib.object%s
+D glib-poll.ads		20210519053508 e1a8ea35 glib.poll%s
+D glib-properties.ads	20210519053508 4118b916 glib.properties%s
+D glib-spawn.ads	20210519053508 68be6b4c glib.spawn%s
+D glib-types.ads	20210519053508 86ac71ae glib.types%s
+D glib-values.ads	20210519053508 5ef3ad24 glib.values%s
+D gnat.ads		20210520051131 b5988c27 gnat%s
+D g-string.ads		20210520051130 c6abc540 gnat.strings%s
+D gtk.ads		20210519053508 cfdeaf1c gtk%s
+D gtk-accel_group.ads	20210519053508 a14a159a gtk.accel_group%s
+D gtk-adjustment.ads	20210519053508 bbcb1fda gtk.adjustment%s
+D gtk-bin.ads		20210519053508 4e8a2236 gtk.bin%s
+D gtk-buildable.ads	20210519053508 e8198b57 gtk.buildable%s
+D gtk-builder.ads	20210519053508 35d802c2 gtk.builder%s
+D gtk-cell_area.ads	20210519053508 309571a8 gtk.cell_area%s
+D gtk-cell_area_context.ads  20210519053508 5d63dcf9 gtk.cell_area_context%s
+D gtk-cell_editable.ads	20210519053508 a955a31f gtk.cell_editable%s
+D gtk-cell_layout.ads	20210519053508 ceee6a6f gtk.cell_layout%s
+D gtk-cell_renderer.ads	20210519053508 8a8076e8 gtk.cell_renderer%s
+D gtk-container.ads	20210519053508 dc3d0898 gtk.container%s
+D gtk-drawing_area.ads	20210519053508 6fdc9064 gtk.drawing_area%s
+D gtk-enums.ads		20210519053508 e3f2f3ba gtk.enums%s
+D gtk-handlers.ads	20210519053508 313b6eab gtk.handlers%s
+D gtk-main.ads		20210519053508 e684a528 gtk.main%s
+D gtk-marshallers.ads	20210519053508 6c3cad4d gtk.marshallers%s
+D gtk-selection_data.ads  20210519053508 061b2148 gtk.selection_data%s
+D gtk-style.ads		20210519053508 3c4cbc07 gtk.style%s
+D gtk-style_provider.ads  20210519053508 e396c135 gtk.style_provider%s
+D gtk-target_entry.ads	20210519053508 02690213 gtk.target_entry%s
+D gtk-target_list.ads	20210519053508 a9d79eb7 gtk.target_list%s
+D gtk-tree_model.ads	20210519053508 e664b639 gtk.tree_model%s
+D gtk-tree_view_column.ads  20210519053508 54737275 gtk.tree_view_column%s
+D gtk-widget.ads	20210519053508 07bd7883 gtk.widget%s
+D gtk-window.ads	20210519053508 e91a448d gtk.window%s
+D gtkada.ads		20210519053508 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20210519053508 fc9825de gtkada.bindings%s
+D gtkada-c.ads		20210519053508 0f5973e3 gtkada.c%s
+D gtkada-style.ads	20210519053508 026aa25d gtkada.style%s
+D gtkada-types.ads	20210519053508 471f54b5 gtkada.types%s
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-c.ads		20210520051131 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051131 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D pango.ads		20210519053508 e51ea573 pango%s
+D pango-attributes.ads	20210519053508 b2832a43 pango.attributes%s
+D pango-context.ads	20210519053508 5a6f0fe6 pango.context%s
+D pango-enums.ads	20210519053508 eff085ce pango.enums%s
+D pango-font.ads	20210519053508 71042db5 pango.font%s
+D pango-font_face.ads	20210519053508 c62e6ce5 pango.font_face%s
+D pango-font_family.ads	20210519053508 1fdea8b4 pango.font_family%s
+D pango-font_metrics.ads  20210519053508 25e6f301 pango.font_metrics%s
+D pango-fontset.ads	20210519053508 af4fe708 pango.fontset%s
+D pango-language.ads	20210519053508 e96cb8f4 pango.language%s
+D pango-layout.ads	20210519053508 d240b716 pango.layout%s
+D pango-matrix.ads	20210519053508 309f74b5 pango.matrix%s
+D pango-tabs.ads	20210519053508 0c575925 pango.tabs%s
+D pkg_buffergenerico.ads  20210912175227 ded36223 pkg_buffergenerico%s
+D pkg_debug.ads		20210912175227 edd8aa0d pkg_debug%s
+D pkg_graficos.ads	20210912175227 5c93c877 pkg_graficos%s
+D pkg_peaton.ads	20211105180131 ccac81e4 pkg_peaton%s
+D pkg_peaton.adb	20211105191647 7d001eb0 pkg_peaton%b
+D pkg_taxi.ads		20211105185354 3e1e5f72 pkg_taxi%s
+D pkg_tipos.ads		20210912175227 63da59ab pkg_tipos%s
+D system.ads		20210520051134 a2da961d system%s
+D s-atacco.ads		20210520051131 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20210520051131 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-finmas.ads		20210520051131 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210520051131 4ff27390 system.finalization_root%s
+D s-imageu.ads		20210520051132 525c30c6 system.image_u%s
+D s-imguns.ads		20210520051132 0e4da2ac system.img_uns%s
+D s-linux.ads		20210520051126 ed0b8aee system.linux%s
+D s-multip.ads		20210520051132 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20210520095157 e3a42aec system.os_constants%s
+D s-osinte.ads		20210520051126 222ac181 system.os_interface%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-pooglo.ads		20210520051133 ede33ef8 system.pool_global%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-rannum.ads		20210520051133 c3978523 system.random_numbers%s
+D s-rannum.adb		20210520051133 2631917b system.random_numbers%b
+D s-ransee.ads		20210520051133 01a57b33 system.random_seed%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051133 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210520051133 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20210520051133 7bdda3fa system.stream_attributes%s
+D s-string.ads		20210520051133 8fe54fb7 system.strings%s
+D s-tasinf.ads		20210520051126 2b3f8252 system.task_info%s
+D s-taspri.ads		20210520051126 4ec891e7 system.task_primitives%s
+D s-taprop.ads		20210520051126 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20210520051126 88fba9ad system.tasking%s
+D s-taprob.ads		20210520051126 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210520051126 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210520051126 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tassta.ads		20210520051126 cca55c94 system.tasking.stages%s
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-valuns.ads		20210520051133 dac7b45d system.val_uns%s
+D s-valueu.ads		20210520051133 7b8fccf5 system.value_u%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c b b b [b pkg_peaton 10 1 none]
+G c Z s b [tarea_generapeatonesTK pkg_peaton 10 9 none]
+G c Z s s [tarea_generapeatonesTKVIP pkg_peaton 10 4 none]
+G c Z s b [t_tarea_peaton pkg_peaton 13 14 none]
+G c Z s s [t_tarea_peatonVIP pkg_peaton 13 4 none]
+G r c none [b pkg_peaton 10 1 none] [escribir pkg_debug 18 14 none]
+G r c none [b pkg_peaton 10 1 none] [parada_taxi_vacia pkg_graficos 116 13 none]
+G r c none [b pkg_peaton 10 1 none] [actualiza_atributo pkg_graficos 87 14 none]
+G r c none [b pkg_peaton 10 1 none] [actualiza_atributo pkg_graficos 75 14 none]
+G r c none [b pkg_peaton 10 1 none] [pos_inicio pkg_graficos 58 13 none]
+G r c none [b pkg_peaton 10 1 none] [actualiza_atributo pkg_graficos 71 14 none]
+G r c none [tarea_generapeatonesTK pkg_peaton 10 9 none] [escribir pkg_debug 18 14 none]
+G r c none [tarea_generapeatonesTK pkg_peaton 10 9 none] [parada_taxi_vacia pkg_graficos 116 13 none]
+G r c none [tarea_generapeatonesTK pkg_peaton 10 9 none] [actualiza_atributo pkg_graficos 87 14 none]
+G r c none [tarea_generapeatonesTK pkg_peaton 10 9 none] [actualiza_atributo pkg_graficos 75 14 none]
+G r c none [tarea_generapeatonesTK pkg_peaton 10 9 none] [pos_inicio pkg_graficos 58 13 none]
+G r c none [tarea_generapeatonesTK pkg_peaton 10 9 none] [actualiza_atributo pkg_graficos 71 14 none]
+G r c none [t_tarea_peaton pkg_peaton 13 14 none] [escribir pkg_debug 18 14 none]
+G r c none [t_tarea_peaton pkg_peaton 13 14 none] [aparece pkg_graficos 41 14 none]
+G r o none [t_tarea_peaton pkg_peaton 13 14 none] [paradataxi pkg_taxi__op_luztaxi 11 17 none]
+G r c none [t_tarea_peaton pkg_peaton 13 14 none] [actualiza_color_peaton pkg_graficos 125 14 none]
+G r c none [t_tarea_peaton pkg_peaton 13 14 none] [desaparece pkg_graficos 46 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 103|7r6 7r26 8r6 8r35 8r52 20r18 26r18
+X 2 a-calend.ads
+36K13*Calendar 413e17 103|8w39 8r56
+42I9*Time<226I9> 103|84r24
+56V13*Clock{42I9} 103|94s55
+106V14*"+"{42I9} 103|94s53
+109V14*"-"{42I9} 103|101s38
+226I9 Time_Rep<long_long_integer>
+X 4 a-except.ads
+44K13*Exceptions 289e19 103|7w10 7r30
+48P9*Exception_Id<130|84P9>
+60V13*Exception_Name{string} 103|73s71 114s70
+92V13*Exception_Identity{48P9} 103|73s86 114s85
+X 7 a-numeri.ads
+16K13*Numerics 35e17 103|8r10 20r22 26r22
+X 8 a-nudira.ads
+44k22*Discrete_Random 81e33 103|8w19 20r31 26r31
+50R9 Generator<123|65R9> 103|21r93[19] 27r93[25]
+52V13 Random{integer} 103|45s62[19] 55s67[25]
+61U14 Reset<123|103p14> 103|37s37[19] 38s37[25]
+X 9 a-nudira.adb
+53V16 Random[123|86]{105|19E9} 124|402b13[103|25]
+65V16 Random[123|86]{105|19E9} 124|402b13[103|25]
+X 21 gdk.ads
+43P9*Gdk_Window<37|153P9>
+46P9*Gdk_Visual<37|153P9>
+X 24 gdk-device.ads
+49P9*Gdk_Device(48R9)
+59V13*Convert{106|67M9} 40|58i21
+60V13*Convert{49P9} 40|59i21
+X 35 gdk-visual.ads
+78V13*Convert[149|20]{106|67M9} 40|58i21
+79V13*Convert[149|20]{21|46P9} 40|59i21
+X 36 gdk-window.ads
+280V13*Convert{106|67M9} 40|58i21
+281V13*Convert{21|43P9} 40|59i21
+X 37 glib.ads
+153P9*C_Proxy(150R9)
+X 43 glib-object.ads
+41P9*GObject(40R9)
+675V13*Convert{106|67M9} 40|58i21 41|49i21
+676V13*Convert{41P9} 40|59i21 41|50i21
+X 61 gtk-cell_renderer.ads
+83P9*Gtk_Cell_Renderer(82R9)
+104V13*Convert{106|67M9} 40|58i21
+105V13*Convert{83P9} 40|59i21
+X 64 gtk-enums.ads
+865V13*Convert{106|67M9} 40|58i21 41|49i21
+866V13*Convert{string} 40|59i21 41|50i21
+X 73 gtk-tree_model.ads
+808V13*Convert{106|67M9} 40|58i21
+809V13*Convert{221R9} 40|59i21
+X 74 gtk-tree_view_column.ads
+55P9*Gtk_Tree_View_Column(54R9)
+66V13*Convert{106|67M9} 40|58i21
+67V13*Convert{55P9} 40|59i21
+X 75 gtk-widget.ads
+344P9*Gtk_Widget(343R9)
+431V13*Convert{106|67M9} 40|58i21 41|49i21
+432V13*Convert{344P9} 40|59i21 41|50i21
+X 82 interfac.ads
+79M9*Unsigned_32
+82M9*Unsigned_64
+X 100 pkg_debug.ads
+8K9*PKG_debug 38e14 103|6w6 34r11 73r16 86r11 110r11 114r16
+18U14*Escribir 103|34s21 73s26 86s21 110s21 114s26
+X 101 pkg_graficos.ads
+24K9*PKG_graficos 307e17 103|5w6 42r19 52r26 56r26 59r26 59r58 92r11 98r16
+. 102r16 108r11
+41U14*Aparece 103|92s24
+46U14*Desaparece 103|108s24
+58V13*Pos_Inicio{105|79R9} 103|59s71
+71U14*Actualiza_Atributo 103|59s39
+75U14*Actualiza_Atributo 103|56s39
+87U14*Actualiza_Atributo 103|52s39
+116V13*Parada_Taxi_Vacia{boolean} 103|42s32
+125U14*Actualiza_Color_Peaton 103|98s29 102s29
+X 102 pkg_peaton.ads
+8K9*PKG_peaton 16l5 16e15 103|10b14 117l10 117t20
+10t9*Tarea_GeneraPeatones 103|14b16 75l10 75t30
+13T14*T_Tarea_Peaton 13d29 14r36 103|62r46 82b16 116l10 116t24
+13p29 ptr_peaton{105|182P9} 103|89r20
+14P9*Ptr_Tarea_Peaton(13T14) 103|15r67
+X 103 pkg_peaton.adb
+15p11 Tarea_peaton{102|14P9} 62m26
+16p11 ptr_peaton{105|182P9} 48m26 52r68 56r71 59r82 59r99 62r61
+19K19 Pkg_NumPeatones_Aleatorio[8|44] 21r67 37r11 45r36
+21r11 Generador_NumPeatones{8|50R9[19]} 37r43 45r69
+22i11 numPeatones{105|161I12} 45m21 47r33
+25K19 Pkg_ColorPeaton_Aleatorio[8|44] 27r67 38r11 55r41
+27r11 Generador_ColorPeaton{8|50R9[25]} 38r43 55r74
+28e11 colorPeaton{105|170E12} 55m26 56r58
+30m11 idPeaton{105|164M9} 51m26 52r58
+47i25 i{integer} 51r49
+72r16 event{4|53R9} 73r105
+83r11 peaton{105|175R9} 89m11 92r32 98m58 98r58 102m58 102r58 108r35
+84i12 siguiente{2|42I9} 94m11 101r28
+113r16 event{4|53R9} 114r104
+X 104 pkg_taxi.ads
+7K9*PKG_Taxi 102|5w16 103|5w19 97r16 104|31e13
+9w16*OP_luzTaxi 103|97r25
+11Y17 paradaTaxi 103|97s36
+X 105 pkg_tipos.ads
+5K9*PKG_tipos 102|5w6 5r30 103|94r22 105|224e14
+19n40*Green{19E9} 103|98r52
+19n46*Black{19E9} 103|102r52
+155o4*TIEMPO_ESPERA_PEATON{duration} 103|94r32
+158o4*PERIODO_PEATONES{duration} 103|67r22
+161I12*T_NumPeatones{integer} 103|20r47 22r67
+164M9*T_IdPeaton 103|30r67 51r38
+170E12*T_ColorAparicionPeaton{19E9} 103|26r47 28r67
+175R9*T_RecordPeaton 103|48r44 83r67 105|180e14
+182P9*Ptr_T_RecordPeaton(175R9) 102|13r42 103|16r67
+X 106 system.ads
+67M9*Address
+X 123 s-rannum.ads
+77V13*Random{82|79M9} 124|224i21
+78V13*Random{82|82M9} 124|224i21
+X 129 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 130 s-stalib.ads
+84P9*Exception_Data_Ptr(83R9)
+

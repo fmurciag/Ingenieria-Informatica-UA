@@ -1,0 +1,115 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FIXED_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U pkg_tipos%s		pkg_tipos.ads		63da59ab EE OO PK KU
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D pkg_tipos.ads		20210912175227 63da59ab pkg_tipos%s
+D system.ads		20210520051134 a2da961d system%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+G a e
+G c Z s s [t_velocidadIP pkg_tipos 68 9 none]
+G c Z s s [t_puntoIP pkg_tipos 79 9 none]
+G c Z s s [t_recordtaxiIP pkg_tipos 107 9 none]
+G c Z s s [t_recordtrenIP pkg_tipos 137 9 none]
+G c Z s s [t_recordpeatonIP pkg_tipos 175 9 none]
+G c Z s s [t_recordcocheIP pkg_tipos 213 9 none]
+X 3 pkg_tipos.ads
+5K9*PKG_tipos 224l5 224e14
+9o4*RETARDO_MOVIMIENTO{duration}
+12X4*DETECTADA_COLISION
+15X4*DETECTADA_COLISION_TREN
+19E9*T_Color 19e65 22r31 133r28 167r30 170r39 210r29
+19n21*Blue{19E9} 133r42 167r44 170r53 210r43
+19n27*Yellow{19E9}
+19n35*Red{19E9} 22r45 170r59
+19n40*Green{19E9} 133r48 210r49
+19n46*Black{19E9} 22r50 167r50
+19n53*White{19E9}
+19n60*Grey{19E9}
+22E12*T_ColorSemaforo{19E9}
+34N4*CANVAS_WIDTH 38r33 76r46
+35N4*CANVAS_HEIGHT 77r46
+38N4*X_INICIO_COCHE 109r31
+41N4*Y_CARRIL_TAXI 109r47
+44N4*X_TREN 139r31
+47N4*DIST_SEGURIDAD
+49N4*TAM_COCHE
+50N4*TAM_VAGON 77r60
+52N4*N_MAX_COCHES 62r36
+53N4*N_MAX_VAGONES 77r71 130r45
+54N4*N_MAX_PEATONES 161r46 164r27
+62M9*T_RangoBufferCoches
+65I9*T_RangoVelocidad<integer> 70r11 71r11 207r41
+68R9*T_Velocidad 72e14 110r19 140r19 217r19
+70i7*X{65I9}
+71i7*Y{65I9}
+76I12*T_CoordenadaX{integer} 81r11
+77I12*T_CoordenadaY{integer} 82r11
+79R9*T_Punto 83e14 109r19 139r19 178r19 216r19
+81i7*X{76I12}
+82i7*Y{77I12}
+92o4*PERIODO_TAXI{duration}
+95N4*VELOCIDAD_TAXI 110r33
+98o4*TIEMPO_PARADA_OBLIGATORIA{duration}
+101o4*TIEMPO_RECOGIDA_PASAJEROS{duration}
+104N4*CAPACIDAD_TAXI
+107R9*T_RecordTaxi 113e14 115r36
+109r7*Pos{79R9}
+110r7*Velocidad{68R9}
+111b7*libre{boolean}
+112b7*presente{boolean}
+115P9*Ptr_T_RecordTaxi(107R9)
+124o4*PERIODO_TREN{duration}
+127N4*VELOCIDAD_TREN 140r38
+130I12*T_NumVagones{integer} 141r19
+133E12*T_ColorTren{19E9} 142r19
+137R9*T_RecordTren 144e14 146r36
+139r7*Pos{79R9}
+140r7*velocidad{68R9}
+141i7*n_vagones{130I12}
+142e7*Color{133E12}
+143b7*Presente{boolean}
+146P9*Ptr_T_RecordTren(137R9)
+155o4*TIEMPO_ESPERA_PEATON{duration}
+158o4*PERIODO_PEATONES{duration}
+161I12*T_NumPeatones{integer}
+164M9*T_IdPeaton 177r19
+167E12*T_ColorPeaton{19E9} 179r19
+170E12*T_ColorAparicionPeaton{19E9}
+175R9*T_RecordPeaton 180e14 182r38
+177m7*id{164M9}
+178r7*Pos{79R9}
+179e7*Color{167E12}
+182P9*Ptr_T_RecordPeaton(175R9)
+192N4*VELOCIDAD_COCHE 207r64
+195N4*MAX_VELOCIDAD_COCHE 207r81
+198I12*T_RetardoCoches{integer}
+201I9*T_Carril<integer> 219r19
+204I9*T_IdCoche<integer> 215r19
+207I12*T_RangoVelocidadAparicion{65I9}
+210E12*T_ColorCoche{19E9} 218r19
+213R9*T_RecordCoche 220e14 222r37
+215i7*id{204I9}
+216r7*Pos{79R9}
+217r7*velocidad{68R9}
+218e7*Color{210E12}
+219i7*Carril{201I9}
+222P9*Ptr_T_RecordCoche(213R9)
+

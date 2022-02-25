@@ -1,0 +1,89 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ejercicio3%b		ejercicio3.adb		72f00fbb NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W pkg_ejercicio2c%s	pkg_ejercicio2c.adb	pkg_ejercicio2c.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-flteio.ads		20210520051127 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20210520051127 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-tienio.ads		20210520051129 2e79c9bf ada.text_io.enumeration_io%s
+D a-tiflio.ads		20210520051129 fcca4daa ada.text_io.float_io%s
+D a-tiinio.ads		20210520051129 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D ejercicio3.adb	20210916101611 8f63f2a8 ejercicio3%b
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D pkg_ejercicio2c.ads	20210920112854 44a6e67a pkg_ejercicio2c%s
+D system.ads		20210520051134 a2da961d system%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [ejercicio3 standard 3 11 none]
+G r c none [ejercicio3 standard 3 11 none] [getnotamedia pkg_ejercicio2c 8 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|1r6 1r19 1r40 8r4 9r17 11r4 12r4 17r9 19r9 25r6
+X 3 a-flteio.ads
+20K13*Float_Text_IO[13|46] 16|1w44 12r8
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[14|46] 16|1w23 9r21
+X 11 a-textio.ads
+58K13*Text_IO 725e16 16|1w10 8r8 11r8 17r13 19r13 25r10
+262U14*New_Line 16|17s21
+463U14*Put 16|8s16 11s16 19s21 25s18
+X 12 a-tienio.ads
+34U14*Get 16|20s35[19|11]
+52U14*Put 16|16s38[19|11] 26s35[19|11]
+X 13 a-tiflio.ads
+82U14*Put 16|12s22[3|20]
+X 14 a-tiinio.ads
+80U14*Put 16|9s37[4|18]
+X 16 ejercicio3.adb
+3U11*ejercicio3 3b11 36l6 36t16
+4e4 d{19|6E11} 20m39 22r41
+5i4 pos{natural} 22m4 23r43
+6e4 value{19|6E11} 23m4 26r39
+14e8 dia{19|6E11} 16r42
+X 19 pkg_ejercicio2c.ads
+3K9*pkg_ejercicio2c 16|1w59 4r6 6r10 9r41 12r26 14r15 16r7 20r4 22r9 23r11
+. 26r4 19|19e20
+6E11*TdiasSemana 16|4r22 6r26 14r31 22r25 23r27 19|6e86
+7i4*numAlumnos{integer} 16|9r57
+8V13*getNotaMedia{float} 16|12s42
+11K12*pkg_diasSemana[12|26] 16|16r23 20r20 26r20
+

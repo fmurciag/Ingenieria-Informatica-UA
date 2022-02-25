@@ -1,0 +1,103 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U pkg_debug%b		pkg_debug.adb		de8120ee OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U pkg_debug%s		pkg_debug.ads		432c7f60 EE NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D pkg_debug.ads		20210912175227 edd8aa0d pkg_debug%s
+D pkg_debug.adb		20210912175227 a736baf7 pkg_debug%b
+D system.ads		20210520051134 a2da961d system%s
+D s-conca2.ads		20210520051131 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [crear_fichero pkg_debug 11 14 none]
+G c Z s b [cerrar_fichero pkg_debug 14 14 none]
+G c Z s b [escribir pkg_debug 18 14 none]
+G c Z s b [abrir_fichero pkg_debug 27 17 none]
+G c Z s b [escribir_cabecera pkg_debug 30 17 none]
+G c Z s b [escribir_fichero pkg_debug 33 17 none]
+G c Z s b [escribir_pantalla pkg_debug 36 17 none]
+X 1 ada.ads
+16K9*Ada 20e8 13|6r6 23r13 14|6r6 6r26 26r7 30r9 50r8 50r33 54r11 54r34 79r7
+. 83r9 92r7
+X 2 a-except.ads
+44K13*Exceptions 289e19 14|6w10 6r30
+84V13*Exception_Message{string} 14|30s63 83s66
+X 9 a-textio.ads
+58K13*Text_IO 725e16 13|6w10 23r17 14|26r11 30r13 50r12 50r37 54r15 54r38
+. 79r11 83r13 92r11
+65P9*File_Type 13|23r25
+67n42*Append_File{67E9} 14|50r45 54r46
+97U14*Create 14|50s20
+112U14*Open 14|54s23
+127U14*Close 14|26s19
+496U14*Put_Line 14|79s19
+506U14*Put_Line 14|30s21 83s21 92s19
+X 13 pkg_debug.ads
+8K9*PKG_debug 22E7 38l5 38e14 14|8b14 99l5 99t14
+11U14*Crear_Fichero 14|14b14 18l8 18t21 97s4
+14U14*Cerrar_Fichero 14|24b14 31l8 31t22
+18U14*Escribir 18>23 14|38b14 42l8 42t16 64s7 65s7 66s7 67s7 68s7 69s7 70s7
+18a23 cadena{string} 14|38b23 40r24 41r25
+22a7 nomb_fich{string} 14|50r58 54r59
+23p7 fich{9|65P9} 14|26m25 26r25 50m27 50r27 54m28 54r28 79r28
+27U17 Abrir_Fichero 14|16s7 48b14 56l8 56t21
+30U17 Escribir_Cabecera 14|17s7 62b14 71l8 71t25
+33U17 Escribir_Fichero 33>34 14|40s7 77b14 84l8 84t24
+33a34 cadena{string} 14|77b31 79r33
+36U17 Escribir_Pantalla 36>35 14|41s7 90b14 93l8 93t25
+36a35 cadena{string} 14|90b32 92r28
+X 14 pkg_debug.adb
+29r13 event{2|53R9} 30r81
+82r13 event{2|53R9} 83r84
+

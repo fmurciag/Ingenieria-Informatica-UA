@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/pkg_cronometro_calendar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/pkg_cronometro_calendar.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/pkg_cronometro_realtime.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/pkg_cronometro_realtime.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 7" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/pkg_cronometro_calendar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/pkg_tren.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/pkg_tren.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 35" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/pkg_tren.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/pkg_coches.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/pkg_coches.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 35" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/pkg_tren.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/pkg_taxi.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/pkg_taxi.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 67" line=" 16" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/pkg_tren.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/pkg_peaton.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 18" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/pkg_coches.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica3/src/main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
