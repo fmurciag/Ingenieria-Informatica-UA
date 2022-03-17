@@ -7,7 +7,7 @@ void setup() {
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);
   digitalWrite(LED_BUILTIN, HIGH);
-  Serial.println("Conectando a "+ (String)SSID+"...");
+  Serial.println("Conectando a "+ (String)SSID);
   WiFi.begin(SSID,PASSWORD);
  
 }
@@ -34,6 +34,8 @@ void loop() {
       digitalWrite(LED_BUILTIN, LOW);    
       delay(250);
   }else{
+    Serial.println("Conectando a "+ (String)SSID);
     digitalWrite(LED_BUILTIN, LOW);
+    while(true);
   }
 }
