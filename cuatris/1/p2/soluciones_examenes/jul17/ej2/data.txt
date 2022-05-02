@@ -1,6 +1,0 @@
-TheBestCompanyEver
-Music App=14
-Space Shuttle Simulator=522
-Eyes App=41
-Happy Birds=120
-GTA IX=500

@@ -1,8 +1,0 @@
-Altozano:10
-Maisonnave:14
-Carolinas Altas:11
-Gran Via:13
-Benalua:20
-Oscar Espla:15
-Princesa Mercedes:5
-San Anton Alto:6
