@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__ejercicio3.o
+[PROJECT FILES]
+/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica1/practica1.gpr
+20210920122701 36509c9b0483774933c3c48f22014329
+[BOUND OBJECT FILES]
+/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica1/obj/pkg_ejercicio2c.o
+/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica1/obj/ejercicio3.o
+[GENERATED SOURCE FILES]
+b__ejercicio3.ads
+b__ejercicio3.adb
+b__ejercicio3.ali
+[RESULTING OPTIONS]
+-L/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica1/obj/
+-L/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica1/obj/
+-L/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

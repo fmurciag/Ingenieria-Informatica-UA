@@ -1,0 +1,222 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV MAX_PROTECTED_ENTRIES=2
+
+U pkg_averias%b		pkg_averias.adb		948788b5 NE OO PK KU
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U pkg_averias%s		pkg_averias.ads		28fe438f EE OO PF PK KU
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.window%s		gtk-window.adb		gtk-window.ali
+W pkg_tipos%s		pkg_tipos.ads		pkg_tipos.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051127 bf4f806b ada.finalization%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210520051129 c3a8ac65 ada.unchecked_deallocation%s
+D cairo.ads		20210519053508 925d4aaa cairo%s
+D cairo-region.ads	20210519053508 b7133728 cairo.region%s
+D gdk.ads		20210519053508 96d821f3 gdk%s
+D gdk-color.ads		20210519053508 ef57bc34 gdk.color%s
+D gdk-device.ads	20210519053508 04c1ecbd gdk.device%s
+D gdk-display.ads	20210519053508 d91ec37e gdk.display%s
+D gdk-drag_contexts.ads	20210519053508 11b1346e gdk.drag_contexts%s
+D gdk-event.ads		20210519053508 1bda38e2 gdk.event%s
+D gdk-frame_clock.ads	20210519053508 dadfbe52 gdk.frame_clock%s
+D gdk-frame_timings.ads	20210519053508 98b5e7d1 gdk.frame_timings%s
+D gdk-pixbuf.ads	20210519053508 499fe1c7 gdk.pixbuf%s
+D gdk-rectangle.ads	20210519053508 7b900608 gdk.rectangle%s
+D gdk-rgba.ads		20210519053508 2609514a gdk.rgba%s
+D gdk-screen.ads	20210519053508 9fe578a4 gdk.screen%s
+D gdk-types.ads		20210519053508 921dc8b2 gdk.types%s
+D gdk-visual.ads	20210519053508 615e934c gdk.visual%s
+D gdk-window.ads	20210519053508 aa508024 gdk.window%s
+D glib.ads		20210519053508 7d107887 glib%s
+D glib-error.ads	20210519053508 e055fabe glib.error%s
+D glib-generic_properties.ads  20210519053508 f3dc70df glib.generic_properties%s
+D glib-glist.ads	20210519053508 65a6e1be glib.glist%s
+D glib-gslist.ads	20210519053508 953541be glib.gslist%s
+D glib-object.ads	20210519053508 fb5efa0e glib.object%s
+D glib-properties.ads	20210519053508 4118b916 glib.properties%s
+D glib-types.ads	20210519053508 86ac71ae glib.types%s
+D glib-values.ads	20210519053508 5ef3ad24 glib.values%s
+D gnat.ads		20210520051131 b5988c27 gnat%s
+D g-string.ads		20210520051130 c6abc540 gnat.strings%s
+D gtk.ads		20210519053508 cfdeaf1c gtk%s
+D gtk-accel_group.ads	20210519053508 a14a159a gtk.accel_group%s
+D gtk-adjustment.ads	20210519053508 bbcb1fda gtk.adjustment%s
+D gtk-bin.ads		20210519053508 4e8a2236 gtk.bin%s
+D gtk-buildable.ads	20210519053508 e8198b57 gtk.buildable%s
+D gtk-builder.ads	20210519053508 35d802c2 gtk.builder%s
+D gtk-container.ads	20210519053508 dc3d0898 gtk.container%s
+D gtk-enums.ads		20210519053508 e3f2f3ba gtk.enums%s
+D gtk-selection_data.ads  20210519053508 061b2148 gtk.selection_data%s
+D gtk-style.ads		20210519053508 3c4cbc07 gtk.style%s
+D gtk-target_entry.ads	20210519053508 02690213 gtk.target_entry%s
+D gtk-target_list.ads	20210519053508 a9d79eb7 gtk.target_list%s
+D gtk-widget.ads	20210519053508 07bd7883 gtk.widget%s
+D gtk-window.ads	20210519053508 e91a448d gtk.window%s
+D gtkada.ads		20210519053508 57aea1c7 gtkada%s
+D gtkada-types.ads	20210519053508 471f54b5 gtkada.types%s
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-c.ads		20210520051131 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051131 341d0ddf interfaces.c.strings%s
+D pango.ads		20210519053508 e51ea573 pango%s
+D pango-attributes.ads	20210519053508 b2832a43 pango.attributes%s
+D pango-context.ads	20210519053508 5a6f0fe6 pango.context%s
+D pango-enums.ads	20210519053508 eff085ce pango.enums%s
+D pango-font.ads	20210519053508 71042db5 pango.font%s
+D pango-font_face.ads	20210519053508 c62e6ce5 pango.font_face%s
+D pango-font_family.ads	20210519053508 1fdea8b4 pango.font_family%s
+D pango-font_metrics.ads  20210519053508 25e6f301 pango.font_metrics%s
+D pango-fontset.ads	20210519053508 af4fe708 pango.fontset%s
+D pango-language.ads	20210519053508 e96cb8f4 pango.language%s
+D pango-layout.ads	20210519053508 d240b716 pango.layout%s
+D pango-matrix.ads	20210519053508 309f74b5 pango.matrix%s
+D pango-tabs.ads	20210519053508 0c575925 pango.tabs%s
+D pkg_averias.ads	20211122104900 492ac6cf pkg_averias%s
+D pkg_averias.adb	20211122105019 ddad4e7a pkg_averias%b
+D pkg_tipos.ads		20210912175227 88cec1cd pkg_tipos%s
+D system.ads		20210520051134 a2da961d system%s
+D s-atacco.ads		20210520051131 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-finmas.ads		20210520051131 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210520051131 4ff27390 system.finalization_root%s
+D s-linux.ads		20210520051126 ed0b8aee system.linux%s
+D s-multip.ads		20210520051132 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20210520095157 e3a42aec system.os_constants%s
+D s-osinte.ads		20210520051126 222ac181 system.os_interface%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-pooglo.ads		20210520051133 ede33ef8 system.pool_global%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051133 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210520051133 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20210520051133 7bdda3fa system.stream_attributes%s
+D s-string.ads		20210520051133 8fe54fb7 system.strings%s
+D s-tasinf.ads		20210520051126 2b3f8252 system.task_info%s
+D s-taspri.ads		20210520051126 4ec891e7 system.task_primitives%s
+D s-taskin.ads		20210520051126 88fba9ad system.tasking%s
+D s-taprob.ads		20210520051126 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210520051126 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210520051126 5f548bb3 system.tasking.protected_objects.operations%s
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [carrilcortado pkg_averias__t_op_indicador_averia 16 17 none]
+G c Z s b [reaunadrcarril pkg_averias__t_op_indicador_averia 17 17 none]
+G c Z s b [actualiza_indicador pkg_averias__t_op_indicador_averia 20 21 none]
+G c Z s b [consulta_indicador pkg_averias__t_op_indicador_averia 23 20 none]
+G c Z s b [t_op_indicador_averia__actualiza_indicadorN pkg_averias 20 11 none]
+G c Z s b [t_op_indicador_averia__actualiza_indicadorP pkg_averias 20 11 none]
+G c Z s b [t_op_indicador_averia__consulta_indicadorN pkg_averias 23 11 none]
+G c Z s b [t_op_indicador_averia__consulta_indicadorP pkg_averias 23 11 none]
+G c Z s s [t_op_indicador_averiaVDI pkg_averias 14 6 none]
+G c Z s s [t_op_indicador_averiaVDF pkg_averias 14 6 none]
+G c Z s s [t_op_indicador_averiaVIP pkg_averias 14 6 none]
+G c Z s s [Top_indicador_averiaBIP pkg_averias 35 6 none]
+G c Z s s [Top_indicador_averiaBDI pkg_averias 35 6 none]
+G c Z s s [Top_indicador_averiaBDF pkg_averias 35 6 none]
+G c Z s b [duracion_tipo_averia pkg_averias 40 15 none]
+X 13 gdk.ads
+43P9*Gdk_Window<28|153P9>
+46P9*Gdk_Visual<28|153P9>
+X 15 gdk-device.ads
+49P9*Gdk_Device(48R9)
+59V13*Convert{74|67M9} 31|58i21
+60V13*Convert{49P9} 31|59i21
+X 26 gdk-visual.ads
+78V13*Convert[104|20]{74|67M9} 31|58i21
+79V13*Convert[104|20]{13|46P9} 31|59i21
+X 27 gdk-window.ads
+280V13*Convert{74|67M9} 31|58i21
+281V13*Convert{13|43P9} 31|59i21
+X 28 glib.ads
+153P9*C_Proxy(150R9)
+X 33 glib-object.ads
+41P9*GObject(40R9)
+675V13*Convert{74|67M9} 31|58i21 32|49i21
+676V13*Convert{41P9} 31|59i21 32|50i21
+X 39 gtk.ads
+41K9*Gtk 79e8 71|6r6 6r24
+X 46 gtk-enums.ads
+865V13*Convert{74|67M9} 31|58i21 32|49i21
+866V13*Convert{string} 31|59i21 32|50i21
+X 51 gtk-widget.ads
+344P9*Gtk_Widget(343R9)
+431V13*Convert{74|67M9} 31|58i21 32|49i21
+432V13*Convert{344P9} 31|59i21 32|50i21
+X 52 gtk-window.ads
+71K13*Window 1676e15 71|6w10 6r28
+X 71 pkg_averias.ads
+9K9*PKG_Averias 49E6 56l5 56e16 72|6b14 55l5 55t16
+14W21*T_OP_Indicador_Averia 28E11 30l10 30e31 35r70 72|11b21 43l8 43t29
+16Y17 carrilCortado 72|13b18 16l15 16t28
+17Y17 reaunadrCarril 72|18b17 21l15 21t29
+20U21 Actualiza_Indicador 20>41 72|24b17 32l11 32t30
+20e41 estado{73|230E9} 72|24b37 29r18 30r33
+23V20 Consulta_Indicador{73|230E9} 72|36b16 39l11 39t29
+28e11 Indicador_Averia{73|230E9} 72|13r42 18r37 29r49 30r13 38r17
+35a6*OP_Indicador_Averia(14W21)
+40V15*Duracion_Tipo_Averia{duration} 40>36 72|50b13 53l8 53t28
+40e36 tipo_averia{73|233E9} 72|50b34 52r30
+49N6 DUR_AVERIA_GASOLINA 53r87
+50N6 DUR_AVERIA_PINCHAZO 54r87
+53a6 Dur_Tipo_Averia(duration) 72|52r14
+X 73 pkg_tipos.ads
+5K9*PKG_tipos 71|7w6 7r21 73|237e14
+201I9*T_Carril<integer> 71|35r57
+230E9*T_Estado_Averia 71|20r50 23r46 28r50 72|24r45 36r42 73|230e76
+230n29*NO_AVERIA{230E9} 71|28r69 72|13r59 18r54 29r69
+230n40*COMUNICADA_AVERIA{230E9} 72|29r27
+233E9*T_Tipo_Averia 71|40r50 53r56 72|50r48 73|233e50
+X 74 system.ads
+67M9*Address
+X 89 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+

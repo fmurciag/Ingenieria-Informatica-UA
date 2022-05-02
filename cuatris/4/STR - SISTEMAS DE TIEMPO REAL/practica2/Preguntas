@@ -1,0 +1,39 @@
+----------------------------Paso 2 circulacion de taxis----------------------------------------------------------------------------------
+********************************************************************************************************************
+					Paso 2 circulacion de taxis
+********************************************************************************************************************
+1: ¿Para qué se utiliza el tipo tarea T_Tarea_Taxi? ¿Cuántas instancias de tareas se crean
+de este tipo?
+	T_Tarea_Taxi se encarga de realizar las llamadas de la generacion la visualizacion y las posiciones de los taxis.
+	Se crea una instancia por taxi
+	
+2: ¿Por qué crees que Tarea_GeneraTaxis se crea como una tarea anónima?
+	para que solo exista un taxi a lla vez
+	
+3: ¿Cuándo se crea cada tarea?
+	Tarea_GeneraTaxis se crea al generar el paquete y dentro crea T_Tarea_Taxi
+	
+4: Describe el comportamiento de la tarea Tarea_GeneraTaxis. ¿Para qué se utiliza la constante pkg_tipos.PERIODO_TAXI? ¿Para qué se utiliza el tipo de datos pkg_tipos.Ptr_T_RecordTaxi?
+	PERIODO_TAXI se usa para no estar constantementemente llamando a Hay_Taxi y asi cada 20 segundos se comprueban
+	Ptr_T_RecordTaxi se usa prara crear una T_Tarea_Taxi pasando los datos del taxi
+	
+5: ¿Cómo se actualizan los campos (atributos) del tipo T_RecordTaxi?
+	en T_Tarea_Taxi cuando llama a el paquete grafico
+	
+6: Describe el comportamiento de una instancia de tarea del tipo T_Tarea_Taxi
+	se encarga de llevar la parte grafica y el movimiento de los taxis
+	
+	
+********************************************************************************************************************
+					Paso 3 Aparición de peatones
+********************************************************************************************************************
+1: ¿Cuántos peatones aparecen simultáneamente cada vez?
+	Entre 1 y 5 
+2: ¿Puede aparecer un grupo de peatones antes de que desaparezca el anterior?
+. 	No, ya que la taera tarda 15 segundos en crear un grupo y 10 en borrar un grupo, a parte es una tarea anonima y no pueden existir 2 al mismo tiempo
+3 :¿Qué colores pueden tener los peatones?
+	Azul, amarillo, gris, verde banco, negro y rojo
+4: ¿A qué atributos de un peatón se le asigna un valor invocando al procedimiento Actualiza_Atributo antes de crear la tarea correspondiente?
+	se le asigna un id, una posicion y un color
+5: ¿Por qué no se utiliza el procedimiento Actualiza_Atributo para inicializar los atributos de un taxi antes de crear la tarea correspondiente?
+	 no se usa ya que los taxis aparecen en el mismo sitio, sin enbargo los peatones si se usa ya que el color la posicion y el id son aleatorios y se debe de actualizar

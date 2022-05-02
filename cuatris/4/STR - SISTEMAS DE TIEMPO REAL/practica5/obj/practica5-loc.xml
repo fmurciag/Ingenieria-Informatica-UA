@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica5/practica5.gpr</vfs_file>
+    <file_marker column=" 1" line=" 43" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica5/practica5.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica5/src/pkg_averias.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 19" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica5/practica5.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica5/src/pkg_averias.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 120" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica5/practica5.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica5/src/pkg_coches.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 8" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica5/practica5.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica5/src/pkg_teleoperador.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 12" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica5/practica5.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica5/src/pkg_teleoperador.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 16" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica5/practica5.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2021-murcia-gomez-francisco-joaquin/practica5/src/pkg_coches.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
