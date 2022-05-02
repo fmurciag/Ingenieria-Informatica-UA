@@ -1,0 +1,7 @@
+8 99
+11 13 19 23 29 31 41 43
+
+** A continuación una posible solución voraz  ***
+Greedy: 97
+Selection: 13 41 43 
+Selection value: 97

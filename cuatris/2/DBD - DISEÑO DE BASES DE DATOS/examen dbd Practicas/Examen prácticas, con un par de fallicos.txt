@@ -1,0 +1,57 @@
+1
+alter table PROPIETARIO modify(nombre unique not null);
+
+2
+create table entrenador (nif char(9) constraint pk_entrenador primary key,
+			nombre varchar(2),
+			equipo varchar(2) constraint fk_entrenador_equipo references equipo,
+			sueldo number(8) not null check (sueldo >100000));
+
+3
+
+create or replace view FALTAS_POR_EQUIPO as
+	
+	
+		select idequipo, nombre,categoria, sum(faltasrealizadas)total
+			from equipo e, penalizar p
+			where e.idequipo = p.equipo
+			group by idequipo, nombre, categoria
+			order by idequipo;
+
+
+4.
+create or replace
+function EQUIPOS_SUCIOS (p_faltas penalizar.fatlasrealizadas%type) return penalizar.fatlasrealizadas%type  is
+
+	aux number(5);
+	select count(idequipo) into aux
+	from equipo e, penalizar p
+	where e.idequipo = p.equipo and faltasrealizadas >= p_faltas
+	group by idequipo
+	
+	return aux;
+
+
+	
+
+5.
+	create or replace
+procedure PREMIAR (p_faltas penalizar.faltasrealizadas%type, p_codigo categoria.codigo%type) is
+		
+		cursor c5 is
+			
+			select idequipo, nombre,categoria, sum(faltasrealizadas)total
+			from equipo e, penalizar p
+			where e.idequipo = p.equipo
+			group by idequipo, nombre, categoria
+			having sum(faltasrealizadas) < p_faltas;
+		begin
+		escribir('Listado:');
+		for regc5 in c5 loop
+			escribir('ID: ' ||regc5.idequipo|| ', nombre: ' ||regc5.nombre|| ', cantidad de faltas: '||regc5.total);
+			
+			if regc5.categoria = p_codigo then
+				insert into equipo_limpio values (regc5.idequipo, regc5.total);
+			end if;
+		end loop;
+end;

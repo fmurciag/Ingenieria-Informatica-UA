@@ -1,0 +1,31 @@
+// producto consumidor buffer ilimitado
+
+
+semaphore mutex = 1;	// acceso en exclusion mutua a la zona de los paquetes
+semaphore e = 0;	// cantidad de paquetes en la zona de paquetes.
+
+void productor(){
+	for(;;){
+		cout << "produciendo" << endl;
+		wait(mutex); 	// P(mutex);
+		cout << "dejando pieza" << endl;
+		signal(mutex); 	// V(mutex);
+		signal(e);	// aumentamos el numero de paquetes.
+	}
+}
+
+void consumidor(){
+	for(;;){
+		wait(e);	// mirar si hay paquetes, si no hay se encola.
+		wait(mutex);	// accede a la zona de los paquetes en exclusion mutua
+		cout << "cogiendo paquete" << endl;
+		signal(mutex);
+	}
+}
+
+int main(){
+	cobegin{
+		productor();
+		consumidor();
+	}
+}

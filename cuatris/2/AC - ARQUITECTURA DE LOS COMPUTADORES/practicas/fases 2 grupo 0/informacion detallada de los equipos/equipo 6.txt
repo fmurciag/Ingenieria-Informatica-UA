@@ -1,0 +1,64 @@
+Nombre de host:                            CASA
+Nombre del sistema operativo:              Microsoft Windows 10 Pro
+Versión del sistema operativo:             10.0.18362 N/D Compilación 18362
+Fabricante del sistema operativo:          Microsoft Corporation
+Configuración del sistema operativo:       Estación de trabajo independiente
+Tipo de compilación del sistema operativo: Multiprocessor Free
+Propiedad de:                              Usuario
+Organización registrada:
+Id. del producto:                          00331-10000-00001-AA724
+Fecha de instalación original:             12/09/2019, 13:49:13
+Tiempo de arranque del sistema:            07/04/2020, 21:36:02
+Fabricante del sistema:                    Gigabyte Technology Co., Ltd.
+Modelo el sistema:                         To be filled by O.E.M.
+Tipo de sistema:                           x64-based PC
+Procesador(es):                            1 Procesadores instalados.
+                                           [01]: AMD64 Family 21 Model 2 Stepping 0 AuthenticAMD ~3500 Mhz
+Versión del BIOS:                          American Megatrends Inc. FC, 01/06/2015
+Directorio de Windows:                     C:\WINDOWS
+Directorio de sistema:                     C:\WINDOWS\system32
+Dispositivo de arranque:                   \Device\HarddiskVolume1
+Configuración regional del sistema:        es;Español (internacional)
+Idioma de entrada:                         es;Español (tradicional)
+Zona horaria:                              (UTC+01:00) Bruselas, Copenhague, Madrid, París
+Cantidad total de memoria física:          8.159 MB
+Memoria física disponible:                 1.924 MB
+Memoria virtual: tamaño máximo:            14.047 MB
+Memoria virtual: disponible:               2.687 MB
+Memoria virtual: en uso:                   11.360 MB
+Ubicación(es) de archivo de paginación:    C:\pagefile.sys
+Dominio:                                   WORKGROUP
+Servidor de inicio de sesión:              \\CASA
+Revisión(es):                              14 revisión(es) instaladas.
+                                           [01]: KB4534132
+                                           [02]: KB4503308
+                                           [03]: KB4506472
+                                           [04]: KB4509096
+                                           [05]: KB4515383
+                                           [06]: KB4516115
+                                           [07]: KB4520390
+                                           [08]: KB4521863
+                                           [09]: KB4524569
+                                           [10]: KB4528759
+                                           [11]: KB4537759
+                                           [12]: KB4538674
+                                           [13]: KB4541338
+                                           [14]: KB4551762
+Tarjeta(s) de red:                         2 Tarjetas de interfaz de red instaladas.
+                                           [01]: Realtek PCIe GbE Family Controller
+                                                 Nombre de conexión: Ethernet
+                                                 DHCP habilitado:    Sí
+                                                 Servidor DHCP:      192.168.0.1
+                                                 Direcciones IP
+                                                 [01]: 192.168.0.107
+                                                 [02]: fe80::cd57:d2a3:b3e3:62a1
+                                           [02]: VirtualBox Host-Only Ethernet Adapter
+                                                 Nombre de conexión: VirtualBox Host-Only Network
+                                                 DHCP habilitado:    No
+                                                 Direcciones IP
+                                                 [01]: 192.168.56.1
+                                                 [02]: fe80::d9a4:537f:717c:e0cf
+Requisitos Hyper-V:                        Extensiones de modo de monitor de VM: Sí
+                                           Se habilitó la virtualización en el firmware: Sí
+                                           Traducción de direcciones de segundo nivel: Sí
+                                           La prevención de ejecución de datos está disponible: Sí

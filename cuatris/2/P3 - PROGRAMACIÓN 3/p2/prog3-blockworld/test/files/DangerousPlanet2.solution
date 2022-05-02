@@ -1,0 +1,207 @@
+Generando superficie del mundo...
+Generando terreno...
+Generando cuevas...............................................................................................................................................................................
+Generando vetas de GRANITErrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+Generando vetas de OBSIDIANoooooooooooooooooooooooooo
+
+Creando fuentes de agua subterráneas@@@@@@@
+Creando erupciones de lava##
+Generando superficie del terreno, entidades e items...
+Name=Carmen
+Location{world=World75x75,x=0.0,y=62.0,z=0.0}
+Orientation=Location{world=World75x75,x=0.0,y=0.0,z=1.0}
+Health=20.0
+Food level=20.0
+Inventory=(inHand=(WOOD_SWORD,1),[])
+... @@@ ggg 
+... @PM ggg 
+... @B@ ggg 
+Scores: [items: 0.0, blocks: 0.0, movements: 0.0]
+
+Name=Carmen
+Location{world=World75x75,x=-1.0,y=62.0,z=1.0}
+Orientation=Location{world=World75x75,x=-1.0,y=0.0,z=0.0}
+Health=20.0
+Food level=19.7
+Inventory=(inHand=(WOOD_SWORD,1),[(BREAD,3)])
+... @@@ @gg 
+... @P@ ggg 
+... @@@ FBg 
+Scores: [items: 15.0, blocks: 0.0, movements: 1.0]
+
+Name=Carmen
+Location{world=World75x75,x=0.0,y=62.0,z=0.0}
+Orientation=Location{world=World75x75,x=-1.0,y=0.0,z=0.0}
+Health=20.0
+Food level=19.549999999999997
+Inventory=(inHand=(WOOD_SWORD,1),[(BREAD,3)])
+... @@@ ggg 
+... @PM ggg 
+... @@@ ggg 
+Scores: [items: 15.0, blocks: 0.0, movements: 4.414213562373095]
+
+Name=Carmen
+Location{world=World75x75,x=0.0,y=62.0,z=0.0}
+Orientation=Location{world=World75x75,x=1.0,y=0.0,z=0.0}
+Health=15.0
+Food level=18.449999999999996
+Inventory=(inHand=(WOOD_SWORD,1),[(BREAD,3)])
+... @@@ ggg 
+... @P@ ggg 
+... @@@ ggg 
+Scores: [items: 15.0, blocks: 0.0, movements: 4.414213562373095]
+
+Name=Carmen
+Location{world=World75x75,x=5.0,y=62.0,z=0.0}
+Orientation=Location{world=World75x75,x=1.0,y=0.0,z=0.0}
+Health=9.5
+Food level=16.599999999999994
+Inventory=(inHand=(WOOD_SWORD,1),[(BREAD,3)])
+... @@@ ggg 
+... @P@ ggg 
+... @@@ ggg 
+Scores: [items: 15.0, blocks: 0.0, movements: 9.414213562373096]
+
+Name=Carmen
+Location{world=World75x75,x=7.0,y=62.0,z=-1.0}
+Orientation=Location{world=World75x75,x=1.0,y=0.0,z=-1.0}
+Health=9.5
+Food level=16.299999999999994
+Inventory=(inHand=(WOOD_SWORD,1),[(BREAD,3), (GRASS,1)])
+... >Lg ggd 
+.M> @Pg gdd 
+... @gg gdd 
+Scores: [items: 15.6, blocks: 0.6, movements: 11.828427124746192]
+
+Name=Carmen
+Location{world=World75x75,x=6.0,y=62.0,z=-2.0}
+Orientation=Location{world=World75x75,x=1.0,y=0.0,z=0.0}
+Health=9.5
+Food level=9.699999999999992
+Inventory=(inHand=(IRON_SHOVEL,1),[(BREAD,3), (GRASS,1), (WOOD_SWORD,1)])
+... @M@ ggg 
+... BPF ggg 
+..M @@. ggd 
+Scores: [items: 15.799999999999999, blocks: 0.6, movements: 13.828427124746192]
+
+Name=Carmen
+Location{world=World75x75,x=7.0,y=62.0,z=-2.0}
+Orientation=Location{world=World75x75,x=1.0,y=0.0,z=0.0}
+Health=9.5
+Food level=9.649999999999991
+Inventory=(inHand=(IRON_SHOVEL,1),[(BREAD,3), (GRASS,1), (WOOD_SWORD,1), (BEEF,1)])
+... M@g ggd 
+... @Pg ggd 
+.M> @.g gdd 
+Scores: [items: 23.799999999999997, blocks: 0.6, movements: 14.828427124746192]
+
+Name=Carmen
+Location{world=World75x75,x=5.0,y=62.0,z=-2.0}
+Orientation=Location{world=World75x75,x=1.0,y=0.0,z=0.0}
+Health=9.5
+Food level=9.54999999999999
+Inventory=(inHand=(IRON_SHOVEL,1),[(BREAD,3), (GRASS,1), (WOOD_SWORD,1), (BEEF,1), (BREAD,1)])
+... @@M ggg 
+... @P@ ggg 
+... @@@ ggg 
+Scores: [items: 28.799999999999997, blocks: 0.6, movements: 16.82842712474619]
+
+Name=Carmen
+Location{world=World75x75,x=5.0,y=62.0,z=-2.0}
+Orientation=Location{world=World75x75,x=1.0,y=0.0,z=-1.0}
+Health=9.5
+Food level=14.54999999999999
+Inventory=(inHand=null,[(BREAD,3), (GRASS,1), (WOOD_SWORD,1), (BEEF,1), (IRON_SHOVEL,1)])
+... @@M ggg 
+... @P@ ggg 
+... @@@ ggg 
+Scores: [items: 28.799999999999997, blocks: 0.6, movements: 16.82842712474619]
+
+Name=Carmen
+Location{world=World75x75,x=5.0,y=62.0,z=-2.0}
+Orientation=Location{world=World75x75,x=1.0,y=0.0,z=-1.0}
+Health=9.5
+Food level=14.54999999999999
+Inventory=(inHand=(WOOD_SWORD,1),[(BREAD,3), (GRASS,1), (BEEF,1), (IRON_SHOVEL,1)])
+... @@M ggg 
+... @P@ ggg 
+... @@@ ggg 
+Scores: [items: 28.799999999999997, blocks: 0.6, movements: 16.82842712474619]
+
+Name=Carmen
+Location{world=World75x75,x=5.0,y=62.0,z=-2.0}
+Orientation=Location{world=World75x75,x=1.0,y=0.0,z=-1.0}
+Health=5.5
+Food level=13.549999999999994
+Inventory=(inHand=(WOOD_SWORD,1),[(BREAD,3), (GRASS,1), (BEEF,1), (IRON_SHOVEL,1)])
+... @@@ ggg 
+... @P@ ggg 
+... @@@ ggg 
+Scores: [items: 28.799999999999997, blocks: 0.6, movements: 16.82842712474619]
+
+Name=Carmen
+Location{world=World75x75,x=5.0,y=62.0,z=-4.0}
+Orientation=Location{world=World75x75,x=-1.0,y=0.0,z=-1.0}
+Health=5.5
+Food level=12.949999999999992
+Inventory=(inHand=(WOOD_SWORD,1),[(BREAD,3), (GRASS,1), (BEEF,1), (IRON_SHOVEL,1)])
+... LM@ ggg 
+... @P@ ggg 
+... @@@ ggg 
+Scores: [items: 28.799999999999997, blocks: 0.6, movements: 18.82842712474619]
+
+Name=Carmen
+Location{world=World75x75,x=5.0,y=62.0,z=-4.0}
+Orientation=Location{world=World75x75,x=0.0,y=0.0,z=-1.0}
+Health=1.5
+Food level=10.34999999999999
+Inventory=(inHand=(WOOD_SWORD,1),[(BREAD,3), (GRASS,1), (BEEF,1), (IRON_SHOVEL,1)])
+... L@@ ggg 
+... @P@ ggg 
+... @@@ ggg 
+Scores: [items: 28.799999999999997, blocks: 0.6, movements: 18.82842712474619]
+
+Name=Carmen
+Location{world=World75x75,x=5.0,y=62.0,z=-4.0}
+Orientation=Location{world=World75x75,x=-1.0,y=0.0,z=-1.0}
+Health=1.5
+Food level=4.349999999999991
+Inventory=(inHand=(GRASS,1),[(BREAD,3), (WOOD_SWORD,1), (BEEF,1), (IRON_SHOVEL,1)])
+... F@@ ggg 
+... @P@ ggg 
+... @@@ ggg 
+Scores: [items: 28.799999999999997, blocks: 0.6, movements: 18.82842712474619]
+
+Name=Carmen
+Location{world=World75x75,x=5.0,y=62.0,z=-4.0}
+Orientation=Location{world=World75x75,x=-1.0,y=0.0,z=-1.0}
+Health=1.5
+Food level=19.34999999999999
+Inventory=(inHand=null,[(GRASS,1), (WOOD_SWORD,1), (BEEF,1), (IRON_SHOVEL,1)])
+... F@@ ggg 
+... @P@ ggg 
+... @@@ ggg 
+Scores: [items: 28.799999999999997, blocks: 0.6, movements: 18.82842712474619]
+
+Name=Carmen
+Location{world=World75x75,x=4.0,y=62.0,z=-5.0}
+Orientation=Location{world=World75x75,x=-1.0,y=0.0,z=-1.0}
+Health=1.5
+Food level=19.29999999999999
+Inventory=(inHand=null,[(GRASS,1), (WOOD_SWORD,1), (BEEF,1), (IRON_SHOVEL,1), (BEEF,1)])
+... @Mg ggd 
+... @P@ ggg 
+... @@@ ggg 
+Scores: [items: 36.8, blocks: 0.6, movements: 20.242640687119287]
+
+Name=Carmen
+Location{world=World75x75,x=4.0,y=62.0,z=-5.0}
+Orientation=Location{world=World75x75,x=0.0,y=0.0,z=-1.0}
+Health=1.5
+Food level=19.29999999999999
+Inventory=(inHand=null,[(GRASS,1), (WOOD_SWORD,1), (BEEF,1), (IRON_SHOVEL,1), (BEEF,1)])
+... @Mg ggd 
+... @P@ ggg 
+... @@@ ggg 
+Scores: [items: 36.8, blocks: 0.6, movements: 20.242640687119287]
+

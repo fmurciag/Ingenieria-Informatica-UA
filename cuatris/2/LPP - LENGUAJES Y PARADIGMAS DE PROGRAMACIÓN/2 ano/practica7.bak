@@ -1,0 +1,103 @@
+#lang racket
+(require rackunit)
+;; Barrera de abstracción
+;; Selectores
+(define (dato-arbol arbol) 
+    (car arbol))
+(define (hijos-arbol arbol) 
+    (cdr arbol))
+(define (hoja-arbol? arbol) 
+   (null? (hijos-arbol arbol)))
+;; Constructor
+(define (construye-arbol dato lista-arboles)
+   (cons dato lista-arboles))
+;; Selectores arbol binario
+(define (dato-arbolb arbol)
+   (car arbol))
+(define (hijo-izq-arbolb arbol)
+   (cadr arbol))
+(define (hijo-der-arbolb arbol)
+   (caddr arbol))
+(define arbolb-vacio '())
+(define (vacio-arbolb? arbol)
+   (equal? arbol arbolb-vacio))
+(define (hoja-arbolb? arbol)
+   (and (vacio-arbolb? (hijo-izq-arbolb arbol))
+        (vacio-arbolb? (hijo-der-arbolb arbol))))
+;; Constructor arbol binario
+(define (construye-arbolb dato hijo-izq hijo-der)
+    (list dato hijo-izq hijo-der))
+
+
+;;EJERCICIO1
+;;a1
+(define arbol '(15 (4 (2) (3))
+                   (8 (6))
+                   (12 (9) (10) (11))))
+
+(check-equal? (dato-arbol (cadr (hijos-arbol (caddr (hijos-arbol arbol))))) 10)
+;;a2
+
+;a3
+; '(9 14 42)
+; 1º 15+42 ; 2º 57+14 ; 3º 71+9
+;b
+(define arbolb '(40
+                  (23
+                   (5 () ())
+                   (32
+                    (29 () ())
+                    ()))
+                  (45
+                   ()
+                   (56 () ()))))
+
+(check-equal? (dato-arbol (hijo-izq-arbolb (hijo-der-arbolb (hijo-izq-arbolb arbolb)))) 29)
+;EJERCICIO2
+;a
+(define (to-string-arbol arbol)
+  (string-append (symbol->string (dato-arbol arbol)) (to-string-bosque (hijos-arbol arbol))))
+
+(define (to-string-bosque bosque)
+  (if (null? bosque)
+      ""
+      (string-append (to-string-arbol (car  bosque)) (to-string-bosque (cdr bosque)))))
+
+(define arbol2 '(a (b (c (d)) (e)) (f)))
+;;(to-string-arbol arbol2) ; ⇒ "abcdef"
+
+(define (to-string-arbol-foo arbol)
+  (foldr string-append "" (cons (symbol->string (dato-arbol arbol))
+         (map  to-string-arbol-foo (hijos-arbol arbol)))))
+
+;(to-string-arbol-foo arbol2) ; ⇒ "abcdef"
+;b
+(define (veces-arbol dato arbol)
+  (if (equal? dato (dato-arbol arbol))
+      (+ 1 (veces-bosque dato (hijos-arbol arbol)))
+      (veces-bosque dato (hijos-arbol arbol))))
+
+(define (veces-bosque dato bosque)
+  (if (null? bosque)
+      0
+      (+ (veces-arbol dato (car bosque)) (veces-bosque dato (cdr bosque)))))
+
+;(veces-arbol 'b '(a (b (c) (d)) (b (b) (f)))) ; ⇒ 3
+;(veces-arbol 'g '(a (b (c) (d)) (b (b) (f)))) ; ⇒ 0
+
+(define (veces-arbol-fos dato arbol)
+  (foldr + (if (equal? dato (dato-arbol arbol)) 1 0)
+                         (map (lambda (x) (veces-arbol-fos  dato x)) (hijos-arbol arbol))))
+
+;(veces-arbol-fos 'b '(a (b (c) (d)) (b (b) (f)))) ; ⇒ 3
+;(veces-arbol-fos 'g '(a (b (c) (d)) (b (b) (f)))) ; ⇒ 0
+
+
+
+
+
+
+
+
+
+

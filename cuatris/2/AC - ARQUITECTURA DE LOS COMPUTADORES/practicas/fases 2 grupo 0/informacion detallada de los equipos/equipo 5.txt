@@ -1,0 +1,67 @@
+Nombre de host:                            DESKTOP-4OOIB0D
+Nombre del sistema operativo:              Microsoft Windows 10 Home
+Versión del sistema operativo:             10.0.18363 N/D Compilación 18363
+Fabricante del sistema operativo:          Microsoft Corporation
+Configuración del sistema operativo:       Estación de trabajo independiente
+Tipo de compilación del sistema operativo: Multiprocessor Free
+Propiedad de:                              IronDarkRL
+Organización registrada:
+Id. del producto:                          00326-30000-00001-AA498
+Fecha de instalación original:             26/09/2019, 22:02:45
+Tiempo de arranque del sistema:            08/04/2020, 19:34:35
+Fabricante del sistema:                    Micro-Star International Co., Ltd.
+Modelo el sistema:                         GP63 Leopard 8RE
+Tipo de sistema:                           x64-based PC
+Procesador(es):                            1 Procesadores instalados.
+                                           [01]: Intel64 Family 6 Model 158 Stepping 10 GenuineIntel ~2201 Mhz
+Versión del BIOS:                          American Megatrends Inc. E16P5IMS.101, 26/02/2018
+Directorio de Windows:                     C:\WINDOWS
+Directorio de sistema:                     C:\WINDOWS\system32
+Dispositivo de arranque:                   \Device\HarddiskVolume2
+Configuración regional del sistema:        es;Español (internacional)
+Idioma de entrada:                         es;Español (tradicional)
+Zona horaria:                              (UTC+01:00) Bruselas, Copenhague, Madrid, París
+Cantidad total de memoria física:          16.260 MB
+Memoria física disponible:                 7.930 MB
+Memoria virtual: tamaño máximo:            20.228 MB
+Memoria virtual: disponible:               8.950 MB
+Memoria virtual: en uso:                   11.278 MB
+Ubicación(es) de archivo de paginación:    C:\pagefile.sys
+Dominio:                                   WORKGROUP
+Servidor de inicio de sesión:              \\DESKTOP-4OOIB0D
+Revisión(es):                              11 revisión(es) instaladas.
+                                           [01]: KB4534132
+                                           [02]: KB4515383
+                                           [03]: KB4516115
+                                           [04]: KB4517245
+                                           [05]: KB4521863
+                                           [06]: KB4524569
+                                           [07]: KB4528759
+                                           [08]: KB4537759
+                                           [09]: KB4538674
+                                           [10]: KB4541338
+                                           [11]: KB4551762
+Tarjeta(s) de red:                         4 Tarjetas de interfaz de red instaladas.
+                                           [01]: Intel(R) Wireless-AC 9560 160MHz
+                                                 Nombre de conexión: Wi-Fi
+                                                 DHCP habilitado:    Sí
+                                                 Servidor DHCP:      192.168.1.1
+                                                 Direcciones IP
+                                                 [01]: 192.168.1.7
+                                                 [02]: fe80::7000:1f2f:e157:3346
+                                           [02]: Killer E2400 Gigabit Ethernet Controller
+                                                 Nombre de conexión: Ethernet
+                                                 Estado:             Medios desconectados
+                                           [03]: Bluetooth Device (Personal Area Network)
+                                                 Nombre de conexión: Conexión de red Bluetooth
+                                                 Estado:             Medios desconectados
+                                           [04]: VirtualBox Host-Only Ethernet Adapter
+                                                 Nombre de conexión: Ethernet 2
+                                                 DHCP habilitado:    No
+                                                 Direcciones IP
+                                                 [01]: 192.168.56.1
+                                                 [02]: fe80::c98d:421c:3331:81cf
+Requisitos Hyper-V:                        Extensiones de modo de monitor de VM: Sí
+                                           Se habilitó la virtualización en el firmware: Sí
+                                           Traducción de direcciones de segundo nivel: Sí
+                                           La prevención de ejecución de datos está disponible: Sí

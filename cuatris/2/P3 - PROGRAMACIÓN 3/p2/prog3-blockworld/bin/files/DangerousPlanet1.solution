@@ -1,0 +1,53 @@
+Generando superficie del mundo...
+Generando terreno...
+Generando cuevas...............................................................................................................................................................................
+Generando vetas de GRANITErrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+Generando vetas de OBSIDIANoooooooooooooooooooooooooo
+
+Creando fuentes de agua subterráneas@@@@@@@
+Creando erupciones de lava##
+Generando superficie del terreno, entidades e items...
+Name=Barbara
+Location{world=World 5x5,x=0.0,y=62.0,z=0.0}
+Orientation=Location{world=World 5x5,x=0.0,y=0.0,z=1.0}
+Health=20.0
+Food level=20.0
+Inventory=(inHand=(WOOD_SWORD,1),[])
+... @@@ ggg 
+... @PM ggg 
+... @B@ ggg 
+Scores: [items: 0.0, blocks: 0.0, movements: 0.0]
+
+Name=Barbara
+Location{world=World 5x5,x=4.0,y=62.0,z=4.0}
+Orientation=Location{world=World 5x5,x=1.0,y=0.0,z=0.0}
+Health=15.0
+Food level=18.249999999999996
+Inventory=(inHand=(WOOD_SWORD,1),[(BREAD,3)])
+... @@@ Wgg 
+... @P@ @@g 
+... @@@ @A@ 
+Scores: [items: 15.0, blocks: 0.0, movements: 5.242640687119286]
+
+Name=Barbara
+Location{world=World 5x5,x=6.0,y=62.0,z=5.0}
+Orientation=Location{world=World 5x5,x=0.0,y=0.0,z=1.0}
+Health=15.0
+Food level=17.84999999999999
+Inventory=(inHand=(WOOD_SWORD,1),[(BREAD,3)])
+... @@@ ggg 
+... @P@ @gg 
+... @@@ ggg 
+Scores: [items: 15.0, blocks: 0.0, movements: 9.656854249492381]
+
+Name=Barbara
+Location{world=World 5x5,x=6.0,y=62.0,z=9.0}
+Orientation=Location{world=World 5x5,x=1.0,y=0.0,z=1.0}
+Health=20.0
+Food level=19.199999999999992
+Inventory=(inHand=(WOOD_SWORD,1),[])
+... Ag. gdd 
+.MW @Pg gdd 
+... @gG gdd 
+Scores: [items: 15.0, blocks: 2.4, movements: 14.485281374238573]
+

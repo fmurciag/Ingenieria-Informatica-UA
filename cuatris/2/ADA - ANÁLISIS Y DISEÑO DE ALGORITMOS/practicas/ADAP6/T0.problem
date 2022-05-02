@@ -1,0 +1,17 @@
+5 0
+1 2 3 4 5
+
+**** A continuación un posible resultado para la llamada " ./maxsum -t -f T0.problem " **** 
+Naive: 0
+Memoization: 0
+Iterative (table): 0
+Iterative (vector): 0
+Selection: 
+Selection value: 0
+Iterative table:
+0 
+0 
+0 
+0 
+0 
+0 

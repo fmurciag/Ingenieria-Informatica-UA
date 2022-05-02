@@ -1,0 +1,7 @@
+#lang r6rs
+(import (rnrs)
+        (schemeunit))
+
+(define (hoja? lista)
+  (not (list? lista)))
+

@@ -1,0 +1,102 @@
+﻿1--
+
+--suponemos que si un perro tiene 1 trofeo es porque ha sido premiado
+
+create or replace function premios (auxnombre propietario.nombre%type) return number is
+
+premios number(3); -- perro.ntrofeos%type;
+
+begin 
+select sum(ntrofeos) into premios
+from propietario p, perro
+where p.nif = perro.nif and p.nombre = auxnombre; --relación 1:N la tabla perro tiene una CAj: nif-->propietario
+
+return (premios);
+
+end;
+
+
+------------------------------------------------------------------------------------------------------------------
+
+--el hecho de que tenga un trofeo, no significa que no tenga premio
+
+create or replace function premios (auxnombre propietario.nombre%type) return number is
+
+Cantpremios number(3); -- perro.ntrofeos%type;
+
+begin 
+select count(*) into Cantpremios
+from propietario p, perro, participar pa
+where p.nif = perro.nif and p.nombre = auxnombre and pa.premiado = 'S'; --relación 1:N la tabla perro tiene una CAj: nif-->propietario
+
+return (Cantpremios);
+
+end;
+
+
+
+
+2--
+
+create or replace procedure competir (auxnumero number, auxpeso perro.peso%type) is
+
+cursor c1 is
+select co.nombre, ciudad
+from competicion co, participar pa, perro
+where co.nombre = pa.nombre and premiado = 'S' and perro.peso > auxpeso and pa.chip=perro.chip
+group by co.nombre, ciudad
+having count(*) >= auxnumero;
+
+auxN number(3);
+
+begin
+
+for reg in c1 loop
+
+  --hacemos lo mismo de antes y nos guardamos la cantidad (auxN) que sería el número de veces que ha premiado la competición a perros
+  
+  select count(*) into auxN
+  from competicion co, participar pa, perro
+  where co.nombre = pa.nombre and premiado = 'S' and perro.peso > auxpeso
+  group by co.nombre, ciudad
+  having count(*) >= auxnumero;
+  
+  
+  
+    escribir('La competición '||reg.nombre||' en la ciudad '||reg.ciudad||' ha premiado '||auxN||' veces perros
+              con un peso superior a '||auxpeso||' kilos');
+              
+    if(auxN > 10) then
+      update competicion 
+      set nivel = 'EXPERTO'
+      where reg.nombre = nombre and reg.ciudad = ciudad;
+    
+    end if;
+  end loop;
+end;
+
+
+3--
+
+create or replace trigger premiar 
+before update 
+on participar
+for each row
+
+declare
+auxN number(3);
+
+begin 
+select participantes into auxN
+from competicion, propietario pro, participar pa, perro p
+where situacion = 'ACTIVA' and p.nif=pro.nif and competicion.nombre = pa.nombre and p.chip=pa.chip;
+
+if(auxN > 10) then
+  update perro
+  set ntrofeos = ntrofeos + 1;
+  
+else 
+  raise_application_error(-20601,'Error, Operación no permitida');
+  
+end if;
+end;

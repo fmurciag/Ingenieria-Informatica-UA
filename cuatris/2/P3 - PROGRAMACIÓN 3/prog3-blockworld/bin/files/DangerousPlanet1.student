@@ -1,0 +1,138 @@
+Generando superficie del mundo...
+Generando terreno...
+Generando cuevas...............................................................................................................................................................................
+Generando vetas de GRANITErrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+Generando vetas de OBSIDIANoooooooooooooooooooooooooo
+
+Creando fuentes de agua subterráneas@@@@@@@
+Creando erupciones de lava##
+Generando superficie del terreno, entidades e items...
+Name=Barbara
+Location{world= World 5x5,x=0.0,y=62.0,z=0.0}
+Orientation=Location{world= World 5x5,x=0.0,y=0.0,z=1.0}
+Health=20.0
+Food level=20.0
+Inventory=(inHand=(WOOD_SWORD,1),[])
+... @@@ ggg 
+... @PM ggg 
+... @B@ ggg 
+Scores: [items: 0.0, blocks: 0.0, movements: 0.0]
+
+Name=Barbara
+Location{world= World 5x5,x=4.0,y=62.0,z=4.0}
+Orientation=Location{world= World 5x5,x=1.0,y=0.0,z=0.0}
+Health=15.0
+Food level=18.249999999999996
+Inventory=(inHand=(WOOD_SWORD,1),[(BREAD,3)])
+... @@@ Wgg 
+... @P@ @@g 
+... @@@ @A@ 
+Scores: [items: 15.0, blocks: 0.0, movements: 5.242640687119286]
+
+
+ mierda=1
+
+ asco 
+
+Name=Barbara
+Location{world= World 5x5,x=6.0,y=62.0,z=5.0}
+Orientation=Location{world= World 5x5,x=0.0,y=0.0,z=1.0}
+Health=15.0
+Food level=17.84999999999999
+Inventory=(inHand=(WOOD_SWORD,1),[(BREAD,3)])
+... @@@ ggg 
+... @P@ @gg 
+... @@@ ggg 
+Scores: [items: 15.0, blocks: 0.0, movements: 9.656854249492381]
+
+Name=Barbara
+Location{world= World 5x5,x=6.0,y=62.0,z=6.0}
+Orientation=Location{world= World 5x5,x=0.0,y=0.0,z=1.0}
+Health=20.0
+Food level=19.75
+Inventory=(inHand=(WOOD_SWORD,1),[])
+... @@@ @gg 
+... @P@ ggg 
+... @@g ggd 
+Scores: [items: 15.0, blocks: 0.0, movements: 10.656854249492381]
+
+Name=Barbara
+Location{world= World 5x5,x=6.0,y=62.0,z=6.0}
+Orientation=Location{world= World 5x5,x=1.0,y=0.0,z=1.0}
+Health=20.0
+Food level=19.65
+Inventory=(inHand=(WOOD_SWORD,1),[])
+... @@@ @gg 
+... @P@ ggg 
+... @@G ggd 
+Scores: [items: 15.0, blocks: 0.6, movements: 10.656854249492381]
+
+Name=Barbara
+Location{world= World 5x5,x=7.0,y=62.0,z=7.0}
+Orientation=Location{world= World 5x5,x=1.0,y=0.0,z=1.0}
+Health=20.0
+Food level=19.599999999999998
+Inventory=(inHand=(WOOD_SWORD,1),[(GRASS,1)])
+... @@g ggd 
+... @Pg gdd 
+... ggg ddd 
+Scores: [items: 15.6, blocks: 0.6, movements: 12.071067811865477]
+
+
+ asco 
+
+Name=Barbara
+Location{world= World 5x5,x=7.0,y=62.0,z=7.0}
+Orientation=Location{world= World 5x5,x=0.0,y=0.0,z=1.0}
+Health=20.0
+Food level=19.499999999999996
+Inventory=(inHand=(WOOD_SWORD,1),[(GRASS,1)])
+... @@g ggd 
+... @Pg gdd 
+... gGg ddd 
+Scores: [items: 15.6, blocks: 1.2, movements: 12.071067811865477]
+
+Name=Barbara
+Location{world= World 5x5,x=7.0,y=62.0,z=8.0}
+Orientation=Location{world= World 5x5,x=-1.0,y=0.0,z=1.0}
+Health=20.0
+Food level=19.449999999999996
+Inventory=(inHand=(WOOD_SWORD,1),[(GRASS,1), (GRASS,1)])
+... @.g gdd 
+... gPg ddd 
+MW. ggg ddd 
+Scores: [items: 16.2, blocks: 1.2, movements: 13.071067811865477]
+
+Name=Barbara
+Location{world= World 5x5,x=7.0,y=62.0,z=8.0}
+Orientation=Location{world= World 5x5,x=-1.0,y=0.0,z=1.0}
+Health=20.0
+Food level=19.349999999999994
+Inventory=(inHand=(WOOD_SWORD,1),[(GRASS,1), (GRASS,1)])
+... @.g gdd 
+... gPg ddd 
+MW. Ggg ddd 
+Scores: [items: 16.2, blocks: 1.7999999999999998, movements: 13.071067811865477]
+
+Name=Barbara
+Location{world= World 5x5,x=6.0,y=62.0,z=9.0}
+Orientation=Location{world= World 5x5,x=-1.0,y=0.0,z=1.0}
+Health=20.0
+Food level=19.299999999999994
+Inventory=(inHand=(WOOD_SWORD,1),[(GRASS,1), (GRASS,1), (GRASS,1)])
+... Ag. gdd 
+.MW @Pg gdd 
+... @gg gdd 
+Scores: [items: 16.8, blocks: 1.7999999999999998, movements: 14.485281374238573]
+
+Name=Barbara
+Location{world= World 5x5,x=6.0,y=62.0,z=9.0}
+Orientation=Location{world= World 5x5,x=1.0,y=0.0,z=1.0}
+Health=20.0
+Food level=19.199999999999992
+Inventory=(inHand=(WOOD_SWORD,1),[(GRASS,1), (GRASS,1), (GRASS,1)])
+... Ag. gdd 
+.MW @Pg gdd 
+... @gG gdd 
+Scores: [items: 16.8, blocks: 2.4, movements: 14.485281374238573]
+

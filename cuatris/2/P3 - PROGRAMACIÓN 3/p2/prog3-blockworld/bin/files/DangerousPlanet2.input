@@ -1,0 +1,82 @@
+5 75 Carmen World75x75
+show
+move 0 0 1
+move -1 0 0
+orientate -1 0 0
+useItem 2
+show
+move -1 0 0
+move 1 0 -1
+move 1 0 0
+show
+orientate 1 0 0
+useItem 10
+useItem 1
+show
+move 1 0 0
+move 1 0 0
+move 1 0 0
+move 1 0 0
+move 1 0 0
+useItem 4
+useItem 4
+useItem 3
+useItem 5
+show
+move 1 0 0
+orientate 1 0 -1
+useItem 2
+move 1 0 -1
+show
+move -1 0 0
+move 0 0 -1
+selectItem 2
+orientate 1 0 0
+useItem 65
+show
+move 1 0 0
+show
+move -1 0 0
+move -1 0 0
+show
+selectItem 4
+useItem 5
+orientate 1 0 -1
+useItem 5
+show
+selectItem 2
+show
+useItem 2
+useItem 2
+useItem 2
+useItem 2
+useItem 2
+show
+move 0 0 -1
+move 0 0 -1
+useItem 5
+orientate -1 0 -1
+show
+useItem 10
+orientate 0 0 -1
+useItem 8
+useItem 8
+show
+selectItem 1
+orientate -1 0 -1
+useItem 60
+show
+selectItem 0
+useItem 5
+show
+move -1 0 -1
+show
+orientate 0 0 -1
+show
+selectItem 3
+useItem 4
+show
+move -1 0 0
+selectItem 0
+useItem 3
+show

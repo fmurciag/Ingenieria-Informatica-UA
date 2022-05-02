@@ -1,0 +1,50 @@
+#lang r6rs
+(import (rnrs)
+        (schemeunit)
+        )
+
+
+;arboles binarios
+(define vacio-arbolb '())
+
+(define (construye-arbolb dato hijo-izq hijo-der)
+  (list dato hijo-izq hijo-der))
+
+(define (dato-arbolb arbol)
+  (car arbol))
+
+(define (hijo-izq-arbolb arbolb)
+  (car (cdr arbolb)))
+
+(define (hijo-der-arbolb arbolb)
+  (car (cddr arbolb)))
+
+(define (vacio-arbol? arbol)
+  (null? arbol))
+; '(3 () ()) => (construye-arbolb 3 vacio-arbolb vacio-arbolb)
+; '(7 (3 () ()) ()) => (construye-arbolb 7
+;                            (construye-arbolb 3 vacio-arbolb vacio-arbolb)
+;                            vacio-arbolb)
+; '(8 (1 () ()) (3 (2 () ()) ())) => (construye-arbolb 8
+;                                         (construye-arbolb 1 vacio-arbolb vacio-arbolb)
+;                                         (construye-arbolb 3
+;                                               (construye-arbolb 2 vacio-arbolb vacio-arbolb)
+;                                               vacio-arbolb))
+
+(define (hoja-arbolb= arbolb)
+  (and (vacio-arbolb? (hijo-izq-arbolb arbolb))
+       (vacio-arbolb? (hijo-der-arbolb arbolb))))
+
+
+
+(define (contar-hojas-arbolb? arbolb)
+  (
+
+
+
+
+
+
+
+
+
