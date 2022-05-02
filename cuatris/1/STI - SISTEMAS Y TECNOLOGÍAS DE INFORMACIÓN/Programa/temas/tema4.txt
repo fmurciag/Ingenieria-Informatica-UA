@@ -1,0 +1,80 @@
+1.- Para realizar una reparación de artículos rechazados en la producción utilizaríamos una orden de producción:
+A. Estándar.
+*B. Especial.
+C. De desmontaje.
+D. Ninguna de las anteriores.
+2.- Un albarán es un documento que:
+A. Que implica una orden de pago de materiales.
+*B. Que indica los artículos que se han entregado.
+C. Que contiene una orden de fabricación
+D. Ninguno de los anteriores.
+3.- Donde se indica qué productos finales hay que fabricar y en qué plazos terminarse.
+*A. Programa Maestro de Producción.
+B. Albarán
+C. Hoja de Pedido.
+D. Orden de producción.
+4.- Las listas de materiales del producto:
+A. Son de 3 tipos: de ventas, de compras y de montaje
+B. No se pueden alterar en la etapa de producción
+*C. Se utilizan en las órdenes de fabricación estándar
+D. Ninguna de las anteriores es corrrecta.
+5.- En un almacén el Disponible es:
+A. Stock + Comprometido - Solicitado
+B. Stock + Comprometido + Solicitado
+C. Stock – Comprometido – Solicitado
+*D. Stock – Comprometido + Solicitado
+6.- Al realizar un pedido de compra:
+A. Aumenta el Stock
+*B. Aumenta el Disponible
+C. Aumenta el Comprometido.
+D. Ninguna de las anteriores.
+7.-Las órdenes de fabricación:
+A. No se pueden crear manualmente o de forma automática a partir de recomendaciones MRP
+B. Si son de tipo especial envían el producto acabado al pendiente
+C. Si son de tipo estándar envían el producto acabado al pendiente
+*D. Ninguna de las anteriores es correcta
+8.- Mediante la planificación de requerimientos de materiales:
+A. Se consiguen niveles de stock máximos
+*B. Se realizan pronósticos de demanda de los clientes
+C. Se elabora un Plan Maestro de Producción, el cual no puede ser modificado
+D. Se obtiene como única salida las órdenes de compras de material
+9.- Al realizar un pedido de compra
+A. Se aumenta el Stock
+B. Disminuye el solicitado
+C. Disminuye el disponible
+*D. No se modifica el comprometido
+10.- : El programa maestro de producción se basa en:
+A. Exclusivamente en los pedidos de los clientes
+B. Exclusivamente en las previsiones de demanda
+*C. En una ponderación de pedidos y previsiones de demanda
+D. Al 50% entre pedidos y previsiones.
+11.- Una factura de compra en base a un albarán
+A. Aumenta el stock
+B. Dsimuye la deuda con el proveedor
+C. Disminuye el stock
+*D. Aumenta la deuda con el proveedor
+12.- En una orden de fabricación estándar cuando se pasa al estado de planificado el producto acabado.
+A.- Aumenta el stock y diminuye el disponible.
+*B.- Aumentan el solicitado y el disponible
+C.- Disminuye el comprometido y el solicitado
+D.- Disminuyen el solicitado y el stock
+13.- ¿En un proceso de compra a proveedores en la recepción de materiales con que documento se controla la entrega?
+A.- La hoja de pedido
+*B.- El albarán
+C.- La factura
+D.- Ninguno de los anteriores
+14.- Los tipos de listas de materiales son:
+*A.- De Venta, de Montaje y de Producción
+B.- Estándar, Especiales y de Desmontaje
+C.- Estándar, de Montaje y de Desmontaje
+D.- De Venta, Especiales y de Producción
+15.- ¿En un proceso de compra a proveedores en la recepción de materiales con que documento se controla la entrega?
+A.- La hoja de pedido
+*B.- El albarán
+C.- La factura
+D.- Ninguno de los anteriores
+16.- En un almacén el Disponible es:
+A.- Stock + Comprometido - Solicitado
+B.- Stock + Comprometido + Solicitado
+C.- Stock – Comprometido – Solicitado
+*D.- Stock – Comprometido + Solicitado

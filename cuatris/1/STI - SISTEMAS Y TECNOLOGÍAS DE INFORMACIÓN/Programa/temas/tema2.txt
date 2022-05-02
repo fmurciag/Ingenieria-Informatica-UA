@@ -1,0 +1,90 @@
+1.- Según Kotler (1996), la inteligencia de marketing es:
+A. Toda la información interna de la empresa en cuanto a estrategias de marketing: publicidad, estudios de mercado, etc
+*B. Información sobre el entorno empresarial: competidores, productos semejantes, etc
+C. Tanto la información interna de la empresa como la información externa.
+D. Kotler sólo hace referencia a información interna de marketing y a comunicaciones de marketing que fluyen de dentro de la empresa al entorno.
+2.- El método MRP II:
+A. Tiene en cuenta únicamente la planificación de materiales de producción.
+*B. Tiene en cuenta tanto las necesidades de materiales de producción como la de personal y maquinaria necesarios.
+C. Establece un punto de reorden para mantener unos niveles mínimos de inventario.
+D. Significa Minimal Requirements Planning
+3.- El control de inventarios es realizado por:
+A. Los sistemas de trabajo del conocimiento
+*B. Los sistema de información gerencial
+C. Los sistemas de apoyo a toma de decisiones
+D. Los sistemas de procesamiento de transacciones
+4.- Según Laudon y Laudon (2004) los niveles organizativos de la empresa están constituidos por:
+*A. Nivel estratégico, nivel del conocimiento, nivel administrativo y nivel operativo.
+B. Nivel funcional, nivel operacional y nivel directivo.
+C. Nivel financiero, nivel de marketing, nivel de producción y nivel de recursos humanos.
+D. Ninguna de las anteriores.
+5.- El subsistema de entrada de Inteligencia de Recursos Humanos:
+A. Obtiene datos de carácter personal de los empleados (nombre, dirección, etc).
+B. Obtiene información en relación con los trabajadores y los puestos de trabajo ocupados hasta el momento para estudiar futuros ascensos o detectar habilidades.
+*C. Recopila información en relación a leyes de contratación, bolsas de trabajo, etc.
+D. Obtiene los datos de tipo financiero de los empleados (salario, impuestos, etc.)
+6.- En el proceso de desarrollo de un Sistema de Información:
+A. Existen 3 etapas: Análisis de sistemas, diseño de sistemas e implementación.
+B. En la etapa de Análisis de sistemas se estudia el diseño físico.
+C. En la etapa de Implementación únicamente se realiza la implementación del sistema
+*D. Ninguna de las anteriores
+7.- En el desarrollo de un Sistema de Información:
+A. Los usuarios finales no deben estar implicados
+B. No es necesario estudiar el sistema actual, únicamente se deben estudiar los requerimientos de los usuarios para proponer una solución a los problemas
+*C. Una vez diseñada e implementada la solución escogida, se debe evaluar el impacto y en su caso, refinar dicha solución
+D. Ninguna de las anteriores
+8.- En una empresa:
+*A. Para cada nivel jerárquico existen diferentes sistemas de información
+B. Entre los sistemas de información para directivos encontramos los siguientes: ROP, MRP y MRPII
+C. Los sistemas de información se clasifican en función del número de usuarios
+D. Ninguna de las anteriores
+9.- El responsible de la planificación, supervisión y desarrollo de un sistema es el:
+A. Propietario del Sistema
+B. Análista del Sistema
+C. Diseñador del sistema
+*D. Project manager.
+10.- ¿Qué fase no corresponde al desarrollo de un sistema?
+A. Análisis
+*B. Supervisión
+C. Diseño
+D. Implementación
+11.- ¿Qué nivel organizativo no es definido por Laudon y Laudon?
+A. Operativo
+B. Estratégico
+*C. Técnico
+D. Administrativo
+12.- El concepto “La Empresa forma parte de un sistema más amplio con el que intercambia bienes, servicios e información” es el de:
+A. Organización matricial
+*B. Cadena de valor extendida
+C. Alinación objetivos estratégico.
+D. Ninguna de las anteriores
+13.- Un Sistema de Informacion debe de ser considerado:
+A. Un gasto necesario para que la empresa tenga una imagen de eficiencia.
+*B. Como una inversión de capital, igual que con otros activos.
+C. Los componetes de informática de la empresa.
+D. Ninguna de las anteriores
+14.- En el desarrollo de un Sistema de Información hay que tener en cuenta:
+A. Los usuarios finales no deben estar implicados
+B. No es necesario estudiar el sistema actual, únicamente se deben estudiar los requerimientos de los usuarios para proponer una solución a los problemas
+*C. Una vez diseñada e implementada la solución escogida, se debe evaluar el impacto y en su caso, refinar dicha solución
+D. Ninguna de las anteriores
+15.- Persona que utilizan los SI de forma regular para capturar, introducir, validar, transformar y almacenar datos e información:
+A. Propietario del Sistema
+B. Analista del Sistema
+C. Diseñador del sistema
+*D. Usuario del Sistema.
+16.- El método MRP II:
+A.- Tiene en cuenta únicamente la planificación de materiales de producción.
+*B.- Tiene en cuenta tanto las necesidades de materiales de producción como la de personal y maquinaria necesarios.
+C.- Establece un punto de reorden para mantener unos niveles mínimos de inventario.
+D.- Significa Minimal Requirements Planning
+17.- Los componentes de un SI son:
+A.- Entrada, Transformación y Salida
+B.- Objetivos, Datos y Procesos
+C.- Personas, Datos y Procesos
+*D.-Personas, Datos, Procesos y Tecnología
+18.- Cual de estos principios no corresponde al desarrollo de un SI:
+A.- Implicar a los usuarios del sistema
+B.- Documentar
+C.- Dividir los problemas y resolverlos uno a uno
+*D.- Ninguno de los anteriores

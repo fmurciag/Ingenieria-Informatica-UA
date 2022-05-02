@@ -1,0 +1,90 @@
+1.- Una disminución de las existencias generará:
+A. Una disminución del pasivo, y pérdidas en la empresa
+*B. Una disminución del activo, un aumento de la rotación y un aumento de la rentabilidad económica.
+C. Una disminución del activo, una disminución de la rotación y una disminución de la rentabilidad económica.
+D. Una disminución del pasivo, y ganancias en la empresa.
+2.- ¿Qué es el apalancamiento?:
+A. Ventas / Activo.
+*B. Activo / Recursos Propios.
+C. Recursos Propios/Pasivo.
+D. Margen/Activo.
+3.- Las Auditorías financieras:
+A. Son realizadas por el personal que realiza la contabilidad.
+B. Forman parte de los balances de la empresa
+*C. Son realizadas por personal ajeno al que realiza la contabilidad.
+D. No puede ser interna.
+4.- Si el Activo Fijo de una empresa es de 300.000€ y el Pasivo Fijo es de 400.000€, el Fondo de Maniobra será:
+A. -100.000€.
+B. 700.000€.
+C. -700.000€.
+*D. 100.000€.
+5.- Si el fondo de maniobra de una empresa es -40.000€ la situación patrimonial de la empresa es:
+A. De estabilidad total.
+*B. De suspensión de pagos.
+C. De estabilidad patrimonial.
+D. De tesorería estable.
+6.- Si FM es el Fondo de Maniobra y AC y PC son el activo y el pasivo circulante, qué ecuación es correcta:
+*A. AC = PC + FM.
+B. FM = AC + PC
+C. PC = AC + PC
+D. Ninguna de las anteriores es correcta
+7.- ¿Qué es la rotación?:
+A. Ventas/Tiempo
+B. Activo/Ventas
+*C. Ventas/Activo
+D. Beneficio/Ventas
+8.- En una Auditoría qué acción no se realiza:
+A. Se revisa la contabilización de los movimientos de la empresa
+*B. Se corrigen los apuntes erróneos
+C. Se comprueba la documentación de esos movimientos
+D. Se comprueba el correcto funcionamiento del proceso contable
+9.- Si el Activo Fijo de una empresa es de 300.000€ y el Pasivo Fijo es de 400.000€, el Fondo de Maniobra será:
+A. -100.000€.
+B. 700.000€.
+C. -700.000€.
+*D. 100.000€.
+10.- Si el fondo de maniobra de una empresa es -40.000€ la situación patrimonial de la empresa es:
+A. De estabilidad total.
+*B. De suspensión de pagos.
+C. De estabilidad patrimonial.
+D. De tesorería estable.
+11.- Una disminución de las existencias generará:
+A. Una disminución del pasivo, y pérdidas en la empresa
+*B. Una disminución del activo, un aumento de la rotación y un aumento de la rentabilidad económica.
+C. Una disminución del activo, una disminución de la rotación y una disminución de la rentabilidad económica.
+D. Una disminución del pasivo, y ganancias en la empresa.
+12.- ¿Qué es el apalancamiento?:
+A. Ventas / ActivoB. Activo / Recursos Propios.
+*B. Activo / Recursos Propios.
+C. Recursos Propios/Pasivo.
+D. Margen/Activo.
+13.- Las Auditorías financieras:
+A. Son realizadas por el personal que realiza la contabilidad.
+B. Forman parte de los balances de la empresa
+*C. Son realizadas por personal ajeno al que realiza la contabilidad.
+D. No puede ser interna.
+14.- Para calcular la situación patrimonial de la empresa se utiliza el:
+A. Balance de Sumas y Saldos
+B. Balance de Perdidas y Ganancias
+*C. Balance de Situación
+D. Balance de Comprobación
+15.- El flujo de caja financiero se calcula
+A. Ingresos - gastos
+B. Beneficios - impuestos
+C. Cobros - pagos
+*D. Ninguno de los anteriores
+16. ¿Cómo se mide la capacidad de pago de las deudas a corto plazo con lo disponible en caja y bancos?
+A. Ratio de Autonomía
+B. Ratio de Garantía
+C. Ratio de Calidad de la Deuda
+*D. Ratio de Disponibilidad
+17.- La rentabilidad financiera es:
+*A. Beneficio Neto / Recursos Propios
+B. Beneficio Neto / Ventas
+C. Ventas / Recursos Propios
+D. Ninguno de los anteriores
+18.- El ratio que mide lo mismo que el fondo de maniobra es:
+A. Solvencia
+B. Garantía
+*C. Liquidez
+D. Tesorería
