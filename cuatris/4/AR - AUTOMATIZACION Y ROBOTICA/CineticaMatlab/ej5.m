@@ -33,38 +33,41 @@ robotPlanar;
 
 
 q = [0 -pi/2 0 0 0 0];
-disp(jacob0(robotPA10, q));
-disp(det(jacob0(robotPA10, q)));
+j1=jacob0(robotPA10, q)
+disp(j1);
 figure(1)
 robotPA10.plot(q);
 pause(2)
 
 q = [0, pi/6, pi/2, deg2rad(-255), pi/3, 0];
-disp(jacob0(robotPA10, q));
-disp(det(jacob0(robotPA10, q)));
+j2=jacob0(robotPA10, q)
+disp(j2);
 figure(1)
 robotPA10.plot(q);
 pause(2)
 
 q = [0, pi/6, deg2rad(158), pi/2, pi/3, 0];
-disp(jacob0(robotPA10, q));
-disp(det(jacob0(robotPA10, q)));
+j3=jacob0(robotPA10, q)
+disp(j3);
 figure(1)
 robotPA10.plot(q);
 pause(2)
 
+close all
+
+q = [0 0 0];
+j4=jacob0(robotPlanar, q)
+disp(j4);
+figure(1)
+robotPlanar.plot(q);
+pause(2)
+
+q = [1 0 0];
+j5=jacob0(robotPlanar, q)
+disp(j5);
+figure(1)
+robotPlanar.plot(q);
+pause(2)
 
 close all
-%{
-for i = 1:10
-    disp(i)
-    q = [deg2rad((108- -1).*rand(1,1) + -117) ...
-        deg2rad((180- -180).*rand(1,1) + -180) ...
-        deg2rad((180- -180).*rand(1,1) + -180)];
-    disp(jacob0(robotPlanar, q));
-    disp(det(jacob0(robotPlanar, q)));
-    figure(i)
-    robotPlanar.plot(q);
-    pause(2)
-end
-%}
+
