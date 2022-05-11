@@ -20,5 +20,5 @@ L=[L1,L2,L3,L4,L5,L6];
 
 %% creacion del robot
 robot = SerialLink(L);
+robot.links
 robot;
-robot.links;

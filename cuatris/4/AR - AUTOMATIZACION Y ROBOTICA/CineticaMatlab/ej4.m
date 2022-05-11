@@ -20,6 +20,7 @@ robot = SerialLink(L);
 robot;
 
 %% Posición de home inversa
+printf("\n POSICION HOME INVERSA: \n")
 figure(1);
 qh = [0 0 0 0 0 0];
 Tqh = robot.fkine(qh);
@@ -32,6 +33,7 @@ TinversaQH;
 pause(2)
 
 %% Posición de escape inversa
+fprintf("\n PSICICION ESCAPE INVERSA: \n")
 figure(1);
 qe = [0, pi/6, pi/2, 0, pi/3, 0];
 Tqe = robot.fkine(qe);
@@ -44,6 +46,7 @@ TinversaQE;
 pause(2)
 
 %% Posición de seguridad inversa
+fprintf("\n POSICION DE SEGURIDAD INVERSA:\n ")
 figure(1);
 qs = [0, pi/4, pi/2, 0, -pi/4, 0];
 Tqs = robot.fkine(qs);
@@ -56,6 +59,7 @@ TinversaQS;
 pause(2)
 
 %% Posición q1 inversa
+fprintf("\n POSICION Q1 INVERSA: \n")
 q1 = [0, pi/4, pi/4, 0, pi/2, 0];
 Tq1 = robot.fkine(q1);
 qinversaQ1 = robot.ikine6s(Tq1);
@@ -67,6 +71,7 @@ TinversaQ1;
 pause(2)
 
 %% Posición q2 inversa
+fprintf("\n POSICION Q2 INVERSA: \n")
 figure(1);
 q2 = [deg2rad(20), pi/2, pi/4, deg2rad(-22.5), pi/3, 0];
 Tq2 = robot.fkine(q2);

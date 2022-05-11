@@ -20,6 +20,7 @@ robot = SerialLink(L,'name', 'PA10-6GDL');
 robot;
 
 %% Posición de home
+fprintf("\n POSICION HOME: \n")
 figure(1);
 qh = [0 0 0 0 0 0];
 qhT = robot.fkine(qh);
@@ -29,6 +30,7 @@ fprintf('\n')
 pause(2)
 
 %% Posición de escape
+fprintf("\n PSICICION ESCAPE: \n")
 figure(1);
 qe = [0, pi/6, pi/2, 0, pi/3, 0];
 qeT = robot.fkine(qe);
@@ -38,6 +40,7 @@ fprintf('\n')
 pause(2)
 
 %% Posición de seguridad
+fprintf("\n POSICION DE SEGURIDAD:\n ")
 figure(1);
 qs = [0, pi/4, pi/2, 0, -pi/4, 0];
 qsT = robot.fkine(qs);
@@ -47,6 +50,7 @@ fprintf('\n')
 pause(2)
 
 %% Posición q1
+fprintf("\n POSICION Q1: \n")
 figure(1);
 q1 = [0, pi/4, pi/4, 0, pi/2, 0];
 q1T = robot.fkine(q1);
@@ -56,12 +60,15 @@ fprintf('\n')
 pause(2)
 
 %% Posición q2
+fprintf("\n POSICION Q2: \n")
 figure(1);
 q2 = [deg2rad(20), pi/2, pi/4, deg2rad(-22.5), pi/3, 0];
 q2T = robot.fkine(q2);
 robot.plot(q2);
 disp(q2)
 fprintf('\n')
+
+close all
 
 
 
