@@ -1,4 +1,4 @@
-%ejercicio 3
+%ejercicio 4
 
 %% Datos %
 L1 = Link([0 0.317 0 -pi/2  0]);
@@ -20,7 +20,7 @@ robot = SerialLink(L);
 robot;
 
 %% Posición de home inversa
-printf("\n POSICION HOME INVERSA: \n")
+fprintf("\n POSICION HOME INVERSA: \n")
 figure(1);
 qh = [0 0 0 0 0 0];
 Tqh = robot.fkine(qh);
@@ -28,8 +28,8 @@ qinversaQH = robot.ikine6s(Tqh);
 robot.plot(qinversaQH);
 TinversaQH = robot.fkine(qinversaQH);
 Tqh;
-qinversaQH;
-TinversaQH;
+qinversaQH
+TinversaQH
 pause(2)
 
 %% Posición de escape inversa
@@ -41,8 +41,8 @@ qinversaQE = robot.ikine6s(Tqe);
 robot.plot(qinversaQE);
 TinversaQE = robot.fkine(qinversaQE);
 Tqe;
-qinversaQE;
-TinversaQE;
+qinversaQE
+TinversaQE
 pause(2)
 
 %% Posición de seguridad inversa
@@ -54,8 +54,8 @@ qinversaQS = robot.ikine6s(Tqs);
 robot.plot(qinversaQS);
 TinversaQS = robot.fkine(qinversaQS);
 Tqs;
-qinversaQS;
-TinversaQS;
+qinversaQS
+TinversaQS
 pause(2)
 
 %% Posición q1 inversa
@@ -67,7 +67,7 @@ robot.plot(qinversaQ1);
 TinversaQ1 = robot.fkine(qinversaQ1);
 Tq1;
 qinversaQ1;
-TinversaQ1;
+TinversaQ1
 pause(2)
 
 %% Posición q2 inversa
@@ -79,5 +79,5 @@ qinversaQ2 = robot.ikine6s(Tq2);
 robot.plot(qinversaQ2);
 TinversaQ2 = robot.fkine(qinversaQ2);
 Tq2;
-qinversaQ2;
-TinversaQ2;
+qinversaQ2
+TinversaQ2
