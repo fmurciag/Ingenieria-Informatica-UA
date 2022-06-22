@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DownloadTask>
+  <ProjectInfo
+    DeviceVersion="15.1.0.0"
+    CreationTime="2022-04-13 16:18:18 (UTC)"
+    Runtime="SMART"
+    RtProjectName="ejercicio2.HMI_1[KTP700 Basic PN]"
+    RtProjectFolderName="ejercicio2.HMI_1[KTP700 Basic PN]"
+    DeviceType="KTP700_Basic"
+    DisplayOrientation="0"
+    RTReleaseNo="15.1.0.3"
+    ImageReleaseNo="15.1.0.3"
+    RTCV="15.1.0.0"
+    PRCV="15.1.0.0"
+    FirmwareFileName="KTP700\15.1.0.3\KTP700_V15_01_00_02.fwf"
+    RuntimeFileName="KTP700\15.1.0.3\KTP700_V15_01_00_02.fwf"
+    RuntimeAddonFolderName="KTP700" />
+  <FullDownload>pdata.srt</FullDownload>
+  <FullDownload
+    type="ADMINDATA">pdata.pwx</FullDownload>
+  <FullDownload>pdata.ORIE.cnk</FullDownload>
+  <FullDownload>pdata.ETH0.cnk</FullDownload>
+</DownloadTask>

@@ -1,0 +1,1 @@
+Encontramos que el codigo no cumple con la especificacion, no contemplaria la excepcion a lanzar.

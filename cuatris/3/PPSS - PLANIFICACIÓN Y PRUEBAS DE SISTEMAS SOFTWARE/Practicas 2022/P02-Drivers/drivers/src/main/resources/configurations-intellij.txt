@@ -1,0 +1,10 @@
+Run parametrizados con excepciones
+	mvn test -Dgroups=parametrizado,conExcepciones
+Run ppss.CineTest
+	mvn test -Dtest=ppss.CineTest -DexcludeGroups=parametrizado
+Run DataArrayTest
+	test Dtest=ppss.DataArrayTest
+Run parametrizados
+	test -Dgroups=parametrizado -DexcludedGroups=conExcepciones
+FicheroTexto excluido
+	mvn test -DexcludedGroups=excluidos

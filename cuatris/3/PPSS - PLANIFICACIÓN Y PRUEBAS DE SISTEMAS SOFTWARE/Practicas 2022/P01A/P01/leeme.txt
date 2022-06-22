@@ -1,0 +1,16 @@
+Esta práctica consta de 3 elementos:
+
+- P01A-PreparaciónEntornoPruebas.pdf
+  Contiene: 
+	-> descarga y puesta en marcha de máquina virtual
+	-> creación repositorio Git (en bitbucket, y clonación en máquina virtual)
+	-> creación cuenta JetBrains para usar Intellij
+
+- P01A-EntornoDePruebas.pdf
+  Contiene:
+	-> Maven
+	-> Ejercicios
+
+- Directorio Plantillas-P01A
+  Contiene:
+	-> Proyecto maven P01-Intellij

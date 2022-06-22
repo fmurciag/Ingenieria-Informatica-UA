@@ -1,0 +1,6 @@
+condiciones:2
+
+Nº de condiciones + 1 = CC
+      2		  + 1 = 3
+
+CC = 3
