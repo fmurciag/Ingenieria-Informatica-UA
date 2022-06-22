@@ -10,6 +10,7 @@
 
 ### Instrucciones de la compensatoria
 - [Instrucciones](https://web.ua.es/es/secretaria-eps/botones-menu/aprobado-por-compensacion.-grado-y-master.html)
+
 ![Logo](https://web.ua.es/es/secretaria-eps/imagenes/aprobado-compensacion-v4.png)
 
 (al final se aprobó)
